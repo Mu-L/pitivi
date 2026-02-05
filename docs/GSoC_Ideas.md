@@ -36,6 +36,22 @@ Deadlines for applying are approaching fast, hurry up!
   [GSoC application template]: GSoC_Application.md
 
 
+## GTK4 Timeline Ruler Widget in Rust
+
+The [ruler above the timeline](https://aleb.ro/post/2016-01-23-polishing-pitivis-ruler/) provides the time context for the timeline. It displays time markers and at lower zoom levels the successive frames. Currently it's implemented in Python as a GTK3 widget, relying on the legacy cairo based drawing model. This project involves rewriting the ruler as a standalone, native Rust widget using GTK4's modern [GSK](https://en.wikipedia.org/wiki/GTK_Scene_Graph_Kit) rendering model.
+
+**Requirements**: Rust. Minimal experience contributing to **any** Rust based GTK application. Familiarity with Python, GES and contributions to Pitivi a plus.
+
+
+## GTK 4
+
+The migration from GTK 3 to GTK 4 is advanced and needs finishing.
+If interested, get in touch with us to put together some concrete tasks.
+
+**Requirements**: Python. Minimal experience contributing to the GTK4 porting
+branch. Experience developing GTK apps is a plus.
+
+
 ## Timeline enhancements
 
 Fixing timeline issues and making small enhancements would improve a lot the
@@ -75,16 +91,6 @@ decoders can be used in the pipelines.
 
 **Requirements**: C. Experience with GStreamer is mandatory. Minimal experience
 contributing to Pitivi including unit tests. Experience with OpenGL is a plus.
-
-
-## GTK 4
-
-Initially the development environment should be migrated onto a GTK 4 runtime
-and then the app should be ported following the [migration guide from GTK 3 to
-GTK 4](https://developer.gnome.org/gtk4/unstable/gtk-migrating-3-to-4.html).
-
-**Requirements**: Python. Minimal experience contributing to Pitivi including
-unit tests. Experience developing GTK apps is a plus.
 
 
 ## External audio editing integration
