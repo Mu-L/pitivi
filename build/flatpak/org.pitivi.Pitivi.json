@@ -358,10 +358,14 @@
         {
             "name": "orc",
             "buildsystem": "meson",
+            "config-opts": [
+                "-Dhotdoc=disabled",
+                "-Dtests=disabled"
+            ],
             "sources": [
                 {
                     "type": "git",
-                    "tag": "0.4.39",
+                    "tag": "0.4.42",
                     "url": "https://gitlab.freedesktop.org/gstreamer/orc.git"
                 }
             ]
