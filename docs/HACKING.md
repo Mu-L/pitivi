@@ -45,6 +45,10 @@ changes:
 (ptv-flatpak) $
 ```
 
+If you just built a fresh sandbox, close the terminal window and re-enter the
+dev env into a new one, so the aliases are updated and the sandbox can be
+leveraged.
+
 By entering the development environment, you get:
 - a [Flatpak sandbox](http://docs.flatpak.org/en/latest/working-with-the-sandbox.html)
 with dependencies and some development tools, in `pitivi-dev/pitivi-prefix`
