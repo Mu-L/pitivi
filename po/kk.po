@@ -1,0 +1,2498 @@
+# Kazakh translation for pitivi.
+# Copyright (C) 2026 pitivi's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pitivi package.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>,  2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi master\n"
+"Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/pitivi/-/issues\n"
+"POT-Creation-Date: 2025-08-02 15:20+0000\n"
+"PO-Revision-Date: 2026-03-15 13:23+0500\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <Kazakh>\n"
+"Language: kk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.9\n"
+
+#: data/org.pitivi.Pitivi-mime.xml.in:4
+msgid "Pitivi video project (legacy)"
+msgstr "Pitivi видео жобасы (ескірген)"
+
+#: data/org.pitivi.Pitivi-mime.xml.in:12
+msgid "Pitivi/GES video project"
+msgstr "Pitivi/GES видео жобасы"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:8 data/org.pitivi.Pitivi.desktop.in:3
+#: pitivi/greeterperspective.py:278
+msgid "Pitivi"
+msgstr "Pitivi"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:9 data/org.pitivi.Pitivi.desktop.in:5
+msgid "Create and edit your own movies"
+msgstr "Өз фильмдеріңізді жасап, түзетіңіз"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:11
+msgid ""
+"Pitivi is a video editor that aims to appeal to hobbyists and professionals alike, with a strong focus "
+"on efficiency, quality and usability. It integrates well with other applications and sports a "
+"beautiful user interface designed to be powerful yet easy to learn."
+msgstr ""
+"Pitivi - бұл әуесқойлар мен кәсіпқойларға бірдей ұнайтын, тиімділікке, сапаға және пайдалануға "
+"ыңғайлылыққа баса назар аударатын видео редакторы. Ол басқа қолданбалармен жақсы біріктіріледі және "
+"қуатты әрі үйренуге оңай болуы үшін жасалған әдемі пайдаланушы интерфейсі бар."
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:12
+msgid ""
+"With a non-modal editing workflow, a framerate-independent and playhead-centric timeline, Pitivi "
+"allows you quickly and accurately trim, split and review your scenes. Pitivi's ripple and roll editing "
+"features allow spending more time on storytelling and less time on \"pushing clips around\"."
+msgstr ""
+"Модальді емес түзету жұмыс үрдісімен, кадр жиілігіне тәуелсіз және ойнату басына бағытталған уақыт "
+"шкаласымен Pitivi көріністеріңізді жылдам әрі дәл қиып, бөлуге және шолуға мүмкіндік береді. Pitivi-"
+"дің толқынды және айналдыра түзету мүмкіндіктері «клиптерді жылжытуға» аз уақыт жұмсап, оқиғаны "
+"баяндауға көбірек уақыт бөлуге мүмкіндік береді."
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:13
+msgid "Some other features include:"
+msgstr "Кейбір басқа мүмкіндіктер:"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:15
+msgid "Accepts any file formats supported by the GStreamer multimedia framework"
+msgstr "GStreamer мультимедиялық фреймворкі қолдайтын кез келген файл пішімдерін қабылдайды"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:16
+msgid "Can animate hundreds of special effects and filters with keyframable properties"
+msgstr "Кілттік кадрлық қасиеттері бар жүздеген арнайы эффектілер мен сүзгілерді анимациялай алады"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:17
+msgid "Ability to set custom aspect ratios, framerates and rendering presets"
+msgstr ""
+"Пайдаланушылық арақатынастарды, кадр жиіліктерін және рендеринг алдын ала орнатуларын орнату мүмкіндігі"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:18
+msgid "Easy to use crossfades and SMPTE transitions"
+msgstr "Пайдалануға оңай айқаспалы өтулер мен SMPTE өтулері"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:19
+msgid "Multihead-friendly with detachable user interface components"
+msgstr "Ажыратылатын пайдаланушы интерфейсі компоненттері бар көп экранға қолайлы"
+
+#: data/org.pitivi.Pitivi.appdata.xml.in:42
+msgid "The Pitivi Team"
+msgstr "Pitivi командасы"
+
+#: data/org.pitivi.Pitivi.desktop.in:4
+msgid "Video Editor"
+msgstr "Видео редакторы"
+
+#. Translators: Search terms to find this application. Do NOT translate or
+#. localize the semicolons! The list MUST also end with a semicolon!
+#: data/org.pitivi.Pitivi.desktop.in:15
+msgid "video;film;movie;editor;"
+msgstr "видео;фильм;кино;редактор;"
+
+#: data/ui/alignmentprogress.ui:8
+msgid "Auto-Alignment Starting"
+msgstr "Авто-туралау басталуда"
+
+#: data/ui/alignmentprogress.ui:25
+msgid "<b><big>Performing Auto-Alignment</big></b>"
+msgstr "<b><big>Авто-туралау орындалуда</big></b>"
+
+#: data/ui/alignmentprogress.ui:38 pitivi/render.py:1647
+msgid "Estimating..."
+msgstr "Бағалануда..."
+
+#: data/ui/beatdetection.ui:18
+msgid "Detect beats"
+msgstr "Биттерді анықтау"
+
+#: data/ui/beatdetection.ui:35
+msgid "Clear detected beats"
+msgstr "Анықталған биттерді тазарту"
+
+#: data/ui/beatdetection.ui:66
+msgid "Detecting..."
+msgstr "Анықталуда..."
+
+#: data/ui/clipcolor.ui:21 data/ui/customwidgets/pitivi:object_effect.ui:37
+msgid "Pick the clip color"
+msgstr "Клип түсін таңдау"
+
+#: data/ui/clipcompositing.ui:42
+msgid "Fade-in:"
+msgstr "Пайда болуы:"
+
+#: data/ui/clipcompositing.ui:54 data/ui/clipcompositing.ui:122
+msgid "seconds"
+msgstr "секунд"
+
+#: data/ui/clipcompositing.ui:97
+msgid "Fade-out:"
+msgstr "Жоғалуы:"
+
+#: data/ui/clipcompositing.ui:150
+msgid "Reset fade-in"
+msgstr "Пайда болуын қалпына келтіру"
+
+#: data/ui/clipcompositing.ui:166
+msgid "Reset fade-out"
+msgstr "Жоғалуын қалпына келтіру"
+
+#: data/ui/clipcompositing.ui:181
+msgid "Blending:"
+msgstr "Араластыру:"
+
+#: data/ui/clipmediaprops.ui:8
+msgid "Clip Properties"
+msgstr "Клип қасиеттері"
+
+#: data/ui/clipmediaprops.ui:23
+msgid "_Cancel"
+msgstr "_Бас тарту"
+
+#: data/ui/clipmediaprops.ui:37
+msgid "_Apply to project"
+msgstr "Жобаға іске _асыру"
+
+#: data/ui/clipmediaprops.ui:124
+msgid "Size (pixels)"
+msgstr "Өлшемі (пиксельдер)"
+
+#: data/ui/clipmediaprops.ui:139
+msgid "Frame rate"
+msgstr "Кадр жиілігі"
+
+#. PAR is the aspect ratio "of the pixels", not an aspect ratio "in pixels".
+#: data/ui/clipmediaprops.ui:154
+msgid "Pixel aspect ratio"
+msgstr "Пиксельдер арақатынасы"
+
+#: data/ui/clipmediaprops.ui:197
+msgid "Video:"
+msgstr "Видео:"
+
+#: data/ui/clipmediaprops.ui:249
+msgid "Sample rate"
+msgstr "Дискреттеу жиілігі"
+
+#: data/ui/clipmediaprops.ui:264
+msgid "Channels"
+msgstr "Арналар"
+
+#: data/ui/clipmediaprops.ui:285
+msgid "Audio:"
+msgstr "Аудио:"
+
+#: data/ui/cliptransformation.ui:56
+msgid "Y:"
+msgstr "Y:"
+
+#: data/ui/cliptransformation.ui:99
+msgid "Height:"
+msgstr "Биіктігі:"
+
+#: data/ui/cliptransformation.ui:141
+msgid "Constrain Proportions"
+msgstr "Пропорцияларды сақтау"
+
+#: data/ui/cliptransformation.ui:157
+msgid "X:"
+msgstr "X:"
+
+#: data/ui/cliptransformation.ui:178
+msgid "Previous keyframe"
+msgstr "Алдыңғы кілттік кадр"
+
+#: data/ui/cliptransformation.ui:194
+msgid "Next keyframe"
+msgstr "Келесі кілттік кадр"
+
+#: data/ui/cliptransformation.ui:224
+msgid "Reset to default values"
+msgstr "Бастапқы мәндерге қалпына келтіру"
+
+#: data/ui/cliptransformation.ui:246
+msgid "Width:"
+msgstr "Ені:"
+
+#: data/ui/customwidgets/alpha.ui:143
+msgid "Angle:"
+msgstr "Бұрышы:"
+
+#: data/ui/customwidgets/alpha.ui:155
+msgid "Noise level:"
+msgstr "Шу деңгейі:"
+
+#: data/ui/customwidgets/alpha.ui:167
+msgid "White sensitivity:"
+msgstr "Ақ түс сезімталдығы:"
+
+#: data/ui/customwidgets/alpha.ui:179
+msgid "Black sensitivity:"
+msgstr "Қара түс сезімталдығы:"
+
+#: data/ui/customwidgets/alpha.ui:321
+msgid "Alpha:"
+msgstr "Альфа:"
+
+#: data/ui/customwidgets/alpha.ui:350
+msgid "Target chroma key:"
+msgstr "Мақсат хромакейі:"
+
+#: data/ui/customwidgets/alpha.ui:362
+msgid "Red"
+msgstr "Қызыл"
+
+#: data/ui/customwidgets/alpha.ui:373
+msgid "Green"
+msgstr "Жасыл"
+
+#: data/ui/customwidgets/alpha.ui:395
+msgid "Select a color"
+msgstr "Түсті таңдау"
+
+#: data/ui/customwidgets/alpha.ui:407
+msgid "Blue"
+msgstr "Көк"
+
+#: data/ui/customwidgets/frei0r-filter-3-point-color-balance.ui:225
+msgid "R"
+msgstr "R"
+
+#: data/ui/customwidgets/frei0r-filter-3-point-color-balance.ui:238
+msgid "G"
+msgstr "G"
+
+#: data/ui/customwidgets/frei0r-filter-3-point-color-balance.ui:251
+msgid "B"
+msgstr "B"
+
+#: data/ui/customwidgets/frei0r-filter-3-point-color-balance.ui:420
+msgid "Shadows"
+msgstr "Көлеңкелер"
+
+#: data/ui/customwidgets/frei0r-filter-3-point-color-balance.ui:431
+msgid "Midtones"
+msgstr "Орташа тондар"
+
+#: data/ui/customwidgets/frei0r-filter-3-point-color-balance.ui:442
+msgid "Highlights"
+msgstr "Жарықтар"
+
+#: data/ui/customwidgets/frei0r-filter-3-point-color-balance.ui:481
+msgid "Split preview"
+msgstr "Бөлек алдын ала қарау"
+
+#: data/ui/customwidgets/frei0r-filter-3-point-color-balance.ui:494
+msgid "Source image on left"
+msgstr "Бастапқы сурет сол жақта"
+
+#: data/ui/customwidgets/frei0r-filter-alphaspot.ui:303
+msgid "Shape:"
+msgstr "Пішіні:"
+
+#: data/ui/customwidgets/frei0r-filter-alphaspot.ui:336
+msgid "width"
+msgstr "ені"
+
+#: data/ui/customwidgets/frei0r-filter-alphaspot.ui:347
+msgid "height"
+msgstr "биіктігі"
+
+#: data/ui/customwidgets/frei0r-filter-alphaspot.ui:358
+msgid "Operation:"
+msgstr "Операция:"
+
+#: data/ui/customwidgets/frei0r-filter-alphaspot.ui:380
+msgid "tilt"
+msgstr "еңкею"
+
+#: data/ui/customwidgets/frei0r-filter-alphaspot.ui:391
+msgid "trans. width"
+msgstr "өту ені"
+
+#: data/ui/customwidgets/frei0r-filter-alphaspot.ui:402
+msgid "min alpha"
+msgstr "мин альфа"
+
+#: data/ui/customwidgets/frei0r-filter-alphaspot.ui:413
+msgid "max alpha"
+msgstr "макс альфа"
+
+#: data/ui/customwidgets/pitivi:object_effect.ui:19
+msgid "Color:"
+msgstr "Түс:"
+
+#: data/ui/effectslibrary.ui:16
+msgid "Favorites"
+msgstr "Таңдаулылар"
+
+#: data/ui/effectslibrary.ui:43 data/ui/medialibrary.ui:165 pitivi/transitions.py:69
+msgid "Search..."
+msgstr "Іздеу..."
+
+#: data/ui/elementsettingsdialog.ui:24
+msgid "Reset all"
+msgstr "Барлығын қалпына келтіру"
+
+#: data/ui/elementsettingsdialog.ui:39 data/ui/projectsettings.ui:91
+msgid "OK"
+msgstr "OK"
+
+#: data/ui/greeter.ui:40
+msgid "Recent Projects"
+msgstr "Соңғы жобалар"
+
+#: data/ui/greeter.ui:55
+msgid "Updated"
+msgstr "Жаңартылды"
+
+#: data/ui/greeter.ui:190 pitivi/preset.py:107 pitivi/render.py:220
+msgid "Remove"
+msgstr "Өшіру"
+
+#: data/ui/greeter.ui:230
+msgid "Welcome to Pitivi"
+msgstr "Pitivi-ге қош келдіңіз"
+
+#: data/ui/greeter.ui:244
+msgid "Beautiful, powerful and intuitive movie editor"
+msgstr "Әдемі, қуатты және интуитивті фильм редакторы"
+
+#: data/ui/mainmenubutton.ui:21
+msgid "Save the current project under a new name or a different location"
+msgstr "Ағымдағы жобаны жаңа атаумен немесе басқа орынға сақтау"
+
+#: data/ui/mainmenubutton.ui:25 pitivi/editorperspective.py:732 pitivi/editorperspective.py:786
+msgid "Save As..."
+msgstr "Қалайша сақтау..."
+
+#: data/ui/mainmenubutton.ui:38
+msgid "Reload the current project"
+msgstr "Ағымдағы жобаны қайта жүктеу"
+
+#: data/ui/mainmenubutton.ui:42
+msgid "Revert to saved version"
+msgstr "Сақталған нұсқасына оралу"
+
+#: data/ui/mainmenubutton.ui:55
+msgid "Export the current project and all its media in a .tar archive"
+msgstr "Ағымдағы жобаны және оның барлық медиасын .tar архивіне экспорттау"
+
+#: data/ui/mainmenubutton.ui:59
+msgid "Export as Archive..."
+msgstr "Архив ретінде экспорттау..."
+
+#: data/ui/mainmenubutton.ui:85
+msgid "Export the frame at the current playhead position as an image file."
+msgstr "Ойнату басының ағымдағы орнындағы кадрды сурет файлы ретінде экспорттау."
+
+#: data/ui/mainmenubutton.ui:89
+msgid "Export current frame..."
+msgstr "Ағымдағы кадрды экспорттау..."
+
+#: data/ui/mainmenubutton.ui:115
+msgid "Edit the project settings"
+msgstr "Жоба баптауларын түзету"
+
+#: data/ui/mainmenubutton.ui:119 data/ui/projectsettings.ui:61 pitivi/dialogs/prefs.py:340
+#: pitivi/medialibrary.py:182 pitivi/medialibrary.py:547
+msgid "Project Settings"
+msgstr "Жоба баптаулары"
+
+#: data/ui/mainmenubutton.ui:148 data/ui/preferences.ui:7 pitivi/mainwindow.py:217
+msgid "Preferences"
+msgstr "Баптаулар"
+
+#: data/ui/mainmenubutton.ui:164
+msgid "Keyboard Shortcuts"
+msgstr "Пернетақта жарлықтары"
+
+#: data/ui/mainmenubutton.ui:180
+msgid "User Manual"
+msgstr "Пайдаланушы нұсқаулығы"
+
+#: data/ui/mainmenubutton.ui:193
+msgid "Start the intro to Pitivi for new users"
+msgstr "Жаңа пайдаланушылар үшін Pitivi кіріспесін бастау"
+
+#: data/ui/mainmenubutton.ui:197
+msgid "Interactive Intro"
+msgstr "Интерактивті кіріспе"
+
+#: data/ui/mainmenubutton.ui:213
+msgid "About Pitivi"
+msgstr "Pitivi туралы"
+
+#: data/ui/medialibrary.ui:20
+msgid "Remove selected clips from the project"
+msgstr "Таңдалған клиптерді жобадан өшіру"
+
+#: data/ui/medialibrary.ui:22
+msgid "_Remove from Project"
+msgstr "Жобадан ө_шіру"
+
+#: data/ui/medialibrary.ui:40
+msgid "Clip properties..."
+msgstr "Клип қасиеттері..."
+
+#: data/ui/medialibrary.ui:59
+msgid "Show tags associated with selected clips"
+msgstr "Таңдалған клиптермен байланысты тегтерді көрсету"
+
+#: data/ui/medialibrary.ui:78
+msgid "Insert the selected clips at the end of the timeline"
+msgstr "Таңдалған клиптерді уақыт шкаласының соңына кірістіру"
+
+#: data/ui/medialibrary.ui:80
+msgid "Insert at _End of Timeline"
+msgstr "Уақыт шкаласының _соңына кірістіру"
+
+#: data/ui/medialibrary.ui:114 pitivi/editorperspective.py:407
+msgid "Add media files to your project"
+msgstr "Жобаңызға медиа файлдарын қосу"
+
+#: data/ui/medialibrary.ui:116
+msgid "Import"
+msgstr "Импорттау"
+
+#: data/ui/medialibrary.ui:135
+msgid "Show clips as a detailed list"
+msgstr "Клиптерді егжей-тегжейлі тізім ретінде көрсету"
+
+#. This is used as a toolbar button tooltip. Here, "select" means "find"
+#. rather than "choose". It is not the user who selects, but rather the user
+#. requesting the application to select the relevant items.
+#: data/ui/medialibrary.ui:163
+msgid "Select clips that have not been used in the project"
+msgstr "Жобада пайдаланылмаған клиптерді таңдау"
+
+#: data/ui/medialibrary.ui:164
+msgid "Show all clips"
+msgstr "Барлық клиптерді көрсету"
+
+#: data/ui/medialibrary.ui:278
+msgid "Add media to your project by dragging files and folders here or by using the \"Import\" button."
+msgstr ""
+"Бұл жерге файлдар мен бумаларды сүйреу арқылы немесе «Импорттау» батырмасын пайдалану арқылы жобаңызға "
+"медиа қосыңыз."
+
+#: data/ui/preferences.ui:26
+msgid "Reset to Factory Settings"
+msgstr "Зауыттық баптауларға қалпына келтіру"
+
+#: data/ui/preferences.ui:32
+msgid "Reset all settings to their default values"
+msgstr "Барлық баптауларды бастапқы мәндеріне қалпына келтіру"
+
+#: data/ui/preferences.ui:44
+msgid "Revert"
+msgstr "Қайтару"
+
+#: data/ui/preferences.ui:50
+msgid "Revert all settings to the previous values (before you opened the preferences dialog)"
+msgstr "Барлық баптауларды алдыңғы мәндеріне (баптаулар сұхбат терезесін ашқанға дейін) қайтару"
+
+#: data/ui/preferences.ui:61 data/ui/renderingprogress.ui:85
+msgid "Close"
+msgstr "Жабу"
+
+#: data/ui/preferences.ui:162
+msgid "Some changes will not take effect until you restart Pitivi"
+msgstr "Кейбір өзгерістер Pitivi қайта іске қосылғанша күшіне енбейді"
+
+#: data/ui/projectsettings.ui:78 data/ui/renderingprogress.ui:41 pitivi/dialogs/browseprojects.py:38
+#: pitivi/dialogs/missingasset.py:46 pitivi/editorperspective.py:552 pitivi/editorperspective.py:687
+#: pitivi/editorperspective.py:735 pitivi/editorperspective.py:788 pitivi/greeterperspective.py:241
+#: pitivi/medialibrary.py:865
+msgid "Cancel"
+msgstr "Бас тарту"
+
+#: data/ui/projectsettings.ui:146 data/ui/renderingdialog.ui:131
+msgid "Preset:"
+msgstr "Алдын ала орнату:"
+
+#: data/ui/projectsettings.ui:218
+msgid "Size:"
+msgstr "Өлшемі:"
+
+#: data/ui/projectsettings.ui:278 data/ui/projectsettings.ui:606
+msgid "pixels"
+msgstr "пиксель"
+
+#. When checked, changing the width or height affects also the other so that
+#. the aspect ratio value (width / height) does not change.
+#: data/ui/projectsettings.ui:295 data/ui/projectsettings.ui:623
+msgid "Constrain proportions"
+msgstr "Пропорцияларды сақтау"
+
+#: data/ui/projectsettings.ui:299
+msgid "Maintain aspect ratio"
+msgstr "Арақатынасты сақтау"
+
+#: data/ui/projectsettings.ui:330 data/ui/renderingdialog.ui:732
+msgid "Frame rate:"
+msgstr "Кадр жиілігі:"
+
+#. The title of the section with the video settings
+#: data/ui/projectsettings.ui:383 data/ui/renderingdialog.ui:750 pitivi/clip_properties/markers.py:45
+#: pitivi/effects.py:249
+msgid "Video"
+msgstr "Видео"
+
+#: data/ui/projectsettings.ui:430
+msgid "Author:"
+msgstr "Авторы:"
+
+#: data/ui/projectsettings.ui:442
+msgid "Year:"
+msgstr "Жылы:"
+
+#. The title of the section with the name, author, year fields
+#: data/ui/projectsettings.ui:498
+msgid "Info"
+msgstr "Ақпарат"
+
+#: data/ui/projectsettings.ui:542
+msgid "Scaled proxies resolution:"
+msgstr "Масштабталған проксилердің ажыратымдылығы:"
+
+#: data/ui/projectsettings.ui:563 data/ui/projectsettings.ui:591
+msgid "1"
+msgstr "1"
+
+#: data/ui/projectsettings.ui:641
+msgid "<a href='#'>Proxy Preferences</a>"
+msgstr "<a href='#'>Прокси баптаулары</a>"
+
+#: data/ui/projectsettings.ui:675
+msgid "Proxy"
+msgstr "Прокси"
+
+#: data/ui/projectsettings.ui:709
+msgid "Title:"
+msgstr "Атауы:"
+
+#: data/ui/projectsettings.ui:726
+msgid "Action:"
+msgstr "Әрекет:"
+
+#: data/ui/projectsettings.ui:851
+msgid "Safe Areas"
+msgstr "Қауіпсіз аймақтар"
+
+#: data/ui/renderingdialog.ui:40 data/ui/renderingdialog.ui:59 pitivi/editorperspective.py:337
+msgid "Render"
+msgstr "Рендерлеу"
+
+#: data/ui/renderingdialog.ui:116
+msgid "Quality:"
+msgstr "Сапасы:"
+
+#: data/ui/renderingdialog.ui:177 pitivi/clip_properties/markers.py:48 pitivi/render.py:74
+msgid "Custom"
+msgstr "Пайдаланушылық"
+
+#: data/ui/renderingdialog.ui:244
+msgid "Container format:"
+msgstr "Контейнер пішімі:"
+
+#: data/ui/renderingdialog.ui:311
+msgid "Automatically render from proxy files"
+msgstr "Прокси файлдарынан автоматты түрде рендерлеу"
+
+#: data/ui/renderingdialog.ui:315
+msgid ""
+"Use proxy files if they are available and the source asset media format is not officially supported.\n"
+"\n"
+"This option is a good trade-off between quality of the rendered video and stability."
+msgstr ""
+"Прокси файлдары қолжетімді болса және бастапқы активтің медиа пішімі ресми түрде қолдау таппаса, "
+"оларды пайдаланыңыз.\n"
+"\n"
+"Бұл опция рендерленген видео сапасы мен тұрақтылық арасындағы жақсы мәміле болып табылады."
+
+#: data/ui/renderingdialog.ui:330
+msgid "Always render from proxy files"
+msgstr "Әрқашан прокси файлдарынан рендерлеу"
+
+#: data/ui/renderingdialog.ui:334
+msgid ""
+"Render all proxied clips from the proxy assets. There might be some quality loss during the rendering "
+"process."
+msgstr ""
+"Барлық проксиленген клиптерді прокси активтерінен рендерлеу. Рендерлеу процесі кезінде сапаның шамалы "
+"төмендеуі мүмкін."
+
+#: data/ui/renderingdialog.ui:347
+msgid "Never render from proxy files"
+msgstr "Ешқашан прокси файлдарынан рендерлемеу"
+
+#: data/ui/renderingdialog.ui:351
+msgid ""
+"Always use source assets for rendering. It is the best choice for the quality of the rendered video, "
+"but you might hit some bugs because of the use of not officially supported media formats.\n"
+"<i>Use at your own risk!</i>"
+msgstr ""
+"Рендерлеу үшін әрқашан бастапқы активтерді пайдалану. Бұл рендерленген видео сапасы үшін ең жақсы "
+"таңдау, бірақ ресми түрде қолдау таппаған медиа пішімдерін пайдалануға байланысты кейбір қателерге тап "
+"болуыңыз мүмкін.\n"
+"<i>Өз тәуекеліңізбен пайдаланыңыз!</i>"
+
+#: data/ui/renderingdialog.ui:398
+msgid "Channels:"
+msgstr "Арналар:"
+
+#: data/ui/renderingdialog.ui:430 data/ui/renderingdialog.ui:651
+msgid "Advanced..."
+msgstr "Кеңейтілген..."
+
+#: data/ui/renderingdialog.ui:470 data/ui/renderingdialog.ui:690
+msgid "Codec:"
+msgstr "Кодек:"
+
+#: data/ui/renderingdialog.ui:507
+msgid "Sample rate:"
+msgstr "Дискреттеу жиілігі:"
+
+#: data/ui/renderingdialog.ui:525 pitivi/clip_properties/markers.py:46 pitivi/effects.py:126
+#: pitivi/effects.py:249
+msgid "Audio"
+msgstr "Аудио"
+
+#: data/ui/renderingdialog.ui:564
+msgid "Scale:"
+msgstr "Масштаб:"
+
+#: data/ui/renderingdialog.ui:597
+msgid "Scale"
+msgstr "Масштаб"
+
+#: data/ui/renderingdialog.ui:617
+msgid "Height"
+msgstr "Биіктігі"
+
+#: data/ui/renderingdialog.ui:636
+msgid "Project Settings..."
+msgstr "Жоба баптаулары..."
+
+#: data/ui/renderingdialog.ui:716
+msgid "Framerate"
+msgstr "Кадр жиілігі"
+
+#: data/ui/renderingdialog.ui:779
+msgid "Advanced"
+msgstr "Кеңейтілген"
+
+#: data/ui/renderingdialog.ui:790
+msgid "Select file"
+msgstr "Файлды таңдау"
+
+#: data/ui/renderingdialog.ui:807
+msgid "File path:"
+msgstr "Файл жолы:"
+
+#: data/ui/renderingprogress.ui:8
+msgid "Rendering"
+msgstr "Рендерлеу"
+
+#: data/ui/renderingprogress.ui:27 data/ui/trackerperspective.ui:19 pitivi/viewer/viewer.py:846
+msgid "Pause"
+msgstr "Аялдату"
+
+#: data/ui/renderingprogress.ui:55 data/ui/trackerperspective.ui:25 pitivi/timeline/timeline.py:2103
+#: pitivi/viewer/viewer.py:838
+msgid "Play"
+msgstr "Ойнату"
+
+#: data/ui/renderingprogress.ui:70
+msgid "Open Folder"
+msgstr "Буманы ашу"
+
+#: data/ui/renderingprogress.ui:110
+msgid ""
+"<small>This process may take a long time depending on the selected codecs, the image resolution, your "
+"computer's processing power, applied effects and the length of your movie.</small>"
+msgstr ""
+"<small>Таңдалған кодектерге, сурет ажыратымдылығына, компьютеріңіздің өңдеу қуатына, қолданылған "
+"эффектілерге және фильміңіздің ұзындығына байланысты бұл процесс көп уақыт алуы мүмкін.</small>"
+
+#: data/ui/renderingprogress.ui:126
+msgid "Initializing..."
+msgstr "Инициализациялануда..."
+
+#: data/ui/renderingprogress.ui:155
+msgid "Estimated filesize:"
+msgstr "Есептелген файл өлшемі:"
+
+#: data/ui/timelinetoolbar.ui:16
+msgid "Split clips at playhead position"
+msgstr "Ойнату басы орнында клиптерді бөлу"
+
+#: data/ui/timelinetoolbar.ui:18
+msgid "Split"
+msgstr "Бөлу"
+
+#: data/ui/timelinetoolbar.ui:31
+msgid "Delete clips"
+msgstr "Клиптерді өшіру"
+
+#: data/ui/timelinetoolbar.ui:33
+msgid "Delete"
+msgstr "Өшіру"
+
+#: data/ui/timelinetoolbar.ui:46
+msgid "Group clips"
+msgstr "Клиптерді топтастыру"
+
+#: data/ui/timelinetoolbar.ui:48
+msgid "Group"
+msgstr "Топтастыру"
+
+#: data/ui/timelinetoolbar.ui:61
+msgid "Ungroup clips"
+msgstr "Клиптерді топтан шығару"
+
+#: data/ui/timelinetoolbar.ui:63
+msgid "Ungroup"
+msgstr "Топтан шығару"
+
+#: data/ui/timelinetoolbar.ui:76
+msgid "Cut clips"
+msgstr "Клиптерді қию"
+
+#: data/ui/timelinetoolbar.ui:78
+msgid "Cut"
+msgstr "Қию"
+
+#: data/ui/timelinetoolbar.ui:91
+msgid "Copy clips"
+msgstr "Клиптерді көшіру"
+
+#: data/ui/timelinetoolbar.ui:93
+msgid "Copy"
+msgstr "Көшіру"
+
+#: data/ui/timelinetoolbar.ui:106
+msgid "Paste clips"
+msgstr "Клиптерді кірістіру"
+
+#: data/ui/timelinetoolbar.ui:108
+msgid "Paste"
+msgstr "Кірістіру"
+
+#: data/ui/timelinetoolbar.ui:121
+msgid "Align clips based on their soundtracks"
+msgstr "Клиптерді олардың саундтректері негізінде туралау"
+
+#: data/ui/timelinetoolbar.ui:123
+msgid "Align"
+msgstr "Туралау"
+
+#: data/ui/timelinetoolbar.ui:136
+msgid ""
+"Toggle gapless mode\n"
+"When enabled, adjacent clips automatically move to fill gaps."
+msgstr ""
+"Бос орынсыз режимді қосу/сөндіру\n"
+"Іске қосылған кезде, іргелес клиптер бос орындарды толтыру үшін автоматты түрде жылжиды."
+
+#: data/ui/timelinetoolbar.ui:139
+msgid "Gapless mode"
+msgstr "Бос орынсыз режим"
+
+#: data/ui/titleeditor.ui:71
+msgid "Choose a font"
+msgstr "Қаріпті таңдау"
+
+#: data/ui/titleeditor.ui:88
+msgid "Pick a text color"
+msgstr "Мәтін түсін таңдау"
+
+#: data/ui/titleeditor.ui:123
+msgid "Pick a background color"
+msgstr "Фон түсін таңдау"
+
+#: data/ui/titleeditor.ui:157
+msgid "Pick an outline color"
+msgstr "Сыртқы контур түсін таңдау"
+
+#: data/ui/titleeditor.ui:193
+msgid "Drop Shadow"
+msgstr "Көлеңке түсіру"
+
+#: data/ui/titleeditor.ui:215
+msgid "Alignment"
+msgstr "Туралау"
+
+#: data/ui/titleeditor.ui:251
+msgid "Horizontal:"
+msgstr "Горизонталды:"
+
+#: data/ui/titleeditor.ui:275
+msgid "Vertical:"
+msgstr "Вертикалды:"
+
+#: data/ui/trackerperspective.ui:66
+msgid "Tracked Objects:"
+msgstr "Бақыланатын объектілер:"
+
+#: data/ui/trackerperspective.ui:195
+msgid "Drag&drop on the video to delimit an object to be tracked."
+msgstr "Бақыланатын объектіні шектеу үшін видео үстіне сүйреп апарыңыз."
+
+#: data/ui/trackerperspective.ui:288
+msgid "Go back one frame"
+msgstr "Бір кадрға артқа өту"
+
+#: data/ui/trackerperspective.ui:318
+msgid "Go forward one frame"
+msgstr "Бір кадрға алға өту"
+
+#: data/ui/trackerperspective.ui:374
+msgid "Tracking Algorithm"
+msgstr "Бақылау алгоритмі"
+
+#: data/ui/trackerperspective.ui:401
+msgid "Track"
+msgstr "Бақылау"
+
+#: pitivi/action_search_bar.py:46
+msgid "Search Action"
+msgstr "Әрекетті іздеу"
+
+#: pitivi/application.py:160
+msgid "General"
+msgstr "Жалпы"
+
+#: pitivi/application.py:167
+msgid "Undo the most recent action"
+msgstr "Ең соңғы әрекетті болдырмау"
+
+#: pitivi/application.py:173
+msgid "Redo the most recent action"
+msgstr "Ең соңғы әрекетті қайталау"
+
+#: pitivi/application.py:178
+msgid "Quit"
+msgstr "Шығу"
+
+#: pitivi/application.py:186
+msgid "Show the Shortcuts Window"
+msgstr "Жарлықтар терезесін көрсету"
+
+#. Translators: %s is a Python module name or another OS component
+#: pitivi/check.py:115
+#, python-format
+msgid "- %s not found on the system"
+msgstr "- %s жүйеде табылмады"
+
+#. Translators: %s is a Python module name or another OS component
+#: pitivi/check.py:118
+#, python-format
+msgid "- %s version %s is installed but Pitivi requires at least version %s"
+msgstr "- %s нұсқасы %s орнатылған, бірақ Pitivi кемінде %s нұсқасын талап етеді"
+
+#. Translators: %s is a Python module name or another OS component
+#: pitivi/check.py:193
+#, python-format
+msgid "- %s GStreamer plug-in not found on the system"
+msgstr "- %s GStreamer плагині жүйеде табылмады"
+
+#. Translators: %s is a Python module name or another OS component
+#: pitivi/check.py:196
+#, python-format
+msgid "- %s Gstreamer plug-in version %s is installed but Pitivi requires at least version %s"
+msgstr "- %s Gstreamer плагинінің %s нұсқасы орнатылған, бірақ Pitivi кемінде %s нұсқасын талап етеді"
+
+#. Translators: %s is a Python module name or another OS component
+#: pitivi/check.py:224
+#, python-format
+msgid "- %s GStreamer element not found on the system"
+msgstr "- %s GStreamer элементі жүйеде табылмады"
+
+#: pitivi/check.py:332
+msgid "ERROR - The following hard dependencies are unmet:"
+msgstr "ҚАТЕ - Келесі қатаң тәуелділіктер қанағаттандырылмады:"
+
+#: pitivi/check.py:340
+msgid "Missing soft dependency:"
+msgstr "Жетіспейтін жұмсақ тәуелділік:"
+
+#: pitivi/check.py:347
+msgid "ERROR — Could not create a Gst.Fraction — this means gst-python is not installed correctly."
+msgstr "ҚАТЕ — Gst.Fraction жасалмады — бұл gst-python дұрыс орнатылмағанын білдіреді."
+
+#: pitivi/check.py:352
+msgid ""
+"Could not create audio output sink. Make sure you have a valid one (pulsesink, alsasink or osssink)."
+msgstr ""
+"Аудио шығыс қабылдағышын жасау мүмкін емес. Жарамдысы (pulsesink, alsasink немесе osssink) бар екеніне "
+"көз жеткізіңіз."
+
+#: pitivi/check.py:357
+msgid "Could not create video output sink. Make sure you have a gtksink available."
+msgstr "Видео шығыс қабылдағышын жасау мүмкін емес. gtksink қолжетімді екеніне көз жеткізіңіз."
+
+#: pitivi/check.py:372
+#, python-format
+msgid "Could not import '%s'. Make sure you have it available."
+msgstr "'%s' импорттау мүмкін емес. Оның қолжетімді екеніне көз жеткізіңіз."
+
+#: pitivi/check.py:386
+msgid "Could not import 'gi'. Make sure you have pygobject available."
+msgstr "'gi' импорттау мүмкін емес. pygobject қолжетімді екеніне көз жеткізіңіз."
+
+#: pitivi/check.py:485
+msgid "enables sound notifications when rendering is complete"
+msgstr "рендерлеу аяқталған кезде дыбыстық хабарландыруларды іске қосады"
+
+#: pitivi/check.py:487
+msgid "enables visual notifications when rendering is complete"
+msgstr "рендерлеу аяқталған кезде визуалды хабарландыруларды іске қосады"
+
+#: pitivi/check.py:489
+msgid "additional multimedia codecs through the GStreamer Libav library"
+msgstr "GStreamer Libav кітапханасы арқылы қосымша мультимедиялық кодектер"
+
+#: pitivi/check.py:491
+msgid ""
+"enables a watchdog in the GStreamer pipeline. Use to detect errors happening in GStreamer and recover "
+"from them"
+msgstr ""
+"GStreamer конвейерінде бақылаушыны іске қосады. GStreamer-де орын алатын қателерді анықтау және "
+"олардан қалпына келтіру үшін пайдаланыңыз"
+
+#: pitivi/check.py:495
+msgid "enables object tracking"
+msgstr "объектіні бақылауды іске қосады"
+
+#: pitivi/check.py:496
+msgid "enables beat detection functionality"
+msgstr "биттерді анықтау мүмкіндігін іске қосады"
+
+#. Translators: This is the default text of a title clip.
+#: pitivi/clipproperties.py:69
+msgid "Title Clip"
+msgstr "Атау клипі"
+
+#: pitivi/clipproperties.py:162
+msgid "Select a clip on the timeline to configure its properties and effects or create a new clip:"
+msgstr ""
+"Уақыт шкаласынан қасиеттері мен эффектілерін баптау үшін клипті таңдаңыз немесе жаңа клипті жасаңыз:"
+
+#: pitivi/clipproperties.py:168
+msgid "Create a title clip"
+msgstr "Атау клипін жасау"
+
+#: pitivi/clipproperties.py:173
+msgid "Create a color clip"
+msgstr "Түс клипін жасау"
+
+#: pitivi/clipproperties.py:276 pitivi/effects.py:122
+msgid "Time"
+msgstr "Уақыт"
+
+#: pitivi/clipproperties.py:319
+msgid "Speed"
+msgstr "Жылдамдық"
+
+#: pitivi/clipproperties.py:334 pitivi/utils/widgets.py:800
+#, python-format
+msgid "%(preference_label)s:"
+msgstr "%(preference_label)s:"
+
+#: pitivi/clipproperties.py:337 pitivi/dialogs/prefs.py:286 pitivi/utils/widgets.py:976
+msgid "Reset to default value"
+msgstr "Бастапқы мәнге қалпына келтіру"
+
+#: pitivi/clipproperties.py:572
+msgid "Effects"
+msgstr "Эффектілер"
+
+#: pitivi/clipproperties.py:590
+msgid "To apply an effect to the clip, drag it from the Effect Library or use the button below."
+msgstr ""
+"Клипке эффектіні іске асыру үшін оны Эффектілер кітапханасынан сүйреңіз немесе төмендегі батырманы "
+"пайдаланыңыз."
+
+#: pitivi/clipproperties.py:598
+msgid "Add Effect"
+msgstr "Эффектіні қосу"
+
+#: pitivi/clipproperties.py:608
+msgid "Cover Object"
+msgstr "Объектіні жабу"
+
+#: pitivi/clipproperties.py:938
+msgid "Transformation"
+msgstr "Трансформация"
+
+#: pitivi/clipproperties.py:1067
+msgid "Show keyframes"
+msgstr "Кілттік кадрларды көрсету"
+
+#: pitivi/clipproperties.py:1070
+msgid "Activate keyframes"
+msgstr "Кілттік кадрларды белсендіру"
+
+#: pitivi/clipproperties.py:1075
+msgid "Hide keyframes"
+msgstr "Кілттік кадрларды жасыру"
+
+#: pitivi/clip_properties/color.py:53 plugins/console/console.py:125
+msgid "Color"
+msgstr "Түс"
+
+#: pitivi/clip_properties/compositing.py:57 pitivi/effects.py:81
+msgid "Compositing"
+msgstr "Композитинг"
+
+#. Translators: These are compositing operators.
+#. See https://www.cairographics.org/operators/ for explanation and
+#. visualizations.
+#: pitivi/clip_properties/compositing.py:80
+msgid "Source"
+msgstr "Көз"
+
+#: pitivi/clip_properties/compositing.py:81
+msgid "Over"
+msgstr "Үстінен"
+
+#: pitivi/clip_properties/markers.py:47
+msgid "Text"
+msgstr "Мәтін"
+
+#: pitivi/clip_properties/markers.py:64
+msgid "Clip markers"
+msgstr "Клип маркерлері"
+
+#: pitivi/clip_properties/markers.py:125
+msgid "Magnetic"
+msgstr "Магнитті"
+
+#: pitivi/clip_properties/title.py:47
+msgid "Title clip duration"
+msgstr "Атау клипінің ұзақтығы"
+
+#: pitivi/clip_properties/title.py:49
+msgid "Default clip length (in milliseconds) of titles when inserting on the timeline."
+msgstr "Уақыт шкаласына кірістіру кезіндегі атаулардың бастапқы клип ұзындығы (миллисекундпен)."
+
+#: pitivi/clip_properties/title.py:63
+msgid "Title"
+msgstr "Атау"
+
+#. TODO: Remove when we upgrade pylint
+#. https://github.com/PyCQA/pylint/issues/4962
+#. pylint: disable=superfluous-parens
+#: pitivi/clip_properties/title.py:122 pitivi/clip_properties/title.py:129
+msgid "Absolute"
+msgstr "Абсолютті"
+
+#: pitivi/clip_properties/title.py:123
+msgid "Top"
+msgstr "Жоғарғы"
+
+#: pitivi/clip_properties/title.py:124 pitivi/clip_properties/title.py:131
+msgid "Center"
+msgstr "Орта"
+
+#: pitivi/clip_properties/title.py:125
+msgid "Bottom"
+msgstr "Төменгі"
+
+#: pitivi/clip_properties/title.py:126
+msgid "Baseline"
+msgstr "Базалық сызық"
+
+#: pitivi/clip_properties/title.py:130
+msgid "Left"
+msgstr "Сол"
+
+#: pitivi/clip_properties/title.py:132
+msgid "Right"
+msgstr "Оң"
+
+#: pitivi/dialogs/about.py:45
+#, python-format
+msgid "Version %s"
+msgstr "%s нұсқасы"
+
+#: pitivi/dialogs/about.py:47
+#, python-format
+msgid "Version %(cur_ver)s — %(new_ver)s is available"
+msgstr "%(cur_ver)s нұсқасы — %(new_ver)s қолжетімді"
+
+#: pitivi/dialogs/about.py:58
+msgid "Current maintainers:"
+msgstr "Ағымдағы қолдаушылар:"
+
+#: pitivi/dialogs/about.py:63
+msgid "Past maintainers:"
+msgstr "Бұрынғы қолдаушылар:"
+
+#: pitivi/dialogs/about.py:69
+msgid "Contributors:"
+msgstr "Үлес қосқандар:"
+
+#. Translators: See
+#. https://developer.gnome.org/gtk3/stable/GtkAboutDialog.html#gtk-about-
+#. dialog-set-translator-credits
+#. for details on how this is used.
+#: pitivi/dialogs/about.py:76
+msgid "translator-credits"
+msgstr "Baurzhan Muftakhidinov <baurthefirst@gmail.com>"
+
+#: pitivi/dialogs/browseprojects.py:34
+msgid "Open Project…"
+msgstr "Жобаны ашу…"
+
+#: pitivi/dialogs/browseprojects.py:39 pitivi/dialogs/missingasset.py:47
+msgid "Open"
+msgstr "Ашу"
+
+#: pitivi/dialogs/browseprojects.py:55
+msgid "All supported formats"
+msgstr "Барлық қолдау көрсетілетін пішімдер"
+
+#: pitivi/dialogs/clipmediaprops.py:102
+msgid "Variable"
+msgstr "Айнымалы"
+
+#: pitivi/dialogs/clipmediaprops.py:128
+msgid "Image:"
+msgstr "Сурет:"
+
+#: pitivi/dialogs/filelisterrordialog.py:52
+msgid "Unknown reason"
+msgstr "Белгісіз себеп"
+
+#: pitivi/dialogs/filelisterrordialog.py:85
+msgid "Problem:"
+msgstr "Мәселе:"
+
+#: pitivi/dialogs/filelisterrordialog.py:93
+msgid "Extra information:"
+msgstr "Қосымша ақпарат:"
+
+#: pitivi/dialogs/missingasset.py:44
+msgid "Locate missing file..."
+msgstr "Жетіспейтін файлдың орнын табу..."
+
+#: pitivi/dialogs/missingasset.py:58
+msgid "The following file could not be found:"
+msgstr "Келесі файл табылмады:"
+
+#: pitivi/dialogs/missingasset.py:82
+msgid "Please specify its new location:"
+msgstr "Оның жаңа орнын көрсетіңіз:"
+
+#. Translators: this is a format filter in a filechooser. Ex: "AVI files"
+#: pitivi/dialogs/missingasset.py:113
+#, python-format
+msgid "%s files"
+msgstr "%s файлдары"
+
+#: pitivi/dialogs/missingasset.py:117 pitivi/medialibrary.py:893
+msgid "All files"
+msgstr "Барлық файлдар"
+
+#: pitivi/dialogs/prefs.py:61 pitivi/timeline/timeline.py:1917
+msgid "Timeline"
+msgstr "Уақыт шкаласы"
+
+#: pitivi/dialogs/prefs.py:62
+msgid "Plugins"
+msgstr "Плагиндер"
+
+#: pitivi/dialogs/prefs.py:63
+msgid "Shortcuts"
+msgstr "Жарлықтар"
+
+#: pitivi/dialogs/prefs.py:64
+msgid "Proxies"
+msgstr "Проксилер"
+
+#: pitivi/dialogs/prefs.py:65
+msgid "Other"
+msgstr "Басқа"
+
+#: pitivi/dialogs/prefs.py:332
+msgid ""
+"This resolution will be used as the default target resolution for new projects and projects missing "
+"scaled proxy meta-data."
+msgstr ""
+"Бұл ажыратымдылық жаңа жобалар және масштабталған прокси метадеректері жоқ жобалар үшін бастапқы "
+"мақсатты ажыратымдылық ретінде пайдаланылады."
+
+#: pitivi/dialogs/prefs.py:345
+msgid "Initial proxy size for new projects"
+msgstr "Жаңа жобалар үшін бастапқы прокси өлшемі"
+
+#: pitivi/dialogs/prefs.py:380
+#, python-format
+msgid "Proxy resolution for the current project is %d×%d px"
+msgstr "Ағымдағы жоба үшін прокси ажыратымдылығы %d×%d пиксель"
+
+#: pitivi/dialogs/prefs.py:459
+msgid "Reset the shortcut to the default accelerator"
+msgstr "Жарлықты бастапқы үдеткішке қалпына келтіру"
+
+#: pitivi/dialogs/prefs.py:616
+msgid "Set Shortcut"
+msgstr "Жарлықты орнату"
+
+#. Setup the widgets used in the dialog.
+#: pitivi/dialogs/prefs.py:631
+msgid "Apply"
+msgstr "Іске асыру"
+
+#: pitivi/dialogs/prefs.py:634
+msgid "Apply the accelerator to this shortcut."
+msgstr "Үдеткішті осы жарлыққа іске асыру."
+
+#: pitivi/dialogs/prefs.py:637
+msgid "Replace"
+msgstr "Ауыстыру"
+
+#: pitivi/dialogs/prefs.py:640
+msgid "Remove this accelerator from where it was used previously and set it for this shortcut."
+msgstr "Бұл үдеткішті бұрын қолданылған жерінен өшіріп, оны осы жарлық үшін орнату."
+
+#: pitivi/dialogs/prefs.py:647
+#, python-format
+msgid "Enter new shortcut for <b>%s</b>, or press Esc to cancel."
+msgstr "<b>%s</b> үшін жаңа жарлықты енгізіңіз, немесе бас тарту үшін Esc пернесін басыңыз."
+
+#: pitivi/dialogs/prefs.py:656
+msgid ""
+"The accelerator you are trying to set might interfere with typing. Try using Control, Shift or Alt "
+"with some other key, please."
+msgstr ""
+"Сіз орнатпақ болған үдеткіш теруге кедергі келтіруі мүмкін. Control, Shift немесе Alt пернелерін басқа "
+"пернемен бірге пайдаланып көріңіз."
+
+#: pitivi/dialogs/prefs.py:690
+#, python-format
+msgid "This key combination is already used by <b>%s</b>. Press Replace to use it for <b>%s</b> instead."
+msgstr ""
+"Бұл пернелер тіркесімі <b>%s</b> арқылы қазірдің өзінде пайдаланылуда. Оны оның орнына <b>%s</b> үшін "
+"пайдалану мақсатында Ауыстыру түймесін басыңыз."
+
+#: pitivi/dialogs/prefs.py:737
+msgid "No description available."
+msgstr "Сипаттама қолжетімді емес."
+
+#: pitivi/dialogs/prefs.py:828
+#, python-brace-format
+msgid "Unable to load the plugin '{module_name}'"
+msgstr "'{module_name}' плагинін жүктеу мүмкін емес"
+
+#. We could use Gtk.ListBox.set_placeholder, but it
+#. appears bad inside the list widget.
+#: pitivi/dialogs/prefs.py:912
+msgid "No plugins available"
+msgstr "Қолжетімді плагиндер жоқ"
+
+#: pitivi/dialogs/prefs.py:925
+#, python-brace-format
+msgid ""
+"You can create <a href='{doc_url}'>plugins</a> into your <a href='{dir_url}'>plugins directory</a>."
+msgstr "Сіз <a href='{dir_url}'>плагиндер бумасына</a> <a href='{doc_url}'>плагиндерді</a> жасай аласыз."
+
+#: pitivi/editorperspective.py:205 pitivi/medialibrary.py:632
+msgid "Media Library"
+msgstr "Медиа кітапханасы"
+
+#: pitivi/editorperspective.py:207
+msgid "Effect Library"
+msgstr "Эффектілер кітапханасы"
+
+#: pitivi/editorperspective.py:217
+msgid "Clip"
+msgstr "Клип"
+
+#: pitivi/editorperspective.py:219
+msgid "Transition"
+msgstr "Өту"
+
+#: pitivi/editorperspective.py:320
+msgid "Undo"
+msgstr "Болдырмау"
+
+#. pylint: disable=attribute-defined-outside-init
+#: pitivi/editorperspective.py:331 pitivi/editorperspective.py:544 pitivi/editorperspective.py:688
+#: pitivi/editorperspective.py:736 pitivi/editorperspective.py:789 pitivi/preset.py:113
+#: pitivi/project.py:195 pitivi/render.py:226
+msgid "Save"
+msgstr "Сақтау"
+
+#: pitivi/editorperspective.py:339
+msgid "Export your project as a finished movie"
+msgstr "Жобаңызды аяқталған фильм ретінде экспорттау"
+
+#: pitivi/editorperspective.py:372
+msgid "Save the current project"
+msgstr "Ағымдағы жобаны сақтау"
+
+#: pitivi/editorperspective.py:380
+msgid "Save the current project as"
+msgstr "Ағымдағы жобаны қалайша сақтау"
+
+#: pitivi/editorperspective.py:400
+msgid "Quick intros to Pitivi"
+msgstr "Pitivi-ге жылдам кіріспелер"
+
+#: pitivi/editorperspective.py:516
+#, python-format
+msgid "Unable to save project \"%s\""
+msgstr "«%s» жобасын сақтау мүмкін емес"
+
+#: pitivi/editorperspective.py:546 pitivi/project.py:194
+msgid "Save as..."
+msgstr "Қалайша сақтау..."
+
+#: pitivi/editorperspective.py:549
+msgid "Close without saving"
+msgstr "Сақтаусыз жабу"
+
+#: pitivi/editorperspective.py:559
+msgid "Save changes to the current project before closing?"
+msgstr "Жабар алдында ағымдағы жобаға өзгерістерді сақтау керек пе?"
+
+#: pitivi/editorperspective.py:568
+#, python-format
+msgid "If you don't save, the changes from the last %s will be lost."
+msgstr "Егер сақтамасаңыз, соңғы %s ішіндегі өзгерістер жоғалады."
+
+#: pitivi/editorperspective.py:572
+msgid "If you don't save, your changes will be lost."
+msgstr "Егер сақтамасаңыз, өзгерістеріңіз жоғалады."
+
+#: pitivi/editorperspective.py:619
+msgid "Revert to saved project version?"
+msgstr "Сақталған жоба нұсқасына оралу керек пе?"
+
+#: pitivi/editorperspective.py:624
+msgid "This will reload the current project. All unsaved changes will be lost."
+msgstr "Бұл ағымдағы жобаны қайта жүктейді. Барлық сақталмаған өзгерістер жоғалады."
+
+#. Signal the project loading failure.
+#. You have to do this *after* successfully creating a blank project,
+#. or the startupwizard will still be connected to that signal too.
+#: pitivi/editorperspective.py:655
+#, python-format
+msgid ""
+"No replacement file was provided for \"<i>%s</i>\".\n"
+"\n"
+"Pitivi does not currently support partial projects."
+msgstr ""
+"«<i>%s</i>» үшін ауыстыру файлы ұсынылмады.\n"
+"\n"
+"Қазіргі уақытта Pitivi ішінара жобаларды қолдамайды."
+
+#: pitivi/editorperspective.py:684
+msgid "Export To..."
+msgstr "Экспорттау..."
+
+#: pitivi/editorperspective.py:701
+msgid "Tar archive"
+msgstr "Tar архиві"
+
+#: pitivi/editorperspective.py:705 pitivi/editorperspective.py:751
+msgid "Detect automatically"
+msgstr "Автоматты түрде анықтау"
+
+#: pitivi/editorperspective.py:745 pitivi/editorperspective.py:792 pitivi/project.py:62
+#: pitivi/render.py:821
+msgid "Untitled"
+msgstr "Атаусыз"
+
+#: pitivi/editorperspective.py:794
+msgid "PNG image"
+msgstr "PNG суреті"
+
+#: pitivi/editorperspective.py:795
+msgid "JPEG image"
+msgstr "JPEG суреті"
+
+#: pitivi/editorperspective.py:836
+msgid "Preview"
+msgstr "Алдын ала қарау"
+
+#: pitivi/effects.py:65
+msgid "Colors"
+msgstr "Түстер"
+
+#: pitivi/effects.py:88
+msgid "Noise & blur"
+msgstr "Шу және бұлыңғырлық"
+
+#: pitivi/effects.py:93
+msgid "Analysis"
+msgstr "Талдау"
+
+#: pitivi/effects.py:100
+msgid "Geometry"
+msgstr "Геометрия"
+
+#: pitivi/effects.py:111
+msgid "Fancy"
+msgstr "Ерекше"
+
+#: pitivi/effects.py:249
+msgid "effect"
+msgstr "эффект"
+
+#. Translators: How the video effect which covers/hides a
+#. tracked object is listed. The {} is entered by the user
+#. and denotes the tracked object.
+#: pitivi/effects.py:330
+msgid "{} cover"
+msgstr "{} жабыны"
+
+#: pitivi/effects.py:331
+msgid "Object cover effect"
+msgstr "Объектіні жабу эффектісі"
+
+#. Add Uncategorized only if there are other categories defined.
+#: pitivi/effects.py:354 pitivi/effects.py:368
+msgid "Uncategorized"
+msgstr "Санатсыз"
+
+#: pitivi/effects.py:410 pitivi/effects.py:677
+msgid "No effects"
+msgstr "Эффектілер жоқ"
+
+#: pitivi/effects.py:498
+msgid "Add to Favorites"
+msgstr "Таңдаулыларға қосу"
+
+#: pitivi/greeterperspective.py:228 pitivi/preset.py:101 pitivi/render.py:214
+msgid "New"
+msgstr "Жаңа"
+
+#: pitivi/greeterperspective.py:229 pitivi/greeterperspective.py:290
+msgid "Create a new project"
+msgstr "Жаңа жобаны жасау"
+
+#: pitivi/greeterperspective.py:232
+msgid "Open…"
+msgstr "Ашу…"
+
+#: pitivi/greeterperspective.py:233
+msgid "Open an existing project"
+msgstr "Бар жобаны ашу"
+
+#: pitivi/greeterperspective.py:238
+msgid "Select projects for removal"
+msgstr "Өшіру үшін жобаларды таңдау"
+
+#: pitivi/greeterperspective.py:272
+msgid "Click an item to select"
+msgstr "Таңдау үшін элементті шертіңіз"
+
+#: pitivi/greeterperspective.py:276
+msgid "Select a Project"
+msgstr "Жобаны таңдау"
+
+#: pitivi/greeterperspective.py:297
+msgid "Open a project"
+msgstr "Жобаны ашу"
+
+#: pitivi/greeterperspective.py:365
+#, python-format
+msgid "Pitivi %s is available."
+msgstr "Pitivi %s қолжетімді."
+
+#: pitivi/greeterperspective.py:442
+msgid "To enable additional features, please install the following packages and restart Pitivi:"
+msgstr "Қосымша мүмкіндіктерді іске қосу үшін келесі дестелерді орнатып, Pitivi-ді қайта іске қосыңыз:"
+
+#. pylint: disable=attribute-defined-outside-init
+#: pitivi/interactiveintro.py:154
+msgid "Start Overview"
+msgstr "Шолуды бастау"
+
+#: pitivi/interactiveintro.py:212
+msgid "Welcome to Pitivi!"
+msgstr "Pitivi-ге қош келдіңіз!"
+
+#: pitivi/interactiveintro.py:214
+msgid "Drag files here to import them"
+msgstr "Файлдарды импорттау үшін осында сүйреңіз"
+
+#: pitivi/interactiveintro.py:216
+msgid "Drag clips in the timeline to arrange them"
+msgstr "Клиптерді реттеу үшін уақыт шкаласына сүйреңіз"
+
+#: pitivi/interactiveintro.py:218
+msgid "Right-click anywhere to move the playhead"
+msgstr "Ойнату басын жылжыту үшін кез келген жерді оң жақпен шертіңіз"
+
+#: pitivi/interactiveintro.py:220
+msgid "Preview with the play button"
+msgstr "Ойнату батырмасымен алдын ала қараңыз"
+
+#: pitivi/interactiveintro.py:222
+msgid "Export your project to share it"
+msgstr "Жобаңызды бөлісу үшін экспорттаңыз"
+
+#: pitivi/interactiveintro.py:224
+msgid "See all the keyboard shortcuts"
+msgstr "Барлық пернетақта жарлықтарын көріңіз"
+
+#: pitivi/mainwindow.py:74
+msgid "Dark Theme"
+msgstr "Қараңғы тема"
+
+#: pitivi/mainwindow.py:75
+msgid "Whether or not to use a dark theme."
+msgstr "Қараңғы теманы пайдалану немесе пайдаланбау."
+
+#: pitivi/mainwindow.py:189
+msgid "Project"
+msgstr "Жоба"
+
+#: pitivi/mainwindow.py:196
+msgid "Help"
+msgstr "Көмек"
+
+#: pitivi/mainwindow.py:203
+msgid "About"
+msgstr "Туралы"
+
+#: pitivi/mainwindow.py:210
+msgid "Show the menu button content"
+msgstr "Мәзір батырмасының мазмұнын көрсету"
+
+#: pitivi/mainwindow.py:262
+#, python-format
+msgid "Unable to load project \"%s\""
+msgstr "«%s» жобасын жүктеу мүмкін емес"
+
+#: pitivi/mediafilespreviewer.py:158
+msgid "Pitivi can not preview this file."
+msgstr "Pitivi бұл файлды алдын ала қарай алмайды."
+
+#: pitivi/mediafilespreviewer.py:159
+msgid "More info"
+msgstr "Қосымша ақпарат"
+
+#: pitivi/mediafilespreviewer.py:269
+#, python-format
+msgid "<b>Resolution</b>: %d×%d"
+msgstr "<b>Ажыратымдылық</b>: %d×%d"
+
+#: pitivi/mediafilespreviewer.py:271 pitivi/mediafilespreviewer.py:288 pitivi/utils/ui.py:582
+#, python-format
+msgid "<b>Duration</b>: %s"
+msgstr "<b>Ұзақтығы</b>: %s"
+
+#: pitivi/mediafilespreviewer.py:461 pitivi/medialibrary.py:1216
+msgid "Error while analyzing a file"
+msgid_plural "Error while analyzing files"
+msgstr[0] "Файлдарды талдау кезінде қате орын алды"
+
+#: pitivi/medialibrary.py:155
+msgid "Keep dialog open"
+msgstr "Сұхбат терезесін ашық қалдыру"
+
+#: pitivi/medialibrary.py:157
+msgid "When importing files keep the dialog open"
+msgstr "Файлдарды импорттау кезінде сұхбат терезесін ашық қалдыру"
+
+#. Translators: Create optimized media for unsupported files.
+#: pitivi/medialibrary.py:163
+msgid "Optimize:"
+msgstr "Оңтайландыру:"
+
+#: pitivi/medialibrary.py:167
+msgid "Unsupported assets"
+msgstr "Қолдау көрсетілмейтін активтер"
+
+#: pitivi/medialibrary.py:168
+msgid "All"
+msgstr "Барлығы"
+
+#: pitivi/medialibrary.py:249
+#, python-format
+msgid "Scale down assets larger than %s×%s px."
+msgstr "%s×%s пиксельден үлкен активтердің масштабын кішірейту."
+
+#: pitivi/medialibrary.py:533 pitivi/medialibrary.py:1093
+msgid "Unknown"
+msgstr "Белгісіз"
+
+#: pitivi/medialibrary.py:639
+msgid "Remove the selected assets"
+msgstr "Таңдалған активтерді өшіру"
+
+#: pitivi/medialibrary.py:646
+msgid "Insert selected assets at the end of the timeline"
+msgstr "Таңдалған активтерді уақыт шкаласының соңына кірістіру"
+
+#: pitivi/medialibrary.py:862
+msgid "Select One or More Files"
+msgstr "Бір немесе бірнеше файлды таңдаңыз"
+
+#: pitivi/medialibrary.py:866 pitivi/medialibrary.py:1290
+msgid "Add"
+msgstr "Қосу"
+
+#: pitivi/medialibrary.py:881 pitivi/render.py:1491
+msgid "Supported file formats"
+msgstr "Қолдау көрсетілетін файл пішімдері"
+
+#. Translators: this string indicates the estimated time
+#. remaining until an action (such as rendering) completes.
+#. The "%s" is an already-localized human-readable duration,
+#. such as "31 seconds", "1 minute" or "1 hours, 14 minutes".
+#. In some languages, "About %s left" can be expressed roughly as
+#. "There remains approximatively %s" (to handle gender and plurals)
+#: pitivi/medialibrary.py:999
+#, python-format
+msgid "Transcoding %d asset: %d%% (About %s left)"
+msgid_plural "Transcoding %d assets: %d%% (About %s left)"
+msgstr[0] "%d активті транскодтау: %d%% (Шамамен %s қалды)"
+
+#: pitivi/medialibrary.py:1105
+msgid "View error"
+msgid_plural "View errors"
+msgstr[0] "Қателерді қарау"
+
+#. Translators: {0:d} is just like %d (integer number variable)
+#: pitivi/medialibrary.py:1107
+#, python-brace-format
+msgid "An error occurred while importing."
+msgid_plural "{0:d} errors occurred while importing."
+msgstr[0] "Импорттау кезінде {0:d} қате орын алды."
+
+#: pitivi/medialibrary.py:1123
+#, python-format
+msgid "The project settings have been set to match file '%s'"
+msgstr "Жоба баптаулары '%s' файлына сәйкес етіп орнатылды"
+
+#: pitivi/medialibrary.py:1219
+msgid "The following file can not be used with Pitivi."
+msgid_plural "The following files can not be used with Pitivi."
+msgstr[0] "Келесі файлдарды Pitivi-мен пайдалануға болмайды."
+
+#: pitivi/medialibrary.py:1249
+msgid "Tag as:"
+msgstr "Келесідей тегтеу:"
+
+#: pitivi/medialibrary.py:1287
+msgid "Enter tag"
+msgstr "Тегті енгізу"
+
+#: pitivi/medialibrary.py:1447
+msgid "Open containing folder"
+msgstr "Қамтитын буманы ашу"
+
+#: pitivi/medialibrary.py:1454
+msgid "Edit"
+msgstr "Түзету"
+
+#: pitivi/medialibrary.py:1483
+msgid "Do not use Optimised Proxy for selected asset"
+msgid_plural "Do not use Optimised Proxies for selected assets"
+msgstr[0] "Таңдалған активтер үшін оңтайландырылған проксилерді пайдаланбау"
+
+#: pitivi/medialibrary.py:1494 pitivi/medialibrary.py:1516 pitivi/medialibrary.py:1538
+msgid "Delete corresponding proxy file"
+msgid_plural "Delete corresponding proxy files"
+msgstr[0] "Сәйкес прокси файлдарын өшіру"
+
+#: pitivi/medialibrary.py:1505
+msgid "Do not use Proxy for selected asset"
+msgid_plural "Do not use Proxies for selected assets"
+msgstr[0] "Таңдалған активтер үшін проксилерді пайдаланбау"
+
+#: pitivi/medialibrary.py:1527
+msgid "Do not use Scaled Proxy for selected asset"
+msgid_plural "Do not use Scaled Proxies for selected assets"
+msgstr[0] "Таңдалған активтер үшін масштабталған проксилерді пайдаланбау"
+
+#: pitivi/medialibrary.py:1549
+msgid "Use Optimised Proxy for selected asset"
+msgid_plural "Use Optimised Proxies for selected assets"
+msgstr[0] "Таңдалған активтер үшін оңтайландырылған проксилерді пайдалану"
+
+#: pitivi/medialibrary.py:1559
+msgid "Use Scaled Proxy for selected asset"
+msgid_plural "Use Scaled Proxies for selected assets"
+msgstr[0] "Таңдалған активтер үшін масштабталған проксилерді пайдалану"
+
+#: pitivi/pluginmanager.py:54
+msgid "User plugins"
+msgstr "Пайдаланушы плагиндері"
+
+#: pitivi/pluginmanager.py:56
+msgid "System plugins"
+msgstr "Жүйелік плагиндер"
+
+#: pitivi/preset.py:228
+msgid "New preset"
+msgstr "Жаңа алдын ала орнату"
+
+#: pitivi/preset.py:231
+#, python-format
+msgid "New preset %d"
+msgstr "Жаңа алдын ала орнату %d"
+
+#. GTK does not allow an empty string as the dialog title, so we use the
+#. same translatable one as render.py's pipeline error message dialog:
+#: pitivi/project.py:178 pitivi/render.py:1320
+msgid "Sorry, something didn’t work right."
+msgstr "Кешіріңіз, бірдеңе дұрыс жұмыс істемеді."
+
+#: pitivi/project.py:181
+msgid ""
+"Pitivi detected a serious backend problem and could not recover from it, even after multiple tries. "
+"The only thing that can be done at this point is to <b>restart Pitivi</b>.\n"
+"\n"
+"This is a rare and severe kind of bug. Please see our <a href=\"http://developer.pitivi.org/"
+"Bug_reporting.html\">bug reporting guide</a> and take the time to report it! We will be very happy to "
+"fix this bug and make sure it does not occur again in future versions.\n"
+"\n"
+"Before closing Pitivi, you can save changes to the existing project file or as a separate project file."
+msgstr ""
+"Pitivi күрделі бэкенд мәселесін анықтады және оны бірнеше рет қайталағаннан кейін де қалпына келтіре "
+"алмады. Қазіргі уақытта жасалуы мүмкін жалғыз нәрсе — <b>Pitivi-ді қайта іске қосу</b>.\n"
+"\n"
+"Бұл сирек кездесетін және ауыр қате түрі. Біздің <a href=\"http://developer.pitivi.org/"
+"Bug_reporting.html\">қате туралы хабарлау нұсқаулығын</a> қарап шығып, ол туралы хабарлауға уақыт "
+"бөліңіз! Біз бұл қатені түзеп, оның болашақ нұсқаларда қайталанбауын қамтамасыз етуге қуанышты "
+"боламыз.\n"
+"\n"
+"Pitivi-ді жаппас бұрын, бар жоба файлына немесе бөлек жоба файлы ретінде өзгерістерді сақтай аласыз."
+
+#: pitivi/project.py:196
+msgid "Close Pitivi"
+msgstr "Pitivi-ді жабу"
+
+#: pitivi/project.py:266
+msgid ""
+"This might be due to a bug or an unsupported project file format. If you were trying to add a media "
+"file to your project, use the \"Import\" button instead."
+msgstr ""
+"Бұл қатеге немесе қолдау көрсетілмейтін жоба файлының пішіміне байланысты болуы мүмкін. Жобаңызға "
+"медиа файлын қосуға тырыссаңыз, оның орнына «Импорттау» батырмасын пайдаланыңыз."
+
+#: pitivi/project.py:288
+msgid "Ignore backup"
+msgstr "Сақтық көшірмені елемеу"
+
+#: pitivi/project.py:290
+msgid "Restore from backup"
+msgstr "Сақтық көшірмеден қалпына келтіру"
+
+#: pitivi/project.py:301
+#, python-format
+msgid ""
+"An autosaved version of your project file was found. It is %s newer than the saved project.\n"
+"\n"
+"Would you like to load it instead?"
+msgstr ""
+"Жоба файлыңыздың автосақталған нұсқасы табылды. Ол сақталған жобадан %s жаңа.\n"
+"\n"
+"Оның орнына осыны жүктегіңіз келе ме?"
+
+#: pitivi/project.py:374
+msgid "You do not have permissions to write to this folder."
+msgstr "Бұл бумаға жазуға рұқсатыңыз жоқ."
+
+#. Save the project to a temporary file.
+#: pitivi/project.py:407
+msgid "project"
+msgstr "жоба"
+
+#: pitivi/project.py:701
+msgid "Pitivi encoding profile"
+msgstr "Pitivi кодтау профилі"
+
+#: pitivi/render.py:115
+msgid "YouTube"
+msgstr "YouTube"
+
+#: pitivi/render.py:116
+msgid "DVD"
+msgstr "DVD"
+
+#. Translators: This must contain exclusively low case alphanum and '-'
+#: pitivi/render.py:317
+msgid "new-profile"
+msgstr "жаңа-профиль"
+
+#. Translators: This must contain exclusively low case alphanum and '-'
+#: pitivi/render.py:321
+#, python-format
+msgid "new-profile-%d"
+msgstr "жаңа-профиль-%d"
+
+#: pitivi/render.py:724
+#, python-format
+msgid "Rendering — %d%% complete"
+msgstr "Рендерлеу — %d%% аяқталды"
+
+#. Translators: this string indicates the estimated time
+#. remaining until an action (such as rendering) completes.
+#. The "%s" is an already-localized human-readable duration,
+#. such as "31 seconds", "1 minute" or "1 hours, 14 minutes".
+#. In some languages, "About %s left" can be expressed roughly as
+#. "There remains approximatively %s" (to handle gender and plurals).
+#: pitivi/render.py:733
+#, python-format
+msgid "About %s left"
+msgstr "Шамамен %s қалды"
+
+#: pitivi/render.py:781
+msgid "Currently rendering"
+msgstr "Қазіргі уақытта рендерленуде"
+
+#: pitivi/render.py:964
+msgid "medium"
+msgstr "орташа"
+
+#: pitivi/render.py:965
+msgid "high"
+msgstr "жоғары"
+
+#. Translators: This item appears in a combobox's popup and
+#. contains as children the unsupported (but still available)
+#. muxers and encoders.
+#: pitivi/render.py:1066
+msgid "Unsupported"
+msgstr "Қолдау көрсетілмейтін"
+
+#: pitivi/render.py:1127 pitivi/render.py:1132
+msgid "A file name is required."
+msgstr "Файл атауы қажет."
+
+#: pitivi/render.py:1135
+msgid ""
+"This file already exists.\n"
+"If you don't want to overwrite it, choose a different file name or folder."
+msgstr ""
+"Бұл файл қазірдің өзінде бар.\n"
+"Оны үстінен жазғыңыз келмесе, басқа файл атауын немесе буманы таңдаңыз."
+
+#: pitivi/render.py:1140
+msgid "Invalid file path"
+msgstr "Жарамсыз файл жолы"
+
+#: pitivi/render.py:1171
+#, python-format
+msgid "%.2f GB"
+msgstr "%.2f ГБ"
+
+#. -1 means round to 10
+#: pitivi/render.py:1178
+#, python-format
+msgid "%d MB"
+msgstr "%d МБ"
+
+#: pitivi/render.py:1314
+msgid ""
+"<b>Make sure your rendering size is even, x264enc might not be able to render otherwise.</b>\n"
+"\n"
+msgstr ""
+"<b>Рендерлеу өлшемінің жұп екеніне көз жеткізіңіз, әйтпесе x264enc рендерлей алмауы мүмкін.</b>\n"
+"\n"
+
+#: pitivi/render.py:1322
+msgid "An error occurred while trying to render your project."
+msgstr "Жобаңызды рендерлеуге тырысқан кезде қате орын алды."
+
+#: pitivi/render.py:1324
+msgid "You might want to check our troubleshooting guide or file a bug report. The GStreamer error was:"
+msgstr ""
+"Біздің ақаулықтарды жою нұсқаулығын тексергіңіз немесе қате туралы есеп жібергіңіз келуі мүмкін. "
+"GStreamer қатесі:"
+
+#: pitivi/render.py:1485
+msgid "Select file path to render"
+msgstr "Рендерлеу үшін файл жолын таңдаңыз"
+
+#: pitivi/render.py:1595 pitivi/render.py:1596 pitivi/render.py:1602
+msgid "Render complete"
+msgstr "Рендерлеу аяқталды"
+
+#: pitivi/render.py:1600
+#, python-format
+msgid "\"%s\" has finished rendering."
+msgstr "«%s» рендерлеуді аяқтады."
+
+#. Translators: This is a tooltip for a clip's keyframe curve,
+#. showing what the keyframe curve affects, the timestamp at
+#. the mouse cursor location, and the value at that timestamp.
+#: pitivi/timeline/elements.py:447
+#, python-format
+msgid ""
+"Property: %s\n"
+"Timestamp: %s\n"
+"Value: %s"
+msgstr ""
+"Қасиет: %s\n"
+"Уақыт белгісі: %s\n"
+"Мәні: %s"
+
+#: pitivi/timeline/elements.py:635
+#, python-format
+msgid "Timestamp: %s"
+msgstr "Уақыт белгісі: %s"
+
+#: pitivi/timeline/elements.py:1719
+msgid "Audio crossfade"
+msgstr "Аудио айқаспалы өтуі"
+
+#: pitivi/timeline/layer.py:197
+msgid "Move layer to top"
+msgstr "Қабатты ең жоғарыға жылжыту"
+
+#: pitivi/timeline/layer.py:203
+msgid "Move layer up"
+msgstr "Қабатты жоғарыға жылжыту"
+
+#: pitivi/timeline/layer.py:209
+msgid "Move layer down"
+msgstr "Қабатты төменге жылжыту"
+
+#: pitivi/timeline/layer.py:215
+msgid "Move layer to bottom"
+msgstr "Қабатты ең төменге жылжыту"
+
+#: pitivi/timeline/layer.py:221
+msgid "Delete layer"
+msgstr "Қабатты өшіру"
+
+#: pitivi/timeline/layer.py:342
+#, python-format
+msgid "Layer %d"
+msgstr "Қабат %d"
+
+#: pitivi/timeline/ruler.py:242
+#, python-format
+msgid "Frame #%d"
+msgstr "Кадр #%d"
+
+#: pitivi/timeline/timeline.py:87
+msgid "Markers magnetic by default"
+msgstr "Үнсіз келісім бойынша маркерлер магнитті"
+
+#: pitivi/timeline/timeline.py:89
+msgid "Whether markers created on new clips will be snapping targets by default."
+msgstr "Жаңа клиптерде жасалған маркерлер үнсіз келісім бойынша жабысу мақсаттары бола ма."
+
+#: pitivi/timeline/timeline.py:99
+msgid "Snap distance"
+msgstr "Жабысу қашықтығы"
+
+#: pitivi/timeline/timeline.py:100
+msgid "Threshold (in pixels) at which two clips will snap together when dragging or trimming."
+msgstr "Сүйреу немесе қию кезінде екі клип бірге жабысатын шек (пиксельмен)."
+
+#: pitivi/timeline/timeline.py:112
+msgid "Image clip duration"
+msgstr "Сурет клипінің ұзақтығы"
+
+#: pitivi/timeline/timeline.py:114
+msgid "Default clip length (in milliseconds) of images when inserting on the timeline."
+msgstr "Уақыт шкаласына кірістіру кезіндегі суреттердің бастапқы клип ұзындығы (миллисекундпен)."
+
+#: pitivi/timeline/timeline.py:125
+msgid "Left click also seeks"
+msgstr "Сол жақпен шерту де іздейді"
+
+#: pitivi/timeline/timeline.py:127
+msgid "Whether left-clicking also seeks besides selecting and editing clips."
+msgstr ""
+"Клиптерді таңдау және түзетумен қатар сол жақпен шертудің де іздейтінін немесе іздемейтінін көрсетеді."
+
+#: pitivi/timeline/timeline.py:419 pitivi/timeline/timeline.py:1995
+msgid "Add layer"
+msgstr "Қабатты қосу"
+
+#: pitivi/timeline/timeline.py:1924
+msgid "Action Search"
+msgstr "Әрекетті іздеу"
+
+#: pitivi/timeline/timeline.py:1931
+msgid "Action Cut Mode"
+msgstr "Әрекет қию режимі"
+
+#: pitivi/timeline/timeline.py:1938
+msgid "Action Locked Playhead Mode"
+msgstr "Ойнату басы құлыпталған әрекет режимі"
+
+#: pitivi/timeline/timeline.py:1946
+msgid "Delete selected clips"
+msgstr "Таңдалған клиптерді өшіру"
+
+#: pitivi/timeline/timeline.py:1953
+msgid "Delete selected clips and shift following ones"
+msgstr "Таңдалған клиптерді өшіріп, келесілерін жылжыту"
+
+#: pitivi/timeline/timeline.py:1960
+msgid "Group selected clips together"
+msgstr "Таңдалған клиптерді бірге топтастыру"
+
+#: pitivi/timeline/timeline.py:1967
+msgid "Ungroup selected clips"
+msgstr "Таңдалған клиптерді топтан шығару"
+
+#: pitivi/timeline/timeline.py:1974
+msgid "Cut selected clips"
+msgstr "Таңдалған клиптерді қию"
+
+#: pitivi/timeline/timeline.py:1981
+msgid "Copy selected clips"
+msgstr "Таңдалған клиптерді көшіру"
+
+#: pitivi/timeline/timeline.py:1988
+msgid "Paste selected clips"
+msgstr "Таңдалған клиптерді кірістіру"
+
+#: pitivi/timeline/timeline.py:2002
+msgid "Seek to the first clip edge after the playhead"
+msgstr "Ойнату басынан кейінгі бірінші клип жиегіне өту"
+
+#: pitivi/timeline/timeline.py:2009
+msgid "Seek to the first clip edge before the playhead"
+msgstr "Ойнату басына дейінгі бірінші клип жиегіне өту"
+
+#: pitivi/timeline/timeline.py:2016
+msgid "Shift selected clips one frame forward"
+msgstr "Таңдалған клиптерді бір кадрға алға жылжыту"
+
+#: pitivi/timeline/timeline.py:2023
+msgid "Shift selected clips one frame backward"
+msgstr "Таңдалған клиптерді бір кадрға артқа жылжыту"
+
+#: pitivi/timeline/timeline.py:2030
+msgid "Snap selected clips to the next clip"
+msgstr "Таңдалған клиптерді келесі клипке жабыстыру"
+
+#: pitivi/timeline/timeline.py:2037
+msgid "Snap selected clips to the previous clip"
+msgstr "Таңдалған клиптерді алдыңғы клипке жабыстыру"
+
+#: pitivi/timeline/timeline.py:2044
+msgid "Add an effect to the selected clip"
+msgstr "Таңдалған клипке эффектіні қосу"
+
+#: pitivi/timeline/timeline.py:2061
+msgid "Split the clip at the position"
+msgstr "Клипті осы орында бөлу"
+
+#: pitivi/timeline/timeline.py:2068
+msgid "Add keyframe to the keyframe curve of selected clip"
+msgstr "Таңдалған клиптің кілттік кадр қисығына кілттік кадрды қосу"
+
+#: pitivi/timeline/timeline.py:2073
+msgid "Timeline Navigation"
+msgstr "Уақыт шкаласында навигация"
+
+#: pitivi/timeline/timeline.py:2081
+msgid "Zoom in"
+msgstr "Үлкейту"
+
+#: pitivi/timeline/timeline.py:2089
+msgid "Zoom out"
+msgstr "Кішірейту"
+
+#: pitivi/timeline/timeline.py:2097
+msgid "Adjust zoom to fit the project to the window"
+msgstr "Жобаны терезеге сыйдыру үшін масштабты реттеу"
+
+#: pitivi/timeline/timeline.py:2110
+msgid "Seek backward one frame"
+msgstr "Бір кадрға артқа өту"
+
+#: pitivi/timeline/timeline.py:2117
+msgid "Seek forward one frame"
+msgstr "Бір кадрға алға өту"
+
+#: pitivi/timeline/timeline.py:2125
+msgid "Seek backward one second"
+msgstr "Бір секундқа артқа өту"
+
+#: pitivi/timeline/timeline.py:2133
+msgid "Seek forward one second"
+msgstr "Бір секундқа алға өту"
+
+#: pitivi/timeline/timeline.py:2141
+msgid "Add a marker"
+msgstr "Маркерді қосу"
+
+#: pitivi/timeline/timeline.py:2148
+msgid "Seek to the first marker before the playhead"
+msgstr "Ойнату басына дейінгі бірінші маркерге өту"
+
+#: pitivi/timeline/timeline.py:2155
+msgid "Seek to the first marker after the playhead"
+msgstr "Ойнату басынан кейінгі бірінші маркерге өту"
+
+#: pitivi/trackerperspective.py:403
+msgid "Object {}"
+msgstr "Объект {}"
+
+#: pitivi/trackerperspective.py:665
+msgid "Go back"
+msgstr "Артқа қайту"
+
+#: pitivi/trackerperspective.py:739
+msgid "Track objects"
+msgstr "Объектілерді бақылау"
+
+#: pitivi/transitions.py:77
+msgid "Normal"
+msgstr "Қалыпты"
+
+#: pitivi/transitions.py:82
+msgid "Loop"
+msgstr "Қайталау"
+
+#: pitivi/transitions.py:89
+msgid "Reverse direction"
+msgstr "Кері бағыт"
+
+#: pitivi/transitions.py:102
+msgid ""
+"Create a transition by overlapping two adjacent clips on the same layer. Click the transition on the "
+"timeline to change the transition type."
+msgstr ""
+"Бір қабаттағы екі іргелес клипті бір-біріне қабаттастыру арқылы өтуді жасаңыз. Өту түрін өзгерту үшін "
+"уақыт шкаласындағы өтуді шертіңіз."
+
+#: pitivi/transitions.py:225
+msgid "Slow"
+msgstr "Баяу"
+
+#: pitivi/transitions.py:227
+msgid "Fast"
+msgstr "Жылдам"
+
+#: pitivi/transitions.py:229
+msgid "Epileptic"
+msgstr "Эпилептикалық"
+
+#: pitivi/transitions.py:233
+msgid "Sharp"
+msgstr "Өткір"
+
+#: pitivi/transitions.py:235
+msgid "Smooth"
+msgstr "Бірқалыпты"
+
+#. Translators: The list of markers created by the user.
+#: pitivi/utils/markers.py:34
+msgid "User markers"
+msgstr "Пайдаланушы маркерлері"
+
+#. Translators: The list of markers representing detected audio beats.
+#: pitivi/utils/markers.py:36
+msgid "Beats"
+msgstr "Биттер"
+
+#: pitivi/utils/misc.py:281
+msgid ""
+"Failed to open the user manual. Make sure to have either the `yelp` GNOME documentation viewer or a "
+"web browser installed"
+msgstr ""
+"Пайдаланушы нұсқаулығын ашу сәтсіз аяқталды. `yelp` GNOME құжаттама қараушысы немесе веб браузер "
+"орнатылғанына көз жеткізіңіз"
+
+#: pitivi/utils/misc.py:290
+msgid ""
+"The system's locale that you are using is not UTF-8 capable. Unicode support is required for Python3 "
+"software like Pitivi. Please correct your system settings; if you try to use Pitivi with a broken "
+"locale, weird bugs will happen."
+msgstr ""
+"Сіз пайдаланып отырған жүйенің локалі UTF-8-ді қолдамайды. Pitivi сияқты Python3 бағдарламалық "
+"қамтамасы үшін Unicode қолдауы қажет. Жүйе баптауларын түзетіңіз; егер Pitivi-ді бұзылған локальмен "
+"пайдалануға тырыссаңыз, оғаш қателер орын алады."
+
+#: pitivi/utils/misc.py:300
+msgid "Error while decoding a string"
+msgstr "Жолды декодтау кезінде қате орын алды"
+
+#: pitivi/utils/proxy.py:64
+msgid "Max number of parallel transcoding jobs"
+msgstr "Параллель транскодтау тапсырмаларының макс. саны"
+
+#: pitivi/utils/proxy.py:75
+msgid "Max CPU usage dedicated to transcoding"
+msgstr "Транскодтауға бөлінген процессордың макс. пайдаланылуы"
+
+#. Translators: 'fps' is for 'frames per second'
+#: pitivi/utils/ui.py:404
+msgid "{0:s} fps"
+msgstr "{0:s} кадр/с"
+
+#: pitivi/utils/ui.py:424
+#, python-brace-format
+msgid "{0:n} kHz"
+msgstr "{0:n} кГц"
+
+#: pitivi/utils/ui.py:433
+msgid "Mono"
+msgstr "Моно"
+
+#: pitivi/utils/ui.py:434
+msgid "Stereo"
+msgstr "Стерео"
+
+#: pitivi/utils/ui.py:435
+msgid "6 (5.1)"
+msgstr "6 (5.1)"
+
+#: pitivi/utils/ui.py:436
+msgid "8 (7.1)"
+msgstr "8 (7.1)"
+
+#: pitivi/utils/ui.py:561
+#, python-format
+msgid "<b>Duration:</b> %s"
+msgstr "<b>Ұзақтығы:</b> %s"
+
+#: pitivi/utils/ui.py:564
+#, python-format
+msgid "<b>Proxy creation progress:</b> %d%%"
+msgstr "<b>Прокси жасау барысы:</b> %d%%"
+
+#: pitivi/utils/ui.py:578
+#, python-format
+msgid "<b>Path</b>: %s"
+msgstr "<b>Жолы</b>: %s"
+
+#: pitivi/utils/ui.py:588
+#, python-format
+msgid "<b>Size</b>: %s"
+msgstr "<b>Өлшемі</b>: %s"
+
+#: pitivi/utils/ui.py:624
+#, python-format
+msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+msgstr[0] "<b>Аудио:</b> %d арна %d <i>Гц</i> жиілікте (%d <i>бит</i>)"
+
+#: pitivi/utils/ui.py:636
+#, python-format
+msgid "<b>Video:</b> %d×%d <i>pixels</i> at %s <i>fps</i>"
+msgstr "<b>Видео:</b> %d×%d <i>пиксель</i>, %s <i>кадр/с</i> жиілігінде"
+
+#: pitivi/utils/ui.py:639
+#, python-format
+msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+msgstr "<b>Сурет:</b> %d×%d <i>пиксель</i>"
+
+#: pitivi/utils/ui.py:693 pitivi/utils/ui.py:720 pitivi/utils/ui.py:744
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d сағат"
+
+#: pitivi/utils/ui.py:696 pitivi/utils/ui.py:723 pitivi/utils/ui.py:747
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d минут"
+
+#: pitivi/utils/ui.py:699 pitivi/utils/ui.py:726 pitivi/utils/ui.py:750
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d секунд"
+
+#: pitivi/utils/ui.py:718
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "%d күн"
+
+#: pitivi/utils/ui.py:759
+msgid "Just now"
+msgstr "Жаңа ғана"
+
+#: pitivi/utils/ui.py:762
+msgid "An hour ago"
+msgstr "Бір сағат бұрын"
+
+#: pitivi/utils/ui.py:765
+msgid "Today"
+msgstr "Бүгін"
+
+#: pitivi/utils/ui.py:768
+msgid "Yesterday"
+msgstr "Кеше"
+
+#: pitivi/utils/ui.py:777
+msgid "About a year ago"
+msgstr "Шамамен бір жыл бұрын"
+
+#: pitivi/utils/ui.py:780
+#, python-format
+msgid "About %d year ago"
+msgid_plural "About %d years ago"
+msgstr[0] "Шамамен %d жыл бұрын"
+
+#: pitivi/utils/widgets.py:74
+msgid "Implement Me"
+msgstr "Мені іске асыру"
+
+#: pitivi/utils/widgets.py:836
+msgid "No properties."
+msgstr "Қасиеттер жоқ."
+
+#. Avoid the ugly selection outline
+#: pitivi/utils/widgets.py:961
+msgid "Show keyframes for this value"
+msgstr "Бұл мән үшін кілттік кадрларды көрсету"
+
+#: pitivi/utils/widgets.py:1145
+#, python-format
+msgid "Properties for %s"
+msgstr "%s үшін қасиеттер"
+
+#: pitivi/utils/widgets.py:1228
+msgid "Zoom Fit"
+msgstr "Сыйдырып масштабтау"
+
+#: pitivi/utils/widgets.py:1233
+msgid "Zoom"
+msgstr "Масштаб"
+
+#. Translators: %s represents a duration, for example "10 minutes"
+#: pitivi/utils/widgets.py:1309
+#, python-format
+msgid "%s displayed"
+msgstr "%s көрсетілді"
+
+#: pitivi/utils/widgets.py:1313
+#, python-format
+msgid "%d nanoseconds displayed, because we can"
+msgstr "%d наносекунд көрсетілді, өйткені біз жасай аламыз"
+
+#: pitivi/viewer/guidelines.py:59
+msgid "3 by 3"
+msgstr "3 те 3"
+
+#: pitivi/viewer/guidelines.py:60
+msgid "Vertical/Horizontal"
+msgstr "Вертикалды/Горизонталды"
+
+#: pitivi/viewer/guidelines.py:61
+msgid "Diagonals"
+msgstr "Диагоналдар"
+
+#: pitivi/viewer/guidelines.py:92
+msgid "Composition Guidelines"
+msgstr "Композициялық нұсқаулықтар"
+
+#: pitivi/viewer/viewer.py:81
+msgid "Currently playing"
+msgstr "Қазіргі уақытта ойнатылуда"
+
+#: pitivi/viewer/viewer.py:306
+msgid "Select composition guidelines"
+msgstr "Композициялық нұсқаулықтарды таңдау"
+
+#: pitivi/viewer/viewer.py:314
+msgid "Go to the beginning of the timeline"
+msgstr "Уақыт шкаласының басына өту"
+
+#: pitivi/viewer/viewer.py:323
+msgid "Go back one second"
+msgstr "Бір секундқа артқа өту"
+
+#: pitivi/viewer/viewer.py:336
+msgid "Go forward one second"
+msgstr "Бір секундқа алға өту"
+
+#: pitivi/viewer/viewer.py:345
+msgid "Go to the end of the timeline"
+msgstr "Уақыт шкаласының соңына өту"
+
+#: pitivi/viewer/viewer.py:352
+msgid ""
+"Enter a timecode or frame number\n"
+"and press \"Enter\" to go to that position"
+msgstr ""
+"Таймкодты немесе кадр нөмірін енгізіңіз\n"
+"және сол орынға өту үшін «Enter» пернесін басыңыз"
+
+#: pitivi/viewer/viewer.py:363
+msgid ""
+"Detach the viewer\n"
+"You can re-attach it by closing the newly created window."
+msgstr ""
+"Қараушыны ажырату\n"
+"Оны жаңадан құрылған терезені жабу арқылы қайта тіркей аласыз."
+
+#: pitivi/viewer/viewer.py:390
+msgid "Viewer"
+msgstr "Қараушы"
+
+#: pitivi/viewer/viewer.py:398
+msgid "Toggle the currently selected composition guidelines"
+msgstr "Қазіргі уақытта таңдалған композициялық нұсқаулықтарды ауыстыру"
+
+#: pitivi/viewer/viewer.py:406
+msgid "Toggle safe areas on viewer"
+msgstr "Қараушыда қауіпсіз аймақтарды ауыстыру"
+
+#: pitivi/viewer/viewer.py:548 pitivi/viewer/viewer.py:607
+msgid "Show this window in fullscreen"
+msgstr "Бұл терезені толық экранда көрсету"
+
+#: pitivi/viewer/viewer.py:604
+msgid "Exit fullscreen mode"
+msgstr "Толық экран режимінен шығу"
+
+#: plugins/console/console.py:123
+msgid "Console"
+msgstr "Консоль"
+
+#. Translators: The color of the content from stderr.
+#: plugins/console/console.py:130
+msgid "Standard error color"
+msgstr "Стандартты қате түсі"
+
+#. Translators: The color of the content from stdout.
+#: plugins/console/console.py:135
+msgid "Standard output color"
+msgstr "Стандартты шығыс түсі"
+
+#: plugins/console/console.py:139
+msgid "Font"
+msgstr "Қаріп"
+
+#: plugins/console/console.py:146 plugins/console/console.py:164
+msgid "Developer Console"
+msgstr "Әзірлеуші консолі"
+
+#: plugins/console/console.py:188
+msgid "Pitivi Console"
+msgstr "Pitivi консолі"
+
+#: plugins/console/console.py:199
+msgid "You can use the following shortcuts:"
+msgstr "Келесі жарлықтарды пайдалана аласыз:"
+
+#: plugins/console/console.py:204
+#, python-brace-format
+msgid "Type \"{help}(<command>)\" for more information."
+msgstr "Қосымша ақпарат алу үшін «{help}(<command>)» теріңіз."
+
+#: plugins/console/utils.py:81
+#, python-brace-format
+msgid "Not possible to override {key}, because shortcuts commands are read-only."
+msgstr "{key} пернесін қайта анықтау мүмкін емес, себебі жарлықтар командалары тек оқуға арналған."
