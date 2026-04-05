@@ -1,0 +1,3249 @@
+# Serbian translation for pitivi.
+# Copyright (C) 2026 pitivi's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pitivi package.
+# Марко Костић <marko.m.kostic@gmail.com>,  2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi master\n"
+"POT-Creation-Date: 2026-03-15 10:27+0000\n"
+"PO-Revision-Date: 2026-04-04 17:32+0200\n"
+"Last-Translator: Марко Костић <marko.m.kostic@gmail.com>\n"
+"Language-Team: Serbian <Serbian>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 3.9\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Марко Костић <marko.m.kostic@gmail.com>\n"
+"Превод на српски језик https://гном.срб"
+
+#. (itstool) path: credit/name
+#: C/about.page:7 C/cheatsheet.page:8 C/codecscontainers.page:7
+#: C/effects.page:8 C/gstreamer.page:7 C/importingmpegts.page:8
+#: C/importing.page:7 C/index.page:9 C/keyframecurves.page:9 C/layers.page:7
+#: C/mainwindow.page:9 C/medialibrary.page:7 C/movearoundtimeline.page:7
+#: C/presets.page:9 C/rendering.page:7 C/savescreenshot.page:7
+#: C/selectiongrouping.page:11 C/splitting.page:7 C/sysreq.page:7
+#: C/transitions.page:11 C/trimming.page:7 C/usingclips.page:7
+#: C/usingeffects.page:11 C/workwithprojects.page:7
+msgid "Jean-François Fortin Tam"
+msgstr "Жан-Франсоа Фортин Там"
+
+#. (itstool) path: credit/name
+#: C/about.page:11 C/gstreamer.page:11 C/importing.page:11 C/index.page:13
+#: C/keyframecurves.page:13 C/layers.page:11 C/movearoundtimeline.page:11
+#: C/rendering.page:11 C/selectiongrouping.page:15 C/splitting.page:11
+#: C/sysreq.page:11 C/transitions.page:15 C/trimming.page:11
+#: C/usingclips.page:11 C/workwithprojects.page:11
+msgid "Mario Blättermann"
+msgstr "Марио Блетерман"
+
+#. (itstool) path: info/desc
+#: C/about.page:14
+msgid "Current state of this user manual and call for participation."
+msgstr "Тренутно стање овог корисничког упутства и позив за учешће."
+
+#. (itstool) path: license/p
+#: C/about.page:18 C/cheatsheet.page:12 C/codecscontainers.page:15
+#: C/effects.page:17 C/gstreamer.page:22 C/importingmpegts.page:15
+#: C/importing.page:22 C/index.page:17 C/keyframecurves.page:28
+#: C/layers.page:22 C/mainwindow.page:20 C/medialibrary.page:22
+#: C/movearoundtimeline.page:26 C/presets.page:20 C/rendering.page:22
+#: C/savescreenshot.page:11 C/selectiongrouping.page:22 C/splitting.page:22
+#: C/sysreq.page:22 C/transitions.page:22 C/trimming.page:22
+#: C/usingclips.page:26 C/usingeffects.page:16 C/workwithprojects.page:22
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Creative Commons Share Alike 3.0"
+
+#. (itstool) path: page/title
+#: C/about.page:21
+msgid "About this manual"
+msgstr "О овом упутству"
+
+#. (itstool) path: page/p
+#: C/about.page:22
+msgid "This user manual is written and maintained by Jean-François Fortin Tam."
+msgstr "Ово корисничко упутство је написао и одржава га Жан-Франсоа Фортин Там."
+
+#. (itstool) path: section/title
+#: C/about.page:24
+msgid "Work in progress"
+msgstr "Рад у току"
+
+#. (itstool) path: section/p
+#: C/about.page:25
+msgid ""
+"You may encounter unwritten portions due to features that have not yet been "
+"implemented in Pitivi at the time of writing."
+msgstr "Можда ћете наићи на ненаписане делове због могућности које још нису примењене у Питивију у време писања."
+
+#. (itstool) path: section/p
+#: C/about.page:26
+msgid ""
+"You may also encounter smaller areas which have been documented in this "
+"manual but have not been implemented in Pitivi – those are areas where the "
+"design and expected user interaction are quite narrow/certain."
+msgstr "Такође можете наићи на мање области које су документоване у овом упутству, али нису примењене у Питивију – то су области где су дизајн и очекивана интеракција корисника сасвим јасни/извесни."
+
+#. (itstool) path: section/title
+#: C/about.page:29
+msgid "Patches welcome"
+msgstr "Закрпе су добродошле"
+
+#. (itstool) path: section/p
+#: C/about.page:30
+msgid ""
+"If you happen to find errors, missing information or unclear passages in "
+"this manual, please feel free to submit corrections. You can find contact "
+"information on <link href=\"http://jeff.ecchi.ca/\">my personal website</"
+"link>. You can also <link href=\"https://gitlab.gnome.org/GNOME/pitivi/"
+"issues?label_name%5B%5D=8.+User+Docs\">file bugs in our bug tracker</link>."
+msgstr "Ако случајно пронађете грешке, податке који недостају или нејасне делове у овом упутству, слободно пошаљите исправке. Податке за контакт можете пронаћи на <link href=\"http://jeff.ecchi.ca/\">мојој личној веб страници</link>. Такође можете <link href=\"https://gitlab.gnome.org/GNOME/pitivi/issues?label_name%5B%5D=8.+User+Docs\">пријавити грешке у нашем пратиоцу грешака</link>."
+
+#. (itstool) path: page/title
+#: C/cheatsheet.page:15
+msgid "Keyboard shortcuts and cheatsheet"
+msgstr "Пречице на тастатури и подсетник"
+
+#. (itstool) path: page/p
+#: C/cheatsheet.page:16
+msgid ""
+"This page is a list of important shortcuts to access commonly used or hidden "
+"features. Take the time to get familiar with them as they will improve your "
+"productivity tremendously."
+msgstr "Ова страница је списак важних пречица за приступ уобичајено коришћеним или скривеним могућностима. Одвојите време да се упознате са њима јер ће оне знатно побољшати вашу продуктивност."
+
+#. (itstool) path: section/title
+#: C/cheatsheet.page:18
+msgid "General"
+msgstr "Опште"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:21
+msgid "<keyseq><key>Ctrl</key><key>N</key></keyseq>: Create a new project"
+msgstr "<keyseq><key>Ctrl</key><key>N</key></keyseq>: Направи нови пројекат"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:24
+msgid "<keyseq><key>Ctrl</key><key>O</key></keyseq>: Open a project file"
+msgstr "<keyseq><key>Ctrl</key><key>O</key></keyseq>: Отвори датотеку пројекта"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:27
+msgid "<keyseq><key>Ctrl</key><key>S</key></keyseq>: Save the current project"
+msgstr "<keyseq><key>Ctrl</key><key>S</key></keyseq>: Сачувај тренутни пројекат"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:30
+msgid "<keyseq><key>Ctrl</key><key>Q</key></keyseq>: Quit the application"
+msgstr "<keyseq><key>Ctrl</key><key>Q</key></keyseq>: Изађи из програма"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:33
+msgid "<keyseq><key>Ctrl</key><key>Z</key></keyseq>: Undo"
+msgstr "<keyseq><key>Ctrl</key><key>Z</key></keyseq>: Опозови"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:36
+msgid "<keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>: Redo"
+msgstr "<keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>: Понови"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:39
+msgid "<key>F11</key>: Toggle fullscreen mode"
+msgstr "<key>F11</key>: Укључи/искључи приказ преко целог екрана"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:42
+msgid "<key>F1</key>: Show the user manual"
+msgstr "<key>F1</key>: Прикажи корисничко упутство"
+
+#. (itstool) path: section/title
+#: C/cheatsheet.page:47
+msgid "Media Library"
+msgstr "Библиотека медија"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:50
+msgid "<key>Enter</key>: Preview (playback) the selected clip"
+msgstr "<key>Enter</key>: Прегледај (пусти) изабрани снимак"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:53
+msgid "<key>Insert</key>: Insert the selected clips into the timeline"
+msgstr "<key>Insert</key>: Убаци изабране снимке на временску линију"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:56
+msgid ""
+"<keyseq><key>Ctrl</key><key>Delete</key></keyseq>: Remove the selected clips "
+"from the project"
+msgstr "<keyseq><key>Ctrl</key><key>Delete</key></keyseq>: Уклони изабране снимке из пројекта"
+
+#. (itstool) path: section/title
+#. (itstool) path: item/p
+#: C/cheatsheet.page:61 C/mainwindow.page:47 C/mainwindow.page:77
+msgid "Timeline"
+msgstr "Timeline"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:64
+msgid "<key>Spacebar</key>: Toggle playback."
+msgstr "<key>Spacebar</key>: Покрени/заустави пуштање."
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:67
+msgid ""
+"<key>S</key>: Split the clips at the current playhead position. If there are "
+"selected clips, only those will be split."
+msgstr "<key>S</key>: Подели снимке на тренутном положају главе пуштања. Ако има изабраних снимака, само они ће бити подељени."
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:70
+msgid "<key>Delete</key>: Remove selected clips from the timeline."
+msgstr "<key>Delete</key>: Уклони изабране снимке са временске линије."
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:73
+msgid ""
+"<key>←</key> and <key>→</key>: Seek one frame backwards or forwards. This "
+"depends on your project framerate."
+msgstr "<key>←</key> и <key>→</key>: Премотај један кадар уназад или унапред. Ово зависи од учесталости кадрова вашег пројекта."
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:76
+msgid ""
+"<keyseq><key>Shift</key><key>←</key></keyseq> and <keyseq><key>Shift</"
+"key><key>→</key></keyseq>: Seek one second backwards or forwards."
+msgstr "<keyseq><key>Shift</key><key>←</key></keyseq> и <keyseq><key>Shift</key><key>→</key></keyseq>: Премотај једну секунду уназад или унапред."
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:79
+msgid ""
+"<keyseq><key>Ctrl</key><key>+</key></keyseq> and <keyseq><key>Ctrl</"
+"key><key>-</key></keyseq>: Zoom in or zoom out. You can also use <key>Ctrl</"
+"key> with the mouse wheel to control the zoom more efficiently."
+msgstr "<keyseq><key>Ctrl</key><key>+</key></keyseq> и <keyseq><key>Ctrl</key><key>-</key></keyseq>: Увећај или умањи. Такође можете користити <key>Ctrl</key> са точкићем миша за ефикасније управљање увећањем."
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:82
+msgid ""
+"<keyseq><key>Ctrl</key><key>0</key></keyseq>: Adjust the zoom to fit the "
+"timeline."
+msgstr "<keyseq><key>Ctrl</key><key>0</key></keyseq>: Подеси увећање да се уклопи на временску линију."
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:85
+msgid "<key>Shift</key>+drag: Ripple edit."
+msgstr "<key>Shift</key>+превлачење: Таласасто уређивање."
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:88
+msgid "<key>Ctrl</key>+drag: Roll edit."
+msgstr "<key>Ctrl</key>+превлачење: Кружно уређивање."
+
+#. (itstool) path: section/title
+#. (itstool) path: item/p
+#: C/cheatsheet.page:95 C/mainwindow.page:41
+msgid "Viewer"
+msgstr "Прегледач"
+
+#. (itstool) path: item/p
+#: C/cheatsheet.page:98
+msgid "<key>'</key>: Toggle the safe areas"
+msgstr "<key>'</key>: Укључи/искључи безбедне области"
+
+#. (itstool) path: credit/name
+#: C/codecscontainers.page:11 C/effects.page:12 C/gstreamer.page:15
+#: C/importing.page:15 C/keyframecurves.page:17 C/layers.page:15
+#: C/mainwindow.page:13 C/medialibrary.page:15 C/movearoundtimeline.page:19
+#: C/presets.page:13 C/rendering.page:15 C/selectiongrouping.page:7
+#: C/splitting.page:15 C/sysreq.page:15 C/transitions.page:7 C/trimming.page:15
+#: C/usingclips.page:15 C/usingeffects.page:7 C/workwithprojects.page:15
+msgid "Tomáš Karger"
+msgstr "Томаш Каргер"
+
+#. (itstool) path: info/desc
+#: C/codecscontainers.page:17
+msgid ""
+"What is the difference between OGG and Vorbis? AVI and DivX? x264 and H.264? "
+"Learn about codecs and container formats here."
+msgstr "Која је разлика између OGG-а и Vorbis-а? AVI-ја и DivX-а? x264 и H.264? Сазнајте више о кодецима и форматима садржалаца овде."
+
+#. (itstool) path: page/title
+#: C/codecscontainers.page:19
+msgid "Understanding codecs and containers"
+msgstr "Разумевање кодека и садржалаца"
+
+#. (itstool) path: page/p
+#: C/codecscontainers.page:20
+msgid ""
+"The distinction between codecs and container file formats is often "
+"ambiguous. This is in part due to the general lack of standardization, "
+"confusing marketing terms and filename extensions. This page attempts to "
+"clarify this distinction briefly and without going into technical details. "
+"If you want to learn more about containers and codecs, you should probably "
+"look at Wikipedia's page on <link href=\"http://en.wikipedia.org/wiki/"
+"Digital_container_format\">containers</link> and <link href=\"http://"
+"en.wikipedia.org/wiki/Codec\">codecs</link>."
+msgstr "Разлика између кодека и формата датотека садржалаца је често двосмислена. Ово је делом због општег недостатка стандардизације, збуњујућих маркетиншких термина и проширења назива датотека. Ова страница покушава да укратко разјасни ову разлику без улажења у техничке детаље. Ако желите да сазнате више о садржаоцима и кодецима, вероватно би требало да погледате Википедијину страницу о <link href=\"http://en.wikipedia.org/wiki/Digital_container_format\">садржаоцима</link> и <link href=\"http://en.wikipedia.org/wiki/Codec\">кодецима</link>."
+
+#. (itstool) path: page/p
+#: C/codecscontainers.page:21
+msgid ""
+"<em>Container</em> is what we typically associate with the file format. "
+"Containers \"contain\" the various components of a video: the stream of "
+"images, the sound, and anything else. For example, you could have multiple "
+"soundtracks and subtitles included in a video file, if the container format "
+"allows it. Example of popular containers are OGG, Matroska, AVI, MPEG."
+msgstr "<em>Садржалац</em> је оно што обично повезујемо са форматом датотеке. Садржаоци „садрже“ различите компоненте видео снимка: ток слика, звук и све остало. На пример, можете имати више звучних записа и титлова укључених у видео датотеку, ако формат садржаоца то дозвољава. Примери популарних садржалаца су OGG, Matroska, AVI, MPEG."
+
+#. (itstool) path: page/p
+#: C/codecscontainers.page:22
+msgid ""
+"<em>Codecs</em> are ways of \"coding\" and \"decoding\" streams. Their job "
+"is typically to compress data (and decompress it when playing it back) so "
+"that you can store and transmit files with a smaller filesize. There are "
+"many codecs available out there, each with their strengths, weaknesses and "
+"peculiarities, and choosing the right codec with the right settings for the "
+"right situation is close to be a form of art in itself."
+msgstr "<em>Кодеци</em> су начини „кодирања“ и „декодирања“ токова. Њихов посао је обично да сажму податке (и да их распакују приликом пуштања) како бисте могли да складиштите и преносите датотеке мање величине. Постоји много доступних кодека, сваки са својим предностима, манама и особеностима, а одабир правог кодека са правим подешавањима за праву ситуацију је скоро па уметност за себе."
+
+#. (itstool) path: figure/title
+#: C/codecscontainers.page:24
+msgid "The relationship between containers and codecs"
+msgstr "Однос између контејнера и кодека"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/codecscontainers.page:25
+msgctxt "_"
+msgid ""
+"external ref='figures/codecscontainers.jpg' "
+"md5='e43e6a92cda311d0cd8c24fb0df67a17'"
+msgstr "external ref='figures/codecscontainers.jpg' md5='e43e6a92cda311d0cd8c24fb0df67a17'"
+
+#. (itstool) path: info/desc
+#: C/effects.page:15
+msgid "Adding special effects to your video and audio clips"
+msgstr "Додавање специјалних ефеката вашим видео и аудио снимцима"
+
+#. (itstool) path: page/title
+#: C/effects.page:20
+msgid "Introduction to effects"
+msgstr "Увод у ефекте"
+
+#. (itstool) path: page/p
+#: C/effects.page:21
+msgid ""
+"<app>Pitivi</app> offers a wide variety of video and audio effects to spice "
+"up your movies. Available effects depend on the software installed on your "
+"computer. If you don't see anything (or only a handful of effects) in the "
+"effect library, make sure that the <app>gnome-video-effects</app> package is "
+"installed on your system. Alternatively, you can look for packages "
+"containing GStreamer or frei0r effect plugins that are available in the "
+"repositories of your distribution."
+msgstr "<app>Питиви</app> нуди широк избор видео и аудио ефеката како бисте обогатили своје филмове. Доступни ефекти зависе од софтвера инсталираног на вашем рачунару. Ако не видите ништа (или само неколико ефеката) у библиотеци ефеката, уверите се да је пакет <app>gnome-video-effects</app> инсталиран на вашем систему. Алтернативно, можете потражити пакете који садрже прикључке ефеката за GStreamer или frei0r који су доступни у ризницама ваше дистрибуције."
+
+#. (itstool) path: note/p
+#: C/effects.page:23
+msgid ""
+"Effects are non-destructive: they are only applied to the resulting rendered "
+"movie and do not affect your source files."
+msgstr "Ефекти нису деструктивни: они се примењују само на резултујући извезени филм и не утичу на ваше изворне датотеке."
+
+#. (itstool) path: section/title
+#: C/effects.page:26
+msgid "Adding and removing effects to clips"
+msgstr "Додавање и уклањање ефеката на снимке"
+
+#. (itstool) path: section/p
+#: C/effects.page:27
+msgid "To add an effect:"
+msgstr "Да додате ефекат:"
+
+#. (itstool) path: item/p
+#: C/effects.page:30 C/effects.page:39
+msgid "Select an existing clip on the timeline"
+msgstr "Изаберите постојећи снимак на временској линији"
+
+#. (itstool) path: item/p
+#: C/effects.page:33
+msgid "Double-click an effect in the effect library"
+msgstr "Двапут кликните на ефекат у библиотеци ефеката"
+
+#. (itstool) path: section/p
+#: C/effects.page:36
+msgid "To remove an effect:"
+msgstr "Да уклоните ефекат:"
+
+#. (itstool) path: item/p
+#: C/effects.page:42
+msgid ""
+"Select the effect you want to remove in the <guiseq><gui>middle pane</"
+"gui><gui>Clip</gui><gui>Effects</gui></guiseq>"
+msgstr "Изаберите ефекат који желите да уклоните у <guiseq><gui>средњој површи</gui><gui>Снимак</gui><gui>Ефекти</gui></guiseq>"
+
+#. (itstool) path: item/p
+#: C/effects.page:45
+msgid "Click the <gui>Remove effect</gui> button"
+msgstr "Кликните на дугме <gui>Уклони ефекат</gui>"
+
+#. (itstool) path: section/title
+#: C/effects.page:50
+msgid "Toggling effects"
+msgstr "Укључивање/искључивање ефеката"
+
+#. (itstool) path: section/p
+#: C/effects.page:51
+msgid ""
+"If you want to temporarily disable an effect (to compare with and without "
+"the effect, or for performance reasons), click the corresponding checkbox in "
+"the <guiseq><gui>middle pane</gui><gui>Clip</gui><gui>Effects</gui></guiseq>."
+msgstr "Ако желите привремено да онемогућите ефекат (ради поређења са ефектом и без њега, или из разлога перформанси), кликните на одговарајућу кућицу за избор у <guiseq><gui>средњој површи</gui><gui>Снимак</gui><gui>Ефекти</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/gstreamer.page:18
+msgid ""
+"Ensuring you have the proper multimedia codecs and plugins installed for "
+"maximum compatibility."
+msgstr "Осигурајте да имате инсталиране одговарајуће мултимедијалне кодеке и прикључке за максималну компатибилност."
+
+#. (itstool) path: page/title
+#: C/gstreamer.page:25
+msgid "Gstreamer and compatibility"
+msgstr "Gstreamer и компатибилност"
+
+#. (itstool) path: page/p
+#: C/gstreamer.page:26
+msgid ""
+"A great strength of <app>Pitivi</app> lies in the fact that it uses the "
+"<app>GStreamer</app> multimedia framework. <app>GStreamer</app> is used by "
+"dozens of multimedia applications across desktop environments, operating "
+"systems and architectures."
+msgstr "Велика снага <app>Питивија</app> лежи у чињеници да користи мултимедијални радни оквир <app>GStreamer</app>. <app>GStreamer</app> користе десетине мултимедијалних апликација на различитим радним окружењима, оперативним системима и архитектурама."
+
+#. (itstool) path: page/p
+#: C/gstreamer.page:27
+msgid "For <app>Pitivi</app> users, this essentially means two things:"
+msgstr "За кориснике <app>Питивија</app>, ово у суштини значи две ствари:"
+
+#. (itstool) path: item/p
+#: C/gstreamer.page:30
+msgid ""
+"You can, in theory, import pretty much any media file supported by "
+"<app>GStreamer</app> (see the sections below for more details)."
+msgstr "У теорији можете увести скоро сваку медијску датотеку коју подржава <app>GStreamer</app> (погледајте одељке испод за више детаља)."
+
+#. (itstool) path: item/p
+#: C/gstreamer.page:33
+msgid ""
+"You can render your projects using any supported container and codec "
+"combination from <app>GStreamer</app>."
+msgstr "Своје пројекте можете извозити користећи било коју подржану комбинацију контејнера и кодека из <app>GStreamer-а</app>."
+
+#. (itstool) path: note/p
+#: C/gstreamer.page:37
+msgid ""
+"To maximize <app>Pitivi</app>'s capabilities and reduce the possibilities of "
+"bugs, a very recent version of <app>GStreamer</app> is recommended. This is "
+"because <app>Pitivi</app> developers work hard on fixing problems directly "
+"in <app>GStreamer</app> instead of putting temporary workarounds inside "
+"<app>Pitivi</app>."
+msgstr "Да бисте максимално искористили могућности <app>Питивија</app> и смањили могућност појаве грешака, препоручује се веома новија верзија <app>Гстримера</app>. То је зато што програмери <app>Питивија</app> вредно раде на решавању проблема директно у <app>Гстримеру</app> уместо да постављају привремена алтернативна решења унутар <app>Питивија</app>."
+
+#. (itstool) path: section/title
+#: C/gstreamer.page:40
+msgid "A word about editing-friendly codecs"
+msgstr "Реч-две о кодецима погодним за уређивање"
+
+#. (itstool) path: section/p
+#: C/gstreamer.page:41
+msgid ""
+"Some formats, like <em>MPEG</em>, are oriented towards playback only, and do "
+"not compress each frame independently. While it is the goal of <app>Pitivi</"
+"app> to support working with these files, certain operations (like rapid "
+"seeking) will not perform as well as they would with frame-independent "
+"compressed video (such as <em>MJPEG</em> or <em>DV</em>)."
+msgstr "Неки записи, попут <em>MPEG</em>-а, оријентисани су само на пуштање и не сажимају сваки кадар независно. Иако је циљ <app>Питивија</app> да подржи рад са овим датотекама, одређене операције (попут брзог претраживања) неће се извршавати тако добро као што би се извршавале са видео записом сажетим независно од кадрова (као што су <em>MJPEG</em> или <em>DV</em>)."
+
+#. (itstool) path: section/title
+#: C/gstreamer.page:44
+msgid "The Good, the Bad and the Ugly"
+msgstr "Добри, лоши и ружни"
+
+#. (itstool) path: section/p
+#: C/gstreamer.page:45
+msgid ""
+"<app>GStreamer</app> plugins come into three categories: good, bad and ugly. "
+"You may need to install plugins from any category to ensure compatibility "
+"with your media files. Whether or not you install them is up to you, and may "
+"depend on your country's jurisdiction regarding software patents. An "
+"overview of gstreamer plugins and their classification into categories can "
+"be found on the <link href=\"http://gstreamer.freedesktop.org/documentation/"
+"plugins.html\">Gstreamer website</link>."
+msgstr "Прикључци <app>GStreamer</app>-а долазе у три категорије: добри, лоши и ружни. Можда ћете морати да инсталирате прикључке из било које категорије како бисте осигурали компатибилност са вашим медијским датотекама. Да ли ћете их инсталирати или не, зависи од вас и може зависити од јурисдикције ваше земље у вези са софтверским патентима. Преглед Гстримерових прикључака и њихова класификација у категорије могу се наћи на <link href=\"http://gstreamer.freedesktop.org/documentation/plugins.html\">веб страници Гстримера</link>."
+
+#. (itstool) path: item/p
+#: C/gstreamer.page:48
+msgid ""
+"The \"Good\" plugins are high quality plugins under the LGPL license. These "
+"plugins are considered safe and recommended at any time. To install them, "
+"search for packages containing gstreamer plugins good in your distribution's "
+"repositories."
+msgstr "„Добри“ прикључци су висококвалитетни прикључци под LGPL лиценцом. Ови прикључци се сматрају безбедним и препоручују се у било ком тренутку. Да бисте их инсталирали, потражите пакете који садрже „gstreamer plugins good“ у ризницама ваше дистрибуције."
+
+#. (itstool) path: item/p
+#: C/gstreamer.page:51
+msgid ""
+"The \"Bad\" plugins are plugins whose code quality is not good enough, or "
+"are not considered tested well enough. The licensing may or may not be LGPL. "
+"To install them, search for packages containing gstreamer plugins bad in "
+"your distribution's repositories."
+msgstr "„Лоши“ прикључци су прикључци чији квалитет кода није довољно добар или се не сматрају довољно добро тестираним. Лиценцирање може, али не мора бити LGPL. Да бисте их инсталирали, потражите пакете који садрже „gstreamer plugins bad“ у ризницама ваше дистрибуције."
+
+#. (itstool) path: item/p
+#: C/gstreamer.page:54
+msgid ""
+"The \"Ugly\" plugins are good quality plugins whose license is not LGPL or "
+"with licensing issues. To install them, search for packages containing "
+"containing gstreamer plugins ugly in your distribution's repositories."
+msgstr "„Ружни“ прикључци су прикључци доброг квалитета чија лиценца није LGPL или имају проблема са лиценцирањем. Да бисте их инсталирали, потражите пакете који садрже „gstreamer plugins ugly“ у ризницама ваше дистрибуције."
+
+#. (itstool) path: note/p
+#: C/gstreamer.page:58
+msgid ""
+"In addition to the Good, Bad and Ugly plugins, you may want to install the "
+"<em>gstreamer-ffmpeg</em> package to have access to ffmpeg's set of codecs."
+msgstr "Поред добрих, лоших и ружних прикључака, можда ћете желети да инсталирате пакет <em>gstreamer-ffmpeg</em> да бисте имали приступ скупу кодека из ffmpeg-а."
+
+#. (itstool) path: section/title
+#: C/gstreamer.page:62
+msgid "Image file formats"
+msgstr "Записи сликовних датотека"
+
+#. (itstool) path: section/p
+#: C/gstreamer.page:63
+msgid ""
+"While it is not feasible to list every possible combination of supported "
+"video or audio formats, it is however possible to list the static image "
+"formats that can be imported: JPEG, PNG, JPEG 2000, PNM and SVG."
+msgstr "Иако није изводљиво навести сваку могућу комбинацију подржаних видео или аудио записа, ипак је могуће навести записе статичних слика који се могу увести: JPEG, PNG, JPEG 2000, PNM и SVG."
+
+#. (itstool) path: info/desc
+#: C/importingmpegts.page:11
+msgid ""
+"How to convert .mts and .m2ts files to a format that can be parsed by "
+"GStreamer and Pitivi."
+msgstr "Како претворити .mts и .m2ts датотеке у запис који Гстример и Питиви могу да обраде."
+
+#. (itstool) path: page/title
+#: C/importingmpegts.page:19
+msgid "Dealing with AVCHD / MPEG-TS files"
+msgstr "Рад са AVCHD / MPEG-TS датотекама"
+
+#. (itstool) path: page/p
+#: C/importingmpegts.page:20
+msgid ""
+"At the time being, MPEG Transport Stream files (usually with file extensions "
+"such as .mts, .m2ts and sometimes .mpg or .mpeg), such as those used by some "
+"HD camcorders, cannot be played reliably with <app>GStreamer</app>. As such, "
+"you may want to remux them in a different container format by using "
+"<app>ffmpeg</app>. To convert losslessly to an MPEG4 container, you can use "
+"the following command:"
+msgstr "Тренутно се датотеке MPEG транспортног тока (обично са екстензијама датотека као што су .mts, .m2ts и понекад .mpg или .mpeg), попут оних које користе неке HD камере, не могу поуздано пуштати помоћу <app>Гстримера</app>. Као такве, можда ћете желети да их препакујете у другачији формат садржаоца користећи <app>ffmpeg</app>. Да бисте их без губитака претворили у MPEG4 садржаоца, можете користити следећу наредбу:"
+
+#. (itstool) path: page/code
+#: C/importingmpegts.page:21
+#, no-wrap
+msgid "ffmpeg -i your_clip.MTS -vcodec copy -acodec copy -sn test.mp4"
+msgstr "ffmpeg -i your_clip.MTS -vcodec copy -acodec copy -sn test.mp4"
+
+#. (itstool) path: info/desc
+#: C/importing.page:18
+msgid "Importing files into your project as clips."
+msgstr "Увожење датотека у ваш пројекат као снимака."
+
+#. (itstool) path: page/title
+#: C/importing.page:25
+msgid "Getting media"
+msgstr "Добављање медија"
+
+#. (itstool) path: page/p
+#: C/importing.page:26
+msgid "Pitivi allows importing media files from your computer's hard drive."
+msgstr "Питиви омогућава увожење медијских датотека са чврстог диска вашег рачунара."
+
+#. (itstool) path: note/p
+#: C/importing.page:28
+msgid ""
+"When you create a new project and import the first video file, its "
+"properties are transposed to the <link "
+"xref=\"workwithprojects#projectsettings\">project settings</link>, unless "
+"you changed them yourself already. An infobar appears when this happens. "
+"Click the <gui>Project Settings</gui> button in the infobar for details."
+msgstr "Када направите нови пројекат и увезете прву видео датотеку, њена својства се преносе у <link xref=\"workwithprojects#projectsettings\">подешавања пројекта</link>, осим ако их већ нисте сами променили. Када се то догоди, појављује се трака са информацијама. Кликните на дугме <gui>Подешавања пројекта</gui> у траци са информацијама за детаље."
+
+#. (itstool) path: note/p
+#: C/importing.page:31
+msgid ""
+"Due to our limited resources and the rapid evolution of filmmaking hardware "
+"in the past few years, and to ensure <app>Pitivi</app> remains robust and "
+"simple to use, we do not attempt to support every possible hardware device "
+"out there. As a result, you currently cannot use <app>Pitivi</app> to "
+"capture directly from a camcorder; specialized applications are better "
+"suited for this task. For example, for DV/HDV camcorders using an IEEE 1394 "
+"connection, you may use <app>Kino</app> or <app>dvgrab</app> to capture "
+"footage."
+msgstr "Због наших ограничених ресурса и брзе еволуције хардвера за снимање филмова у последњих неколико година, а како бисмо осигурали да <app>Питиви</app> остане робустан и једноставан за коришћење, не покушавамо да подржимо сваки могући хардверски уређај који постоји. Као резултат тога, тренутно не можете користити <app>Питиви</app> за снимање директно са камере; специјализовани програми су боље прилагођени за овај задатак. На пример, за DV/HDV камере које користе IEEE 1394 везу, можете користити <app>Kino</app> или <app>dvgrab</app> за снимање материјала."
+
+#. (itstool) path: section/title
+#: C/importing.page:34
+msgid "Importing files using the file chooser"
+msgstr "Увоз датотека помоћу бирача датотека"
+
+#. (itstool) path: section/p
+#: C/importing.page:35
+msgid ""
+"You can import media into the <gui>Media Library</gui> by using the file "
+"chooser dialog, which has the advantage of letting you preview the files you "
+"want to import. To do so, use the <gui>Import</gui> button in the <gui>Media "
+"Library</gui> header."
+msgstr "Медије можете увести у <gui>Библиотеку медија</gui> коришћењем прозорчета за избор датотека, што има предност јер вам омогућава преглед датотека које желите да увезете. Да бисте то урадили, користите дугме <gui>Увези</gui> у заглављу <gui>Библиотеке медија</gui>."
+
+#. (itstool) path: section/p
+#: C/importing.page:36
+msgid ""
+"A file chooser dialog window will appear. You can press <key>Ctrl</key> or "
+"<key>Shift</key> to select multiple files at the same time."
+msgstr "Појавиће се прозорче за избор датотека. Можете притиснути <key>Ctrl</key> или <key>Shift</key> да изаберете више датотека истовремено."
+
+#. (itstool) path: section/title
+#: C/importing.page:39
+msgid "How to work with unsupported media"
+msgstr "Како радити са неподржаним медијима"
+
+#. (itstool) path: section/p
+#: C/importing.page:40
+msgid "The following media containers and formats are officially supported:"
+msgstr "Следећи садржаоци и записи медија су званично подржани:"
+
+#. (itstool) path: item/p
+#: C/importing.page:42
+msgid "Containers: MJPEG, Matroska, Ogg, QuickTime, WebM"
+msgstr "Садржаоци: MJPEG, Matroska, Ogg, QuickTime, WebM"
+
+#. (itstool) path: item/p
+#: C/importing.page:43
+msgid "Audio formats: FLAC, MPEG, Raw, Vorbis, WAV"
+msgstr "Звучни записи: FLAC, MPEG, Raw, Vorbis, WAV"
+
+#. (itstool) path: item/p
+#: C/importing.page:44
+msgid "Video formats: H.264, JPEG, Raw, Theora, VP8"
+msgstr "Видео записи: H.264, JPEG, Raw, Theora, VP8"
+
+#. (itstool) path: section/p
+#: C/importing.page:46
+msgid ""
+"Working with other containers and formats is slow and lacks precision. "
+"Fortunately most of the time the unsupported media can still be played. "
+"Taking advantage of this, <app>Pitivi</app> allows transcoding the "
+"unsupported media into a supported format. The result is a separate file "
+"placed in the same folder. The automatic creation of <em>optimized media</"
+"em> is controlled with the <gui>Optimize</gui> checkbox at the bottom of the "
+"<gui>file chooser dialog</gui>. The <em>optimized media</em> can be managed "
+"at any time with the <link xref=\"medialibrary\">media library</link>."
+msgstr "Рад са другим садржаоцима и записима је спор и недостаје му прецизност. Срећом, већину времена неподржани медији се и даље могу пуштати. Користећи ово, <app>Питиви</app> омогућава прекодирање неподржаних медија у подржани запис. Резултат је засебна датотека смештена у исту фасциклу. Аутоматско стварање <em>прилагођених медија</em> се контролише помоћу кућице за избор <gui>Прилагоди</gui> на дну <gui>прозорчета за избор датотека</gui>. <em>Прилагођеним медијима</em> се може управљати у било ком тренутку помоћу <link xref=\"medialibrary\">библиотеке медија</link>."
+
+#. (itstool) path: note/p
+#: C/importing.page:48
+msgid ""
+"Most of the cameras nowadays create <code>.mts</code> and <code>.m2ts</code> "
+"files which use the MPEG Transport Stream container. This container is not "
+"optimal for video editing. This media is not supported as such and must be "
+"<em>optimized</em> for a smooth editing experience."
+msgstr "Већина данашњих камера прави <code>.mts</code> и <code>.m2ts</code> датотеке које користе MPEG Transport Stream садржаоца. Овај садржаолац није најбољи за уређивање видеа. Овакви медији нису подржани као такви и морају бити <em>прилагођени</em> за глатко искуство уређивања."
+
+#. (itstool) path: section/title
+#: C/importing.page:52
+msgid "Importing files using drag and drop"
+msgstr "Увоз датотека помоћу превлачења и спуштања"
+
+#. (itstool) path: section/p
+#: C/importing.page:53
+msgid ""
+"The concept of drag and drop is a well-established method of bridging the "
+"gap between software applications. Simply select the files you want to "
+"import in another application (such as a file manager or a multimedia app) "
+"and drag them with your mouse onto <app>Pitivi</app>'s <gui>Media Library</"
+"gui>."
+msgstr "Концепт превлачења и спуштања је добро успостављен начин за премошћавање јаза између програма. Једноставно изаберите датотеке које желите да увезете у другом програму (као што је управник датотека или мултимедијални програм) и превуците их мишем у <app>Питивијеву</app> <gui>Библиотеку медија</gui>."
+
+#. (itstool) path: section/p
+#: C/importing.page:54
+msgid "This feature can be used to:"
+msgstr "Ова функција се може користити за:"
+
+#. (itstool) path: item/p
+#: C/importing.page:57
+msgid ""
+"Easily import music or video clips from a media player (such as "
+"<app>Rhythmbox</app> or <app>Totem</app>)."
+msgstr "Једноставан увоз музике или видео снимака из пуштача медија (као што су <app>Ритам машина</app> или <app>Тотем</app>)."
+
+#. (itstool) path: item/p
+#: C/importing.page:60
+msgid ""
+"Allow using a full-fledged file manager (such as <app>Nautilus</app>, "
+"<app>Thunar</app>, <app>Dolphin</app> or <app>Konqueror</app>) instead of "
+"the file chooser dialog."
+msgstr "Омогућавање коришћења потпуног управника датотека (као што су <app>Наутилус</app>, <app>Тунар</app>, <app>Делфин</app> или <app>Конкверор</app>) уместо прозорчета за избор датотека."
+
+#. (itstool) path: item/p
+#: C/importing.page:63
+msgid "Import a combination of multiple files and folders at the same time."
+msgstr "Увоз комбинације више датотека и фасцикли истовремено."
+
+#. (itstool) path: item/p
+#: C/importing.page:66
+msgid ""
+"Leverage the searching capability of another application (such as <app>GNOME "
+"Shell</app>, <app>Tracker</app>, <app>GNOME Activity Journal</app>, "
+"<app>GNOME Search Tool</app>, etc.)."
+msgstr "Искоришћавање могућности претраге другог програма (као што су <app>Гномова шкољка</app>, <app>Праћење</app>, <app>Гномов дневник активности</app>, <app>Гномов алат за претрагу</app>, итд.)."
+
+#. (itstool) path: info/title
+#: C/index.page:4
+msgctxt "link:trail"
+msgid "Pitivi Quick Start Manual"
+msgstr "Питивијево упутство за брзи почетак"
+
+#. (itstool) path: info/title
+#: C/index.page:5
+msgctxt "link"
+msgid "Pitivi Quick Start Manual"
+msgstr "Питивијево упутство за брзи почетак"
+
+#. (itstool) path: info/title
+#: C/index.page:6
+msgctxt "text"
+msgid "Pitivi Quick Start Manual"
+msgstr "Питивијево упутство за брзи почетак"
+
+#. (itstool) path: title/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:21
+msgctxt "_"
+msgid ""
+"external ref='figures/Pitivi.svg' md5='5dc3b90ebd6898d3d38c8df4c0eb0ead'"
+msgstr "external ref='figures/Pitivi.svg' md5='5dc3b90ebd6898d3d38c8df4c0eb0ead'"
+
+#. (itstool) path: page/title
+#: C/index.page:20
+msgid ""
+"<media type=\"image\" width=\"48px\" height=\"48px\" src=\"figures/"
+"Pitivi.svg\"/> Pitivi Video Editor"
+msgstr "<media type=\"image\" width=\"48px\" height=\"48px\" src=\"figures/Pitivi.svg\"/> Питивијев уређивач видео снимака"
+
+#. (itstool) path: page/p
+#: C/index.page:24
+msgid ""
+"Built upon the <link href=\"http://en.wikipedia.org/wiki/"
+"GStreamer\"><app>GStreamer</app></link> multimedia framework, <app>Pitivi</"
+"app> aims to be an intuitive and flexible video editor that integrates well "
+"with <link href=\"http://gnome.org\"><app>GNOME</app></link> and can appeal "
+"to newbies and professionals alike."
+msgstr "Заснован на мултимедијалном радном оквиру <link href=\"http://en.wikipedia.org/wiki/GStreamer\"><app>Гстример</app></link>, <app>Питиви</app> тежи да буде интуитиван и прилагодљив уређивач видео снимака који се добро интегрише са <link href=\"http://gnome.org\"><app>Гномом</app></link> и може се свидети како почетницима тако и професионалцима."
+
+#. (itstool) path: page/p
+#: C/index.page:25
+msgid ""
+"This guide is intended to help you grasp the concepts behind its design and "
+"get productive quickly."
+msgstr "Овај водич је намењен да вам помогне да разумете концепте који стоје иза његовог дизајна и да брзо постанете продуктивни."
+
+#. (itstool) path: section/title
+#: C/index.page:27
+msgid "Introduction"
+msgstr "Увод"
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "Getting Started"
+msgstr "Започните"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Basic Editing with the Timeline"
+msgstr "Основно уређивање са временском линијом"
+
+#. (itstool) path: section/title
+#: C/index.page:36
+msgid "Effects and Transitions"
+msgstr "Ефекти и прелази"
+
+#. (itstool) path: section/title
+#: C/index.page:39
+msgid "Exporting Your Finished Movie"
+msgstr "Извожење вашег завршеног филма"
+
+#. (itstool) path: credit/name
+#: C/keyframecurves.page:21
+msgid "Alexandru Băluț"
+msgstr "Alexandru Băluț"
+
+#. (itstool) path: info/desc
+#: C/keyframecurves.page:24
+msgid "Changing properties of a clip over time."
+msgstr "Мењање својстава снимка током времена."
+
+#. (itstool) path: page/title
+#. (itstool) path: figure/title
+#: C/keyframecurves.page:31 C/keyframecurves.page:34
+msgid "Keyframe curves"
+msgstr "Кривуље кључних кадрова"
+
+#. (itstool) path: page/p
+#: C/keyframecurves.page:32
+msgid ""
+"By using keyframe curves, you can change the value of a property over time, "
+"instead of having a fixed value for the entire duration of a clip. This can "
+"be used to change opacity or volume just as well as effect properties at any "
+"point in the clip's duration."
+msgstr "Коришћењем кривуља кључних кадрова, можете променити вредност својства током времена, уместо да имате фиксну вредност за читаво трајање снимка. Ово се може користити за промену непрозирности или јачине звука, као и за својства ефеката у било којој тачки трајања снимка."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/keyframecurves.page:35
+msgctxt "_"
+msgid ""
+"external ref='figures/keyframecurves.png' "
+"md5='d91b335281ec48ab9f8fade73bf09852'"
+msgstr "external ref='figures/keyframecurves.png' md5='d91b335281ec48ab9f8fade73bf09852'"
+
+#. (itstool) path: page/p
+#: C/keyframecurves.page:37
+msgid "A terminological note:"
+msgstr "Терминолошка напомена:"
+
+#. (itstool) path: item/p
+#: C/keyframecurves.page:40
+msgid ""
+"<em>Keyframes</em> are the points that are used to determine the property "
+"value at a specific point in time."
+msgstr "<em>Кључни кадрови</em> су тачке које се користе за одређивање вредности својства у одређеној тачки у времену."
+
+#. (itstool) path: item/p
+#: C/keyframecurves.page:43
+msgid ""
+"<em>Keyframe curves</em> are the lines connecting the points providing "
+"smooth transitions between them."
+msgstr "<em>Кривуље кључних кадрова</em> су линије које повезују тачке пружајући глатке прелазе између њих."
+
+#. (itstool) path: page/p
+#: C/keyframecurves.page:46
+msgid ""
+"By default, the keyframe curves on an audio clip control the volume (on a "
+"scale from 0 to 200%) and the keyframe curves on a video clip control the "
+"alpha (opacity) of the video (on a scale from 0 to 100%). See the <link "
+"xref=\"layers\">Understanding layers</link> page for more details on "
+"opacity. The default alpha or volume keyframe curves are an intrinsic "
+"property of clips and cannot be removed."
+msgstr "По подразумеваним поставкама, кривуље кључних кадрова на аудио снимку управљају јачином звука (на скали од 0 до 200%), а кривуље кључних кадрова на видео снимку управљају алфом (непрозирношћу) видеа (на скали од 0 до 100%). Погледајте страницу <link xref=\"layers\">Разумевање слојева</link> за више детаља о непрозирности. Подразумеване кривуље кључних кадрова за алфу или јачину звука су суштинско својство снимака и не могу се уклонити."
+
+#. (itstool) path: note/p
+#: C/keyframecurves.page:48
+msgid ""
+"You can create fade-in and fade-out transitions by controlling opacity and "
+"volume. See an example in the <link xref=\"transitions#fades\">Transitions</"
+"link> page."
+msgstr "Можете направити прелазе постепеног појављивања и ишчезавања управљањем непрозирношћу и јачином звука. Погледајте пример на страници <link xref=\"transitions#fades\">Прелази</link>."
+
+#. (itstool) path: page/p
+#: C/keyframecurves.page:50
+msgid ""
+"Besides volume and alpha, you can use keyframes to control effect "
+"properties. See the <link xref=\"usingeffects#keyframes\">Using effects</"
+"link> page for details."
+msgstr "Осим јачине звука и алфа канала, можете користити кључне кадрове за управљање својствима ефеката. Погледајте страницу <link xref=\"usingeffects#keyframes\">Коришћење ефеката</link> за детаље."
+
+#. (itstool) path: section/title
+#: C/keyframecurves.page:52
+msgid "General usage"
+msgstr "Општа употреба"
+
+#. (itstool) path: section/p
+#: C/keyframecurves.page:53
+msgid ""
+"The start and end keyframes are fixed to the start and end points of the "
+"clip and cannot be removed. The curve between these two keyframes is "
+"initially a flat horizontal line, indicating that the value of the "
+"controlled property is the same at each point in time within the clip's "
+"duration. To change the value (and the rate of its change) at any point, you "
+"can add one or more keyframes to the clip and drag them to appropriate "
+"vertical positions representing their values."
+msgstr "Почетни и завршни кључни кадрови су фиксирани за почетну и завршну тачку снимка и не могу се уклонити. Крива између ова два кључна кадра је у почетку равна хоризонтална линија, што указује да је вредност контролисаног својства иста у сваком тренутку унутар трајања снимка. Да бисте променили вредност (и брзину њене промене) у било ком тренутку, можете додати један или више кључних кадрова у снимак и превући их на одговарајуће вертикалне положаје који представљају њихове вредности."
+
+#. (itstool) path: section/p
+#: C/keyframecurves.page:54
+msgid "You can:"
+msgstr "Можете:"
+
+#. (itstool) path: item/p
+#: C/keyframecurves.page:57
+msgid "Add a new keyframe by clicking on the line."
+msgstr "Додати нови кључни кадар кликом на линију."
+
+#. (itstool) path: item/p
+#: C/keyframecurves.page:60
+msgid "Remove a keyframe by double-clicking on it."
+msgstr "Уклонити кључни кадар двоструким кликом на њега."
+
+#. (itstool) path: item/p
+#: C/keyframecurves.page:63
+msgid ""
+"Adjust the time and value of a keyframe by moving it with the mouse. When "
+"moving the keyframe, hold down <key>Ctrl</key> to lock the keyframe "
+"horizontally or vertically."
+msgstr "Подесити време и вредност кључног кадра померањем помоћу миша. Када померате кључни кадар, држите притиснут тастер <key>Ctrl</key> да бисте закључали кључни кадар хоризонтално или вертикално."
+
+#. (itstool) path: item/p
+#: C/keyframecurves.page:66
+msgid ""
+"Click-and-drag on a segment of a curve between two keyframes to adjust the "
+"vertical position of the segment."
+msgstr "Кликните и превуците сегмент криве између два кључна кадра да бисте подесили вертикални положај сегмента."
+
+#. (itstool) path: note/p
+#: C/keyframecurves.page:70
+msgid "Currently only linear keyframe curves are supported."
+msgstr "Тренутно су подржане само линеарне криве кључних кадрова."
+
+#. (itstool) path: info/desc
+#: C/layers.page:18
+msgid "Explaining how layers work within the timeline."
+msgstr "Објашњење како слојеви раде унутар временске линије."
+
+#. (itstool) path: page/title
+#: C/layers.page:25
+msgid "Understanding layers"
+msgstr "Разумевање слојева"
+
+#. (itstool) path: page/p
+#: C/layers.page:26
+msgid ""
+"<em>Layers</em> are a fundamental concept for advanced editing in the "
+"timeline: compositing, mixing multiple videos simultaneously, and adding "
+"titles depend on this feature."
+msgstr "<em>Слојеви</em> су основни концепт за напредно уређивање на временској линији: слагање, мешање више видео снимака истовремено и додавање наслова зависе од ове функције."
+
+#. (itstool) path: page/p
+#: C/layers.page:27
+msgid ""
+"It is easier to think of layers in terms of images painted on glass. With "
+"several pieces of glass stacked on top of each other, each of these pieces "
+"of glass is a layer. If the top piece of glass is completely painted over, "
+"none of the pieces of glass underneath will be visible. If, on the other "
+"hand, you only paint over a portion of a piece of glass, you will be able to "
+"see what is underneath the non-painted parts."
+msgstr "Лакше је размишљати о слојевима као о сликама насликаним на стаклу. Са неколико комада стакла наслаганих један на други, сваки од ових комада стакла је слој. Ако је горњи комад стакла потпуно префарбан, ниједан од комада стакла испод неће бити видљив. Ако, с друге стране, префарбате само део комада стакла, моћи ћете да видите шта се налази испод неофарбаних делова."
+
+#. (itstool) path: section/title
+#: C/layers.page:29
+msgid "Opacity (how solid “opaque” things are)"
+msgstr "Непрозирност (колико су ствари „непрозирне“)"
+
+#. (itstool) path: section/p
+#: C/layers.page:30
+msgid ""
+"Each layer (and each clip) has its own transparency. To continue the paint "
+"on glass metaphor, if the paint is thin enough, it can be seen through. "
+"Visually, an opacity of 100% means you cannot see the clips below that layer "
+"or clip, and an opacity of 50% means you can partly see them."
+msgstr "Сваки слој (и сваки снимак) има сопствену провидност. Да наставимо са метафором боје на стаклу, ако је боја довољно танка, може се видети кроз њу. Визуелно, непрозирност од 100% значи да не можете видети снимке испод тог слоја или снимка, а непрозирност од 50% значи да их можете делимично видети."
+
+#. (itstool) path: section/title
+#: C/layers.page:33
+msgid "How this translates in terms of user interface"
+msgstr "Како се ово преноси на корисничко прочеље"
+
+#. (itstool) path: section/p
+#: C/layers.page:34
+msgid ""
+"While, in real life, you can stack pieces of glass onto each other in three "
+"dimensions, your computer monitor only has two dimensions. Thus, the "
+"<em>layers on top</em> (the “Z” axis in the physical world) are also "
+"visually <em>on top</em>, albeit on the “Y” axis."
+msgstr "Док у стварном животу можете слагати комаде стакла један на други у три димензије, ваш компјутерски монитор има само две димензије. Тако су <em>слојеви на врху</em> („Z“ оса у физичком свету) такође визуелно <em>на врху</em>, иако на „Y“ оси."
+
+#. (itstool) path: figure/desc
+#: C/layers.page:36
+msgid ""
+"Diagram illustrating the <em>pieces of glass</em> (left) and how they are "
+"show as <em>layers</em> in <app>Pitivi</app>'s user interface (right)."
+msgstr "Дијаграм који илуструје <em>комаде стакла</em> (лево) и како су приказани као <em>слојеви</em> у <app>Питивијевом</app> корисничком сучељу (десно)."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/layers.page:37
+msgctxt "_"
+msgid ""
+"external ref='figures/layers.png' md5='27c5f543944b381bc7147ff90b3deaee'"
+msgstr "external ref='figures/layers.png' md5='27c5f543944b381bc7147ff90b3deaee'"
+
+#. (itstool) path: note/p
+#: C/layers.page:40
+msgid ""
+"Clips located on a layer above will block the clips below from view, unless "
+"they have an opacity value lower than 100% (as shown with the two topmost "
+"layers in the previous illustration)."
+msgstr "Снимци који се налазе на слоју изнад блокираће поглед на снимке испод, осим ако имају вредност непрозирности мању од 100% (као што је приказано са два најгорња слоја на претходној илустрацији)."
+
+#. (itstool) path: section/title
+#: C/layers.page:44
+msgid "Renaming a layer"
+msgstr "Преименовање слоја"
+
+#. (itstool) path: section/p
+#: C/layers.page:45
+msgid ""
+"To rename a layer, click the layer's name, which is an editable text field."
+msgstr "Да бисте преименовали слој, кликните на назив слоја, који је измењиво текстуално поље."
+
+#. (itstool) path: section/title
+#: C/layers.page:48
+msgid "Adjusting layer positioning"
+msgstr "Подешавање положаја слоја"
+
+#. (itstool) path: section/p
+#: C/layers.page:49
+msgid ""
+"To move a layer to the top of the layer order, click <guiseq><gui>Layer "
+"icon</gui><gui>Move layer to top</gui></guiseq>. To move a layer to the one "
+"position higher in the layer order, click <guiseq><gui>Layer icon</"
+"gui><gui>Move layer up</gui></guiseq>."
+msgstr "Да бисте преместили слој на врх редоследа слојева, кликните на <guiseq><gui>Иконица слоја</gui><gui>Премести слој на врх</gui></guiseq>. Да бисте преместили слој за једно место више у редоследу слојева, кликните на <guiseq><gui>Иконица слоја</gui><gui>Премести слој горе</gui></guiseq>."
+
+#. (itstool) path: section/p
+#: C/layers.page:50
+msgid ""
+"To move a layer to the one position lower in the layer order, click "
+"<guiseq><gui>Layer icon</gui><gui>Move layer down</gui></guiseq>. To move a "
+"layer to the bottom of the layer order, click <guiseq><gui>Layer icon</"
+"gui><gui>Move layer to bottom</gui></guiseq>."
+msgstr "Да бисте преместили слој за једно место ниже у редоследу слојева, кликните на <guiseq><gui>Иконица слоја</gui><gui>Премести слој доле</gui></guiseq>. Да бисте преместили слој на дно редоследа слојева, кликните на <guiseq><gui>Иконица слоја</gui><gui>Премести слој на дно</gui></guiseq>."
+
+#. (itstool) path: section/title
+#: C/layers.page:53
+msgid "Adding and removing layers"
+msgstr "Додавање и уклањање слојева"
+
+#. (itstool) path: section/p
+#: C/layers.page:54
+msgid ""
+"To create a layer, drag a clip to the middle space between two existing "
+"layers or just above the top layer or just below the bottom layer. Once the "
+"thin space between the layers is highlighted, release the clip."
+msgstr "Да бисте направили слој, превуците снимак у средњи простор између два постојећа слоја или непосредно изнад горњег слоја или непосредно испод доњег слоја. Када танак простор између слојева постане истакнут, отпустите снимак."
+
+#. (itstool) path: section/p
+#: C/layers.page:55
+msgid ""
+"To remove a layer, click <guiseq><gui>Layer icon</gui><gui>Delete layer</"
+"gui></guiseq>. The <gui>Layer icon</gui> can be found at the right of the "
+"layer name field."
+msgstr "Да бисте уклонили слој, кликните на <guiseq><gui>Иконица слоја</gui><gui>Обриши слој</gui></guiseq>. <gui>Иконица слоја</gui> се може наћи десно од поља за назив слоја."
+
+#. (itstool) path: section/title
+#: C/layers.page:58
+msgid "Muting a layer"
+msgstr "Утишавање слоја"
+
+#. (itstool) path: section/p
+#: C/layers.page:59
+msgid ""
+"To mute a layer, click <gui>Volume icon</gui>. The icon will be toggled to "
+"show the layer has been muted. To unmute a layer, click <gui>Volume icon</"
+"gui> again."
+msgstr "Да бисте утишали слој, кликните на <gui>Иконица јачине звука</gui>. Иконица ће се променити да покаже да је слој утишан. Да бисте поново укључили звук слоја, поново кликните на <gui>Иконица јачине звука</gui>."
+
+#. (itstool) path: section/title
+#: C/layers.page:62
+msgid "What about audio layers?"
+msgstr "Шта је са звучним слојевима?"
+
+#. (itstool) path: section/p
+#: C/layers.page:63
+msgid ""
+"Unlike in vision, multiple sounds do not “block” each other. If you have "
+"multiple audio clips on separate layers, their sound will be mixed together. "
+"Controlling the volume of those audio clips simply changes their relative "
+"loudness."
+msgstr "За разлику од вида, вишеструки звукови не „блокирају“ једни друге. Ако имате више звучних снимака на засебним слојевима, њихов звук ће бити помешан. Управљање јачином звука тих звучних снимака једноставно мења њихову релативну гласност."
+
+#. (itstool) path: info/desc
+#: C/license.page:6
+msgid "Legal information."
+msgstr "Правни подаци."
+
+#. (itstool) path: page/title
+#: C/license.page:8
+msgid "License"
+msgstr "Лиценца"
+
+#. (itstool) path: page/p
+#: C/license.page:9
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr "Овај рад је распоређен под CreativeCommons Attribution-Share Alike 3.0 Unported лиценцом."
+
+#. (itstool) path: page/p
+#: C/license.page:16
+msgid "You are free:"
+msgstr "Слободни сте:"
+
+#. (itstool) path: item/title
+#: C/license.page:21
+msgid "<em>To share</em>"
+msgstr "<em>Да делите</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:24
+msgid "To copy, distribute and transmit the work."
+msgstr "Да умножавате, расподељујете и преносите рад."
+
+#. (itstool) path: item/title
+#: C/license.page:27
+msgid "<em>To remix</em>"
+msgstr "<em>Да прерађујете</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:30
+msgid "To adapt the work."
+msgstr "Да прилагођавате рад."
+
+#. (itstool) path: page/p
+#: C/license.page:33
+msgid "Under the following conditions:"
+msgstr "Под следећим условима:"
+
+#. (itstool) path: item/title
+#: C/license.page:36
+msgid "<em>Attribution</em>"
+msgstr "<em>Приписивање</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:39
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr "Морате приписати рад на начин који је навео аутор или давалац лиценце (али не на било који начин који сугерише да они подржавају вас или ваше коришћење рада)."
+
+#. (itstool) path: item/title
+#: C/license.page:42
+msgid "<em>Share Alike</em>"
+msgstr "<em>Дељење под истим условима</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:45
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr "Ако мењате, преображавате или надограђујете овај рад, резултујући рад можете дистрибуирати само под истом, сличном или компатибилном лиценцом."
+
+#. (itstool) path: page/p
+#: C/license.page:48
+msgid ""
+"For the full text of the license, see the <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr "За цео текст лиценце, погледајте <link href=\"http://creativecommons.org/licenses/by-sa/3.0/legalcode\">веб страницу CreativeCommons-а</link>, или прочитајте цео <link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link>."
+
+#. (itstool) path: page/p
+#: C/license.page:51
+msgid ""
+"For the license of Pitivi itself, see the <link href=\"http://www.gnu.org/"
+"licenses/lgpl-2.1.html\">GNU Lesser General Public License</link>."
+msgstr "За лиценцу самог Питивија, погледајте <link href=\"http://www.gnu.org/licenses/lgpl-2.1.html\">ГНУ-ову мању општу јавну лиценцу</link>."
+
+#. (itstool) path: info/desc
+#: C/mainwindow.page:16
+msgid "Discover the components of the main window."
+msgstr "Упознајте делове главног прозора."
+
+#. (itstool) path: page/title
+#: C/mainwindow.page:23
+msgid "The main window"
+msgstr "Главни прозор"
+
+#. (itstool) path: page/p
+#: C/mainwindow.page:24
+msgid ""
+"The main window, as the name implies, is the window containing the main "
+"components of the <app>Pitivi</app> user interface, namely: the header bar, "
+"the toolbars, the timeline and various customizable components (media "
+"library, previewer, effects library, transitions library, etc.)."
+msgstr "Главни прозор је, као што му и име каже, прозор који садржи главне делове корисничког интерфејса <app>Питивија</app>, и то: траку заглавља, алатне траке, временску линију и разне прилагодљиве делове (библиотеку медија, прегледач, библиотеку ефеката, библиотеку прелаза, итд.)."
+
+#. (itstool) path: page/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/mainwindow.page:25
+msgctxt "_"
+msgid ""
+"external ref='figures/mainwindow.jpg' md5='741256057cc4a37550ce853bb07f2b9d'"
+msgstr "external ref='figures/mainwindow.jpg' md5='741256057cc4a37550ce853bb07f2b9d'"
+
+#. (itstool) path: page/p
+#: C/mainwindow.page:26
+msgid "In the figure above, the following areas can be observed:"
+msgstr "На слици изнад могу се уочити следеће области:"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:29
+msgid "Header bar and main toolbar buttons"
+msgstr "Трака заглавља и дугмад главне алатне траке"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:32
+msgid "Main menu button"
+msgstr "Дугме главног менија"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:35
+msgid "Primary tabs: media library and effects library"
+msgstr "Главни језичци: библиотека медија и библиотека ефеката"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:38
+msgid "Contextual tabs: clip properties, transitions, titles"
+msgstr "Контекстуални језичци: својства клипа, прелази, наслови"
+
+#. (itstool) path: item/p
+#. (itstool) path: section/title
+#: C/mainwindow.page:44 C/mainwindow.page:66
+msgid "Ruler"
+msgstr "Лењир"
+
+#. (itstool) path: note/title
+#: C/mainwindow.page:51
+msgid "Resizing the components of the main window"
+msgstr "Промена величине делова главног прозора"
+
+#. (itstool) path: note/p
+#: C/mainwindow.page:52
+msgid ""
+"The spaces between components can be clicked and dragged to proportionally "
+"resize the respective adjacent components."
+msgstr "Размаци између делова могу се кликнути и превући како би се сразмерно променила величина суседних делова."
+
+#. (itstool) path: note/title
+#: C/mainwindow.page:55
+msgid "Hovering for more information"
+msgstr "Лебдење за више информација"
+
+#. (itstool) path: note/p
+#: C/mainwindow.page:56
+msgid ""
+"Hovering the mouse cursor over an element in the main window usually reveals "
+"an information tooltip regarding its function."
+msgstr "Лебдење курсором миша изнад елемента у главном прозору обично открива облачић са информацијама о његовој функцији."
+
+#. (itstool) path: section/title
+#: C/mainwindow.page:59
+msgid "Header bar"
+msgstr "Трака заглавља"
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:60
+msgid ""
+"The header bar is a place where basic functions such as <gui>Undo</gui>, "
+"<gui>Redo</gui>, <gui>Save</gui>, or <gui>Render</gui> can be directly "
+"accessed. It also contains the main <gui>menu button</gui> where you can "
+"find further functions such as <gui>New project</gui>, <gui>Open project</"
+"gui>, <gui>Project settings</gui> or <gui>Preferences</gui>."
+msgstr "Трака заглавља је место где се може директно приступити основним функцијама као што су <gui>Опозови</gui>, <gui>Понови</gui>, <gui>Сачувај</gui> или <gui>Исцртај</gui>. Она такође садржи главно <gui>дугме изборника</gui> где можете пронаћи даље функције као што су <gui>Нови пројекат</gui>, <gui>Отвори пројекат</gui>, <gui>Подешавања пројекта</gui> или <gui>Поставке</gui>."
+
+#. (itstool) path: note/p
+#: C/mainwindow.page:62
+msgid ""
+"The <gui>menu button</gui>'s contents can be accessed by pressing <key>F10</"
+"key>."
+msgstr "Садржају <gui>дугмета изборника</gui> се може приступити притиском на тастер <key>F10</key>."
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:67
+msgid ""
+"The ruler plays a crucial role in your interaction with the timeline. First, "
+"it represents a time scale providing time measurements (in seconds) for "
+"overall orientation. Second, it constitutes the primary surface on which you "
+"can move the playhead (and thus, change your position in time). To move your "
+"position, click anywhere on the ruler. You can also <em>scrub</em> the "
+"timeline by clicking on the ruler and holding down the mouse button while "
+"moving. See the section on <link xref=\"movearoundtimeline\">scrubbing</"
+"link> for more details."
+msgstr "Лењир игра пресудну улогу у вашој интеракцији са временском линијом. Прво, он представља временску скалу која обезбеђује временска мерења (у секундама) за општу оријентацију. Друго, он чини примарну површину на којој можете померати главу пуштања (и тиме мењати свој положај у времену). Да бисте променили положај, кликните било где на лењиру. Такође можете <em>претраживати</em> (scrub) временску линију тако што ћете кликнути на лењир и држати тастер миша док га померате. Погледајте одељак о <link xref=\"movearoundtimeline\">претраживању</link> за више детаља."
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:68
+msgid "The current playhead position is indicated by a red vertical line:"
+msgstr "Тренутни положај главе пуштања је означен црвеном усправном линијом:"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/mainwindow.page:70
+msgctxt "_"
+msgid "external ref='figures/ruler.png' md5='2d2f2261c4bdb034be332fbcea37f273'"
+msgstr "external ref='figures/ruler.png' md5='2d2f2261c4bdb034be332fbcea37f273'"
+
+#. (itstool) path: note/p
+#: C/mainwindow.page:73
+msgid ""
+"When zoomed in, frames are visually represented as alternating light and "
+"dark areas in the bottom part of the ruler. Hovering the mouse cursor over "
+"the ruler in this state will reveal an information tooltip with frame "
+"number. The amount of time the individual frames take up is based on the "
+"project framerate settings."
+msgstr "Када је увећано, кадрови су визуелно представљени као наизменичне светле и тамне области у доњем делу лењира. Лебдење курсором миша изнад лењира у овом стању откриће облачић са подацима са бројем кадра. Количина времена коју појединачни кадрови заузимају заснована је на подешавањима учесталости кадрова пројекта."
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:78
+msgid ""
+"The timeline is the core user interface component that you will use for "
+"editing. Vertically, it is divided into layers that can be filled with audio "
+"and video clips. Horizontally, it constitutes a time-proportional "
+"representation of your project's chronology. Various levels of zoom can be "
+"applied to the timeline. However, these apply only to the horizontal "
+"(chronological) dimension of the timeline."
+msgstr "Временска линија је кључна компонента корисничког сучеља коју ћете користити за уређивање. Усправно, подељена је на слојеве који се могу попунити аудио и видео снимцима. Водоравно, она представља хронологију вашег пројекта сразмерно времену. Различити нивои увећања се могу применити на временску линију. Међутим, они се примењују само на водоравну (хронолошку) димензију временске линије."
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:79
+msgid ""
+"See the <link xref=\"layers\">Understanding layers</link> and <link "
+"xref=\"movearoundtimeline\">Moving around the timeline</link> pages for more "
+"information on how to work with the timeline."
+msgstr "Погледајте странице <link xref=\"layers\">Разумевање слојева</link> и <link xref=\"movearoundtimeline\">Кретање кроз временску линију</link> за више података о томе како радити са временском линијом."
+
+#. (itstool) path: section/title
+#: C/mainwindow.page:82
+msgid "Timeline toolbar"
+msgstr "Алатница временске линије"
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:83
+msgid ""
+"The timeline toolbar is located at the right edge of the timeline. It "
+"contains basic actions for editing in timeline:"
+msgstr "Алатница временске линије се налази на десној ивици временске линије. Садржи основне радње за уређивање на временској линији:"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:86
+msgid "Split clip at playhead position"
+msgstr "Подели снимак на положају главе пуштања"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:89
+msgid "Delete selected"
+msgstr "Обришите изабрано"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:92
+msgid "Group clips"
+msgstr "Групишите снимке"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:95
+msgid "Ungroup clips"
+msgstr "Разгрупишите снимке"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:98
+msgid "Copy"
+msgstr "Копирај"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:101
+msgid "Paste"
+msgstr "Налепи"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:105
+msgid "Toggle gapless mode"
+msgstr "Укључи/искључи режим без размака"
+
+#. (itstool) path: note/p
+#: C/mainwindow.page:109
+msgid ""
+"Note that most of the actions become available only once a clip is selected "
+"(see <link xref=\"selectiongrouping\">Selection and grouping</link> for more "
+"details). When there is no subject for the action to be performed on, it "
+"remains shaded (indicating its unavailability)."
+msgstr "Имајте на уму да већина радњи постаје доступна тек када се изабере снимак (погледајте <link xref=\"selectiongrouping\">Бирање и груписање</link> за више детаља). Када не постоји објекат над којим би се радња извршила, она остаје засенчена (што указује на њену недоступност)."
+
+#. (itstool) path: section/title
+#: C/mainwindow.page:113
+msgid "Playback toolbar"
+msgstr "Алатница пуштања"
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:114
+msgid ""
+"This toolbar, located below the previewer, contains buttons controlling the "
+"playback of the timeline. Options provided by the toolbar are the following:"
+msgstr "Ова алатница, која се налази испод прегледача, садржи дугмиће који управљају пуштањем временске линије. Опције које нуди алатница су следеће:"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:117
+msgid "Play/Pause"
+msgstr "Пушта/паузира"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:120
+msgid "Go forward one second"
+msgstr "Идите напред једну секунду"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:123
+msgid "Go back one second"
+msgstr "Идите назад једну секунду"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:126
+msgid "Go to the end of the timeline"
+msgstr "Идите на крај временске линије"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:129
+msgid "Go to the beginning of the timeline"
+msgstr "Идите на почетак временске линије"
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:132
+msgid ""
+"For more information on how to move on the timeline, see the <em>Moving the "
+"playhead</em> and <em>Scrubbing</em> sections on the <link "
+"xref=\"movearoundtimeline\">Moving around the timeline</link> page."
+msgstr "За више података о томе како се кретати на временској линији, погледајте одељке <em>Померање главе пуштања</em> и <em>Претраживање</em> на страници <link xref=\"movearoundtimeline\">Кретање кроз временску линију</link>."
+
+#. (itstool) path: section/title
+#: C/mainwindow.page:135
+msgid "Previewer"
+msgstr "Прегледач"
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:136
+msgid "The previewer displays:"
+msgstr "Прегледач приказује:"
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:139
+msgid "The video frame at the current position of the playhead."
+msgstr "Видео кадар на тренутном положају главе пуштања."
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:142
+msgid "Your project's video when playing back."
+msgstr "Видео снимак вашег пројекта приликом репродукције."
+
+#. (itstool) path: item/p
+#: C/mainwindow.page:145
+msgid "A <em>live preview</em> when trimming a clip's beginning/end point."
+msgstr "<em>Преглед уживо</em> приликом скраћивања почетне/крајње тачке снимка."
+
+#. (itstool) path: note/title
+#: C/mainwindow.page:149
+msgid "Detaching the previewer into a separate window"
+msgstr "Одвајање прегледача у посебан прозор"
+
+#. (itstool) path: note/p
+#: C/mainwindow.page:150
+msgid ""
+"You can detach the previewer into a separate window by clicking the "
+"<gui>Detach the viewer</gui> button in the <gui>Playback toolbar</gui>. From "
+"the separate window, you can play the preview in fullscreen. This will also "
+"allow other parts of the main window to take up the space the previewer "
+"occupied. You can attach the previewer back by closing the separate window."
+msgstr "Можете одвојити прегледач у посебан прозор кликом на дугме <gui>Одвој прегледач</gui> у <gui>Траци алата за репродукцију</gui>. Из посебног прозора можете пустити преглед преко целог екрана. Ово ће такође омогућити осталим деловима главног прозора да заузму простор који је прегледач заузимао. Можете поново прикачити прегледач затварањем посебног прозора."
+
+#. (itstool) path: note/p
+#: C/mainwindow.page:153
+msgid ""
+"<app>Pitivi</app> inhibits the screensaver while playing the video preview."
+msgstr "<app>Питиви</app> спречава покретање чувара екрана током репродукције видео прегледа."
+
+#. (itstool) path: section/title
+#: C/mainwindow.page:157
+msgid "Left pane"
+msgstr "Лева површ"
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:158
+msgid ""
+"The left pane contains media and effect libraries. You can switch between "
+"them by selecting the appropriate tab. The <gui>Media Library</gui> displays "
+"the imported media files in your project and allows you to manage them. The "
+"<gui>Effect library</gui> contains number of audio and video effects "
+"applicable to clips."
+msgstr "Лева површ садржи библиотеке медија и ефеката. Можете се пребацивати између њих избором одговарајућег језичка. <gui>Библиотека медија</gui> приказује увезене медијске датотеке у вашем пројекту и омогућава вам да управљате њима. <gui>Библиотека ефеката</gui> садржи бројне аудио и видео ефекте који се могу применити на снимке."
+
+#. (itstool) path: note/p
+#: C/mainwindow.page:160
+msgid ""
+"You can search the libraries by using the text box in the header of each "
+"library."
+msgstr "Можете претраживати библиотеке коришћењем поља за текст у заглављу сваке библиотеке."
+
+#. (itstool) path: section/title
+#: C/mainwindow.page:164
+msgid "Middle pane"
+msgstr "Средња површ"
+
+#. (itstool) path: section/p
+#: C/mainwindow.page:165
+msgid ""
+"The middle pane contains <gui>Clip configuration</gui>, <gui>Transitions</"
+"gui> and <gui>Title editor</gui>. You can switch between them by selecting "
+"the appropriate tab. The <gui>Clip configuration</gui> allows you to "
+"activate, deactivate or configure settings of effects applied to a selected "
+"clip. <gui>Transitions</gui> let you pick and configure the transition type "
+"when two clips overlap in the timeline. With <gui>Title editor</gui> you can "
+"create new clips with titles or add titles to existing ones."
+msgstr "Средња површ садржи <gui>Подешавање снимка</gui>, <gui>Прелазе</gui> и <gui>Уређивач наслова</gui>. Можете се пребацивати између њих избором одговарајућег језичка. <gui>Подешавање снимка</gui> вам омогућава да активирате, деактивирате или подесите поставке ефеката примењених на изабрани снимак. <gui>Прелази</gui> вам омогућавају да изаберете и подесите врсту прелаза када се два снимка преклапају на временској линији. Помоћу <gui>Уређивача наслова</gui> можете креирати нове снимке са насловима или додати наслове постојећим снимцима."
+
+#. (itstool) path: credit/name
+#: C/medialibrary.page:11 C/movearoundtimeline.page:15
+msgid "Brian Grohe"
+msgstr "Брајан Гроу (Brian Grohe)"
+
+#. (itstool) path: info/desc
+#: C/medialibrary.page:18
+msgid "Managing your imported clips with the Media Library"
+msgstr "Управљање увезеним снимцима помоћу Библиотеке медија"
+
+#. (itstool) path: page/title
+#: C/medialibrary.page:25
+msgid "Using the Media Library"
+msgstr "Коришћење Библиотеке медија"
+
+#. (itstool) path: section/title
+#: C/medialibrary.page:27
+msgid "Importing a file to the <gui>Media Library</gui>"
+msgstr "Увоз датотеке у <gui>Библиотеку медија</gui>"
+
+#. (itstool) path: section/p
+#: C/medialibrary.page:28
+msgid ""
+"There are two ways to import files into the <gui>Media Library</gui>. The "
+"first way is to click on the <gui>Import</gui> button in the upper left "
+"corner. This will open a file chooser in which you can preview selected "
+"files or select multiple files (by holding <key>Shift</key> or <key>Control</"
+"key> while selecting them). The second way is to drag and drop the files "
+"from a file browser to the <gui>Media Library</gui>. <em>Files</em> imported "
+"into the <gui>Media Library</gui> are called <em>clips</em>."
+msgstr "Постоје два начина за увоз датотека у <gui>Библиотеку медија</gui>. Први начин је да кликнете на дугме <gui>Увези</gui> у горњем левом углу. Ово ће отворити бирач датотека у којем можете прегледати изабране датотеке или изабрати више датотека (држећи тастер <key>Shift</key> или <key>Control</key> док их бирате). Други начин је да превучете и пустите датотеке из прегледача датотека у <gui>Библиотеку медија</gui>. <em>Датотеке</em> увезене у <gui>Библиотеку медија</gui> се називају <em>снимци</em>."
+
+#. (itstool) path: note/p
+#: C/medialibrary.page:30
+msgid "The clips in the <gui>Media Library</gui> are sorted alphabetically."
+msgstr "Снимци у <gui>Библиотеци медија</gui> су поређани азбучним редом."
+
+#. (itstool) path: section/title
+#: C/medialibrary.page:34
+msgid "Previewing a clip from the <gui>Media Library</gui>"
+msgstr "Преглед снимка из <gui>Библиотеке медија</gui>"
+
+#. (itstool) path: section/p
+#: C/medialibrary.page:35
+msgid ""
+"To preview a clip before placing it on the timeline, you can double-click on "
+"it in the <gui>Media Library</gui>. This will open the clip in a window that "
+"automatically closes whenever you click outside the window."
+msgstr "Да бисте прегледали снимак пре него што га поставите на временску линију, можете двапут кликнути на њега у <gui>Библиотеци медија</gui>. Ово ће отворити снимак у прозору који се аутоматски затвара кад год кликнете изван прозора."
+
+#. (itstool) path: section/title
+#: C/medialibrary.page:38
+msgid "Filtering search"
+msgstr "Филтрирање претраге"
+
+#. (itstool) path: section/p
+#: C/medialibrary.page:39
+msgid ""
+"A search bar is shown at the top of the <gui>Media Library</gui>. Typing "
+"into the search entry filters the contents of the <gui>Media Library</gui> "
+"to show only clips whose filenames match your search terms. To reset the "
+"search entry, click the \"cleanup\" icon in the search entry."
+msgstr "Трака претраге је приказана на врху <gui>Збирке медија</gui>. Куцање у поље за претрагу филтрира садржај <gui>Збирке медија</gui> како би се приказали само снимци чији се називи датотека поклапају са вашим појмовима претраге. Да бисте поништили унос претраге, кликните на иконицу „чишћење“ у пољу за претрагу."
+
+#. (itstool) path: section/title
+#: C/medialibrary.page:42
+msgid "View modes"
+msgstr "Режими прегледа"
+
+#. (itstool) path: section/p
+#: C/medialibrary.page:43
+msgid ""
+"The <gui>Media Library</gui> can display your clips in a list or in an icon "
+"view. The default mode is icon view because it display more clips without "
+"needing to scroll down. However, the list view mode shows more details about "
+"each clip. To activate/deactivate it, click on the <gui>Show clips as a "
+"detailed list</gui> button to the left of search bar."
+msgstr "<gui>Збирка медија</gui> може приказати ваше снимке у виду списка или у виду иконица. Подразумевани режим је преглед иконицама јер приказује више снимака без потребе за померањем надоле. Међутим, режим прегледа списком приказује више детаља о сваком снимку. Да бисте га активирали/деактивирали, кликните на дугме <gui>Прикажи снимке као детаљан списак</gui> лево од траке претраге."
+
+#. (itstool) path: section/title
+#: C/medialibrary.page:46
+msgid "Selecting unused clips"
+msgstr "Бирање неискоришћених снимака"
+
+#. (itstool) path: section/p
+#: C/medialibrary.page:47
+msgid ""
+"You may sometimes find that you have imported more clips that you needed in "
+"your project. <app>Pitivi</app> allows you to select clips that are present "
+"in the media library but not in the timeline. There are various reasons to "
+"do this:"
+msgstr "Можда ћете понекад открити да сте увезли више снимака него што вам је потребно у пројекту. <app>Питиви</app> вам омогућава да изаберете снимке који су присутни у збирци медија али не и на временској линији. Постоји неколико разлога за ово:"
+
+#. (itstool) path: item/p
+#: C/medialibrary.page:50
+msgid "Improving performance when loading the project"
+msgstr "Побољшање перформанси приликом учитавања пројекта"
+
+#. (itstool) path: item/p
+#: C/medialibrary.page:53
+msgid "Simplifying your editing workflow"
+msgstr "Поједностављивање вашег радног тока уређивања"
+
+#. (itstool) path: item/p
+#: C/medialibrary.page:56
+msgid "Check which clips you may have forgot to use in your movie"
+msgstr "Провера које снимке сте можда заборавили да искористите у свом филму"
+
+#. (itstool) path: item/p
+#: C/medialibrary.page:59
+msgid "Backup or share your project more easily"
+msgstr "Лакше прављење резервне копије или дељење пројекта"
+
+#. (itstool) path: section/p
+#: C/medialibrary.page:62
+msgid ""
+"To identify which clips are not being used in your project, use the "
+"<gui>Select clips that have not been used in the project</gui> button at the "
+"left side of the search bar. Unused clips will then be selected in the media "
+"library."
+msgstr "Да бисте препознали који снимци се не користе у вашем пројекту, користите дугме <gui>Изабери снимке који нису коришћени у пројекту</gui> на левој страни траке претраге. Неискоришћени снимци ће тада бити изабрани у збирци медија."
+
+#. (itstool) path: note/p
+#: C/medialibrary.page:64
+msgid ""
+"If there are no unused clips in your project, nothing will be selected in "
+"the media library."
+msgstr "Ако у вашем пројекту нема неискоришћених снимака, ништа неће бити изабрано у збирци медија."
+
+#. (itstool) path: section/title
+#: C/medialibrary.page:68
+msgid "Other actions"
+msgstr "Друге радње"
+
+#. (itstool) path: section/p
+#: C/medialibrary.page:69
+msgid ""
+"There are three further actions you can perform with clips. Each is "
+"represented by a button in the upper right part of the <gui>Media Library</"
+"gui>:"
+msgstr "Постоје још три радње које можете извршити са снимцима. Свака је представљена дугметом у горњем десном делу <gui>Збирке медија</gui>:"
+
+#. (itstool) path: item/p
+#: C/medialibrary.page:72
+msgid ""
+"<gui>Remove selected clips from the project</gui> (this can also be "
+"performed by pressing <keyseq><key>Control</key><key>Delete</key></keyseq>)."
+msgstr "<gui>Уклони изабране снимке из пројекта</gui> (ово се такође може извршити притиском на <keyseq><key>Control</key><key>Delete</key></keyseq>)."
+
+#. (itstool) path: item/p
+#: C/medialibrary.page:75
+msgid ""
+"<gui>Clip properties...</gui> opens a new window with information on "
+"<em>video size</em>, <em>frame rate</em> and <em>aspect ratio</em>. Clicking "
+"the <gui>Apply to project</gui> button adjusts the project settings to the "
+"clip properties. You can select which properties to apply by leaving them "
+"ticked/unticked."
+msgstr "<gui>Својства снимка...</gui> отвара нови прозор са подацима о <em>величини видеа</em>, <em>броју кадрова</em> и <em>односу ширине и висине</em>. Клик на дугме <gui>Примени на пројекат</gui> подешава поставке пројекта према својствима снимка. Можете изабрати која својства ће се применити означавањем или одзначавањем истих."
+
+#. (itstool) path: item/p
+#: C/medialibrary.page:78
+msgid ""
+"<gui>Insert selected clips at the end of the timeline</gui> inserts the "
+"selected clips one after another into the longest layer of the timeline "
+"where the last clip on that layer ends."
+msgstr "<gui>Убаци изабране снимке на крај временске линије</gui> убацује изабране снимке један за другим у најдужи слој временске линије где се завршава последњи снимак на том слоју."
+
+#. (itstool) path: note/p
+#: C/medialibrary.page:82
+msgid ""
+"In order for these actions to become available, one or more clips must be "
+"selected."
+msgstr "Да би ове радње постале доступне, један или више снимака морају бити изабрани."
+
+#. (itstool) path: info/desc
+#: C/movearoundtimeline.page:22
+msgid "Moving the playhead, using the zoom feature, scrolling and scrubbing."
+msgstr "Померање главице, коришћење функције увећања, клизање и претраживање (scrubbing)."
+
+#. (itstool) path: page/title
+#: C/movearoundtimeline.page:29
+msgid "Moving around the timeline"
+msgstr "Кретање по временској линији"
+
+#. (itstool) path: section/title
+#: C/movearoundtimeline.page:31
+msgid "Activating the timeline toolbar"
+msgstr "Активирање траке алата временске линије"
+
+#. (itstool) path: section/p
+#: C/movearoundtimeline.page:32
+msgid ""
+"The timeline toolbar contains many tools, which become active once a clip is "
+"selected in the timeline. To select a clip, simply click on the desired clip "
+"in the timeline. When selected, the clip will become darker and the timeline "
+"toolbar items will now be clickable."
+msgstr "Трака алата временске линије садржи многе алате, који постају активни када се изабере исечак на временској линији. Да бисте изабрали исечак, једноставно кликните на жељени исечак на временској линији. Када је изабран, исечак ће постати тамнији и ставке траке алата временске линије ће сада моћи да се кликну."
+
+#. (itstool) path: section/title
+#: C/movearoundtimeline.page:35
+msgid "Scrolling"
+msgstr "Клизање"
+
+#. (itstool) path: section/p
+#: C/movearoundtimeline.page:36
+msgid "You can scroll by:"
+msgstr "Можете се померати:"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:39
+msgid ""
+"Using the mouse wheel anywhere over the timeline to scroll horizontally, or "
+"hold down the <key>Shift</key> key while using the mouse wheel to scroll the "
+"timeline layers vertically"
+msgstr "Коришћењем точкића миша било где изнад временске линије за водоравно померање, или држањем тастера <key>Shift</key> док користите точкић миша за усправно померање слојева временске линије"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:42
+msgid ""
+"Clicking anywhere over the timeline with the middle button and dragging the "
+"timeline"
+msgstr "Кликтањем било где изнад временске линије средњим тастером и превлачењем временске линије"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:45
+msgid "Using the scrollbars located on the right and bottom of the timeline"
+msgstr "Коришћењем трака за померање које се налазе десно и на дну временске линије"
+
+#. (itstool) path: section/title
+#: C/movearoundtimeline.page:50
+msgid "Zooming"
+msgstr "Увећање"
+
+#. (itstool) path: section/p
+#: C/movearoundtimeline.page:51
+msgid ""
+"Zooming directly affects your editing accuracy and your ability to move "
+"quickly along the timeline:"
+msgstr "Увећање директно утиче на вашу тачност уређивања и вашу способност да се брзо крећете дуж временске линије:"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:54
+msgid ""
+"When zooming in, video clips display more thumbnails and audio clips display "
+"increasingly detailed waveforms, allowing you to do precise edits."
+msgstr "Приликом увећања, видео исечци приказују више сличица, а аудио исечци приказују све детаљније таласне облике, што вам омогућава прецизно уређивање."
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:57
+msgid ""
+"Zooming out allows you to scroll faster along the timeline. Zoom can thus be "
+"used in conjunction with scrolling to move quickly between distant points of "
+"your project's chronology."
+msgstr "Умањење вам омогућава да се брже померате дуж временске линије. Увећање се тако може користити заједно са померањем за брзо кретање између удаљених тачака хронологије вашег пројекта."
+
+#. (itstool) path: section/p
+#: C/movearoundtimeline.page:60
+msgid "You can zoom in and out by:"
+msgstr "Можете увећавати и умањивати:"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:63
+msgid ""
+"Holding the <key>Ctrl</key> key while using the mousewheel over the "
+"timeline, to keep the timeline point where the mouse cursor is in place if "
+"possible"
+msgstr "Држањем тастера <key>Ctrl</key> док користите точкић миша изнад временске линије, како бисте задржали тачку временске линије где се налази курсор миша на месту ако је могуће"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:66
+msgid ""
+"Holding the <key>Alt</key> key while using the mousewheel over the timeline, "
+"to keep the playhead in view"
+msgstr "Држањем тастера <key>Alt</key> док користите точкић миша изнад временске линије, како бисте задржали главу пуштања у приказу"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:69
+msgid "Dragging the zoom slider on the left of the ruler"
+msgstr "Превлачењем клизача за увећање лево од лењира"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:72
+msgid ""
+"Using keyboard shortcuts such as <keyseq><key>Ctrl</key><key>-</key></"
+"keyseq> to zoom out or <keyseq><key>Ctrl</key><key>=</key></keyseq> "
+"(<keyseq><key>Ctrl</key><key>+</key></keyseq> on the numeric keypad) to zoom "
+"in"
+msgstr "Коришћењем пречица на тастатури као што су <keyseq><key>Ctrl</key><key>-</key></keyseq> за умањење или <keyseq><key>Ctrl</key><key>=</key></keyseq> (<keyseq><key>Ctrl</key><key>+</key></keyseq> на бројевном делу тастатуре) за увећање"
+
+#. (itstool) path: section/p
+#: C/movearoundtimeline.page:75
+msgid ""
+"To get a global overview of your timeline, you may click the <gui>Zoom</gui> "
+"button on the left of the zoom slider. Another way to do this is by pressing "
+"<keyseq><key>Ctrl</key><key>0</key></keyseq>."
+msgstr "Да бисте добили општи преглед ваше временске линије, можете кликнути на дугме <gui>Увећање</gui> лево од клизача за увећање. Други начин да то урадите је притиском на <keyseq><key>Ctrl</key><key>0</key></keyseq>."
+
+#. (itstool) path: note/title
+#: C/movearoundtimeline.page:77
+msgid "<em>Warping</em> between zoom levels"
+msgstr "<em>Брзи прелазак</em> између нивоа увећања"
+
+#. (itstool) path: note/p
+#: C/movearoundtimeline.page:78
+msgid ""
+"Using your mouse, you can also <em>warp</em> instantly from any zoom level "
+"to another in a single click. To do that, click anywhere on the zoom slider."
+msgstr "Користећи миш, такође можете <em>брзо прећи</em> тренутно са било ког нивоа увећања на други једним кликом. Да бисте то урадили, кликните било где на клизачу за увећање."
+
+#. (itstool) path: section/title
+#: C/movearoundtimeline.page:82
+msgid "Moving the playhead"
+msgstr "Померање главе пуштања"
+
+#. (itstool) path: section/p
+#: C/movearoundtimeline.page:83
+msgid ""
+"You can change the position of the playhead by clicking with the right mouse "
+"button anywhere on the ruler or on the timeline."
+msgstr "Можете променити положај главе пуштања кликом десним тастером миша било где на лењиру или на временској линији."
+
+#. (itstool) path: note/title
+#: C/movearoundtimeline.page:85
+msgid "Jumping to an exact position"
+msgstr "Скок на тачно место"
+
+#. (itstool) path: note/p
+#: C/movearoundtimeline.page:86
+msgid ""
+"You can jump to an exact position in the timeline by editing the time value "
+"shown in the playback toolbar (see description of <link "
+"xref=\"mainwindow\">The main window</link>). To edit it, simply click on the "
+"widget, overwrite the value and hit <key>enter</key>. The value can "
+"represent either timecode or a frame number. Timecode has the following "
+"form: <em>hh:mm:ss.milisec</em> where hours are optional. To insert a frame "
+"number, overwrite the timecode with a plain number of the desired frame."
+msgstr "Можете скочити на тачно место у временској линији уређивањем вредности времена приказане у палети алата за пуштање (погледајте опис одељка <link xref=\"mainwindow\">Главни прозор</link>). Да бисте је уредили, једноставно кликните на елемент, препишите вредност и притисните <key>enter</key>. Вредност може представљати или временски код или број кадра. Временски код има следећи облик: <em>чч:мм:сс.милисек</em> где су часови опциони. Да бисте уметнули број кадра, препишите временски код обичним бројем жељеног кадра."
+
+#. (itstool) path: section/title
+#: C/movearoundtimeline.page:90
+msgid "Scrubbing"
+msgstr "Претраживање (Scrubbing)"
+
+#. (itstool) path: section/p
+#: C/movearoundtimeline.page:91
+msgid "<em>Scrubbing</em> is a way of moving the playhead that allows you to:"
+msgstr "<em>Претраживање</em> је начин померања главе пуштања који вам омогућава да:"
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:94
+msgid ""
+"Search for a specific position in time by approximation/trial and error."
+msgstr "Тражите одређено место у времену приближним одређивањем/методом покушаја и грешака."
+
+#. (itstool) path: item/p
+#: C/movearoundtimeline.page:97
+msgid ""
+"Review repeatedly the visual motion in a scene by moving back and forth in "
+"time."
+msgstr "Више пута прегледате визуелно кретање у сцени померањем напред и назад у времену."
+
+#. (itstool) path: section/p
+#: C/movearoundtimeline.page:100
+msgid ""
+"To scrub, click on the ruler with the right mouse button and move the mouse "
+"with the button still held down."
+msgstr "Да бисте претраживали, кликните десним тастером миша на лењир и померајте миш док држите тастер притиснутим."
+
+#. (itstool) path: info/desc
+#: C/presets.page:16
+msgid "Using presets in rendering and project settings."
+msgstr "Коришћење предподешавања у исцртавању и подешавањима пројекта."
+
+#. (itstool) path: page/title
+#: C/presets.page:23
+msgid "Presets"
+msgstr "Предподешавања"
+
+#. (itstool) path: page/p
+#: C/presets.page:24
+msgid ""
+"Both the <gui>Project settings</gui> dialog and the <gui>Rendering</gui> "
+"dialog allow you to save presets for later use. If you often deal with the "
+"same kind of project settings, with different cameras or target devices for "
+"rendering, you may want to create custom presets."
+msgstr "И прозорче <gui>Подешавања пројекта</gui> и прозорче <gui>Исцртавање</gui> вам омогућавају да сачувате предподешавања за каснију употребу. Ако се често бавите истим врстама подешавања пројекта, са различитим камерама или циљним уређајима за исцртавање, можда ћете желети да направите произвољна предподешавања."
+
+#. (itstool) path: note/p
+#: C/presets.page:26
+msgid ""
+"In project settings, video presets and audio presets are independent of each "
+"other."
+msgstr "У подешавањима пројекта, видео и аудио предподешавања су независна једна од других."
+
+#. (itstool) path: section/title
+#: C/presets.page:29
+msgid "Creating and editing presets"
+msgstr "Стварање и уређивање предподешавања"
+
+#. (itstool) path: section/p
+#: C/presets.page:30
+msgid "To create a preset:"
+msgstr "Да бисте направили предподешавање:"
+
+#. (itstool) path: item/p
+#: C/presets.page:33 C/presets.page:48
+msgid "Change the settings to your liking."
+msgstr "Промените подешавања по својој жељи."
+
+#. (itstool) path: item/p
+#: C/presets.page:36
+msgid ""
+"At the right of the presets combobox click <guiseq><gui>Menu button</"
+"gui><gui>New</gui></guiseq>. If this option is deactivated, skip to the next "
+"step."
+msgstr "Десно од падајућег списка са предподешавањима кликните на <guiseq><gui>Дугме менија</gui><gui>Ново</gui></guiseq>. Ако је ова опција деактивирана, пређите на следећи корак."
+
+#. (itstool) path: item/p
+#: C/presets.page:39
+msgid ""
+"Give your preset a unique name: click on the combobox to edit the name. When "
+"you're done, press <key>Enter</key>."
+msgstr "Дајте свом предподешавању јединствени назив: кликните на падајући списак да бисте уредили назив. Када завршите, притисните <key>Enter</key>."
+
+#. (itstool) path: section/p
+#: C/presets.page:42
+msgid "To edit a preset:"
+msgstr "Да бисте уредили предподешавање:"
+
+#. (itstool) path: item/p
+#: C/presets.page:45
+msgid "Select your preset in the presets combobox."
+msgstr "Изаберите своје предподешавање у падајућем списку са предподешавањима."
+
+#. (itstool) path: item/p
+#: C/presets.page:51
+msgid ""
+"Click at the right of the presets combobox <guiseq><gui>Menu button</"
+"gui><gui>Save</gui></guiseq>."
+msgstr "Кликните десно од падајућег списка са предподешавањима на <guiseq><gui>Дугме менија</gui><gui>Сачувај</gui></guiseq>."
+
+#. (itstool) path: section/p
+#: C/presets.page:54
+msgid ""
+"To remove a preset, simply select it in the presets combobox and click "
+"<guiseq><gui>Menu button</gui><gui>Remove</gui></guiseq>."
+msgstr "Да бисте уклонили предподешавање, једноставно га изаберите у падајућем списку са предподешавањима и кликните на <guiseq><gui>Дугме менија</gui><gui>Уклони</gui></guiseq>."
+
+#. (itstool) path: section/title
+#: C/presets.page:57
+msgid "Limiting the resolution of a rendering preset"
+msgstr "Ограничавање резолуције предподешавања за исцртавање"
+
+#. (itstool) path: section/p
+#: C/presets.page:58
+msgid ""
+"If you want to make a preset with a fixed maximum resolution, you need to "
+"edit the preset file with a text editor. Presets files are typically stored "
+"in ~/.local/share/pitivi/ ; since many devices don't have a maximum "
+"resolution, the width/height are set to 0 (unlimited) by default. You can "
+"change these values to the maximum resolution of your target device."
+msgstr "Ако желите да направите подешеност са фиксном највећом резолуцијом, морате да уредите датотеку подешености помоћу уређивача текста. Датотеке подешености су обично смештене у ~/.local/share/pitivi/ ; пошто многи уређаји немају највећу резолуцију, ширина и висина су подразумевано постављене на 0 (неограничено). Можете да промените ове вредности на највећу резолуцију вашег циљног уређаја."
+
+#. (itstool) path: info/desc
+#: C/rendering.page:18
+msgid ""
+"Learn the difference between saving a project and exporting a rendered movie."
+msgstr "Научите разлику између чувања пројекта и извоза исцртаног филма."
+
+#. (itstool) path: page/title
+#: C/rendering.page:25
+msgid "Understanding rendering"
+msgstr "Разумевање исцртавања"
+
+#. (itstool) path: page/p
+#: C/rendering.page:26
+msgid ""
+"Rendering is the process of exporting your project into a new, finalized "
+"media file. Rendering only creates a new “rendered” video file, and does not "
+"affect the project itself; you can still make edits to your project and "
+"render again as many times as needed."
+msgstr "Исцртавање је процес извоза вашег пројекта у нову, коначну медијску датотеку. Исцртавање само прави нову „исцртану“ видео датотеку и не утиче на сам пројекат; и даље можете да вршите измене у пројекту и да поново исцртавате колико год пута је потребно."
+
+#. (itstool) path: item/p
+#: C/rendering.page:29
+msgid "Click <guiseq><gui>Headerbar</gui><gui>Render</gui></guiseq>."
+msgstr "Кликните на <guiseq><gui>Трака заглавља</gui><gui>Исцртај</gui></guiseq>."
+
+#. (itstool) path: item/p
+#: C/rendering.page:32
+msgid "Choose the location and name of the exported file."
+msgstr "Изаберите место и назив извезене датотеке."
+
+#. (itstool) path: item/p
+#: C/rendering.page:35
+msgid "Optionally choose a preset."
+msgstr "Опционално изаберите подешеност."
+
+#. (itstool) path: item/p
+#: C/rendering.page:38
+msgid ""
+"Choose a container. See the <link xref=\"codecscontainers\">codecs and "
+"containers</link> page for details."
+msgstr "Изаберите садржалац. Погледајте страницу <link xref=\"codecscontainers\">кодеци и контејнери</link> за детаље."
+
+#. (itstool) path: item/p
+#: C/rendering.page:41
+msgid "Adjust the various encoding settings."
+msgstr "Подесите различита подешавања кодирања."
+
+#. (itstool) path: item/p
+#: C/rendering.page:44
+msgid "Click the <gui>Render</gui> button."
+msgstr "Кликните на дугме <gui>Исцртај</gui>."
+
+#. (itstool) path: page/p
+#: C/rendering.page:47
+msgid ""
+"While rendering, you can pause the process by clicking the <gui>Pause</gui> "
+"button and unpause it by clicking it again. You can also stop rendering "
+"either by clicking the <gui>Cancel</gui> button or by pressing <key>Esc</"
+"key>. If you stop the rendering process, the already rendered part of the "
+"project will be saved at the specified location. You might be able to use a "
+"partially rendered file, depending on the specified container format. A new "
+"render operation cannot resume from a partially rendered file."
+msgstr "Током исцртавања, можете да паузирате процес кликом на дугме <gui>Паузирај</gui> и да га наставите поновним кликом. Такође можете да прекинете исцртавање кликом на дугме <gui>Откажи</gui> или притиском на тастер <key>Esc</key>. Ако прекинете процес исцртавања, већ исцртани део пројекта ће бити сачуван на наведеној локацији. Можда ћете моћи да користите делимично исцртану датотеку, у зависности од наведеног формата садржаоца. Нова радња исцртавања не може да се настави из делимично исцртане датотеке."
+
+#. (itstool) path: note/p
+#: C/rendering.page:49
+msgid ""
+"If your computer is set to suspend or hibernate automatically, <app>Pitivi</"
+"app> will automatically inhibit the power saving features during the render "
+"process."
+msgstr "Ако је ваш рачунар подешен да се аутоматски обустави или замрзне, <app>Питиви</app> ће аутоматски онемогућити функције уштеде енергије током процеса исцртавања."
+
+#. (itstool) path: section/title
+#: C/rendering.page:52
+msgid "Project settings and the rendering dialog"
+msgstr "Подешавања пројекта и прозорче за исцртавање"
+
+#. (itstool) path: section/p
+#: C/rendering.page:53
+msgid ""
+"The <gui>Project Settings</gui> are a base on which the <gui>Rendering "
+"dialog</gui> settings are applied when performing a render. The <gui>Project "
+"Settings</gui> are kept separate because they also determine how you preview "
+"the project while editing it. The values specified in the <gui>Rendering "
+"dialog</gui> are temporary and used only at render time. Because they are so "
+"closely related, the <gui>Rendering dialog</gui> has a button which opens "
+"the <gui>Project Settings</gui>."
+msgstr "<gui>Подешавања пројекта</gui> су основа на коју се примењују подешавања из <gui>прозорчета за исцртавање</gui> приликом извршавања исцртавања. <gui>Подешавања пројекта</gui> се чувају одвојено јер она такође одређују како прегледате пројекат док га уређујете. Вредности наведене у <gui>прозорчету за исцртавање</gui> су привремене и користе се само у време исцртавања. Пошто су блиско повезани, <gui>прозорче за исцртавање</gui> има дугме које отвара <gui>Подешавања пројекта</gui>."
+
+#. (itstool) path: page/title
+#: C/savescreenshot.page:14
+msgid "Saving a snapshot of the current frame"
+msgstr "Чување снимка тренутног кадра"
+
+#. (itstool) path: page/p
+#: C/savescreenshot.page:15
+msgid ""
+"You can use <guiseq><gui>Menu button</gui><gui>Export current frame...</"
+"gui></guiseq> to save a copy of the current frame as an image file."
+msgstr "Можете да користите <guiseq><gui>Дугме менија</gui><gui>Извези тренутни кадар...</gui></guiseq> да сачувате примерак тренутног кадра као датотеку слике."
+
+#. (itstool) path: page/p
+#: C/savescreenshot.page:16
+msgid ""
+"Currently, PNG and JPEG are supported as file formats. The image resolution "
+"will match the project settings and any effect or transformation will also "
+"be applied to the resulting image."
+msgstr "Тренутно су подржани PNG и JPEG формати датотека. Резолуција слике ће одговарати подешавањима пројекта, а сваки ефекат или преображај ће такође бити примењен на резултујућу слику."
+
+#. (itstool) path: info/desc
+#: C/selectiongrouping.page:18
+msgid "Making selections and grouping clips in timeline."
+msgstr "Прављење одабира и груписање снимака на временској линији."
+
+#. (itstool) path: page/title
+#: C/selectiongrouping.page:25
+msgid "Selection and grouping"
+msgstr "Одабир и груписање"
+
+#. (itstool) path: section/title
+#: C/selectiongrouping.page:27
+msgid "Making selections"
+msgstr "Прављење одабира"
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:28
+msgid ""
+"By selecting a clip, you specify what item should the subsequent actions be "
+"applied to. Selecting multiple clips allows you to apply actions (dragging, "
+"deleting, grouping, etc.) to all of them at once. To select an individual "
+"clip, simply click it."
+msgstr "Бирањем снимка, одређујете на коју ставку треба применити наредне радње. Бирање више снимака омогућава вам да примените радње (превлачење, брисање, груписање, итд.) на све њих одједном. Да бисте изабрали појединачни снимак, једноставно кликните на њега."
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:29
+msgid ""
+"To select multiple adjacent clips you can click the timeline anywhere in an "
+"empty region and drag. Alternatively, you can:"
+msgstr "Да бисте изабрали више суседних снимака, можете кликнути било где у празну област на временској линији и превући. Алтернативно, можете:"
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:32
+msgid "Click the first clip."
+msgstr "Кликнути на први снимак."
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:35
+msgid "Hold the <key>Shift</key> key."
+msgstr "Држати тастер <key>Shift</key>."
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:38
+msgid "Click the last clip."
+msgstr "Кликнути на последњи снимак."
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:41
+msgid ""
+"When selecting a clip by clicking or when selecting multiple adjacent clips, "
+"the selection is reset. The rest of the clips become deselected if they were "
+"previously selected. Selecting or deselecting specific clips without "
+"resetting the selection can be done by toggling individually a clip's "
+"selection:"
+msgstr "Када бирате снимак кликом или када бирате више суседних снимака, избор се поништава. Остали снимци престају бити изабрани ако су претходно били изабрани. Бирање или поништавање избора специфичних снимака без ресетовања избора може се урадити појединачним пребацивањем избора снимка:"
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:44
+msgid "Hold down the <key>Ctrl</key> key."
+msgstr "Држите притиснут тастер <key>Ctrl</key>."
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:47
+msgid "Click on each clip you want to toggle the selection."
+msgstr "Кликните на сваки снимак чији избор желите да промените."
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:50
+msgid ""
+"To clear the selection, click anywhere on the timeline in an empty region."
+msgstr "Да бисте очистили избор, кликните било где у празну област на временској линији."
+
+#. (itstool) path: note/p
+#: C/selectiongrouping.page:52
+msgid ""
+"By default, clicking in the timeline changes the selection and also moves "
+"the playhead. To have a better control of the playhead you can disable "
+"seeking when left-clicking. This way left-clicking only changes the "
+"selection and the playhead position won't be lost when you make selections. "
+"This can be specified at <guiseq><gui>Menu button</gui><gui>Preferences</"
+"gui><gui>Left click also seeks</gui></guiseq>. You can still use right-click "
+"to move the playhead, as before, see <link "
+"xref=\"movearoundtimeline#movingplayhead\"/> for details."
+msgstr "Подразумевано, кликтање на временску линију мења избор и такође помера главу пуштања. Да бисте имали бољу контролу над главом пуштања, можете онемогућити премотавање при левом клику. На овај начин леви клик само мења избор, а положај главе пуштања неће бити изгубљен када вршите изборе. Ово се може подесити у <guiseq><gui>Дугме менија</gui><gui>Поставке</gui><gui>Леви клик такође премотава</gui></guiseq>. И даље можете користити десни клик за померање главе пуштања, као и раније, погледајте <link xref=\"movearoundtimeline#movingplayhead\"/> за детаље."
+
+#. (itstool) path: section/title
+#: C/selectiongrouping.page:56
+msgid "Grouping and ungrouping clips"
+msgstr "Груписање и разгруписавање снимака"
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:57
+msgid "Pitivi allows you to combine"
+msgstr "Питиви вам омогућава да комбинујете"
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:59
+msgid "audio and video into clips, and"
+msgstr "звук и видео у снимке, и"
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:60
+msgid "multiple clips into groups."
+msgstr "више снимака у групе."
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:62
+msgid ""
+"This means you can edit multiple pieces of media together, such as moving "
+"them along the timeline together. This section shows you how to group and "
+"ungroup audio and video tracks within clips, and also how to group and "
+"ungroup multiple clips together."
+msgstr "То значи да можете заједно уређивати више делова медија, као што је њихово заједничко померање дуж временске линије. Овај одељак вам показује како да групишете и разгрупишете звучне и видео стазе унутар снимака, као и како да заједно групишете и разгрупишете више снимака."
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:63
+msgid "Grouping clips in timeline:"
+msgstr "Груписање снимака на временској линији:"
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:66
+msgid "Select multiple clips in the timeline."
+msgstr "Изаберите више снимака на временској линији."
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:69
+msgid ""
+"Click the <gui>Group clips</gui> button on the timeline toolbar, or press "
+"<keyseq><key>Ctrl</key><key>G</key></keyseq>."
+msgstr "Кликните на дугме <gui>Групиши снимке</gui> на траци алата временске линије, или притисните <keyseq><key>Ctrl</key><key>G</key></keyseq>."
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:72
+msgid "You can now select, edit and move the clips all at once."
+msgstr "Сада можете бирати, уређивати и померати снимке све одједном."
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:73
+msgid "Ungrouping clips in timeline:"
+msgstr "Разгруписавање снимака на временској линији:"
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:76
+msgid "Select a group of clips in the timeline."
+msgstr "Изаберите групу снимака на временској линији."
+
+#. (itstool) path: item/p
+#: C/selectiongrouping.page:79
+msgid ""
+"Click the <gui>Ungroup clips</gui> button on the timeline toolbar, or press "
+"<keyseq><key>Ctrl</key><key>Shift</key><key>G</key></keyseq>."
+msgstr "Кликните на дугме <gui>Разгрупиши снимке</gui> на палети алата временске линије или притисните <keyseq><key>Ctrl</key><key>Shift</key><key>G</key></keyseq>."
+
+#. (itstool) path: section/p
+#: C/selectiongrouping.page:82
+msgid "You can now select, edit and move the clips independently."
+msgstr "Сада можете независно бирати, уређивати и премештати снимке."
+
+#. (itstool) path: info/desc
+#: C/splitting.page:18
+msgid "Dividing clips in two parts."
+msgstr "Дељење снимака на два дела."
+
+#. (itstool) path: page/title
+#: C/splitting.page:25
+msgid "Splitting"
+msgstr "Подела"
+
+#. (itstool) path: page/p
+#: C/splitting.page:26
+msgid ""
+"As the name implies, splitting a clip divides it into two adjacent clips, "
+"with new beginning/end points being created accordingly."
+msgstr "Као што и сам назив каже, дељење снимка га дели на два суседна снимка, при чему се сходно томе праве нове почетне и завршне тачке."
+
+#. (itstool) path: page/p
+#: C/splitting.page:27
+msgid ""
+"In <app>Pitivi</app>, splitting is a “non-modal” operation; this means that "
+"you do not have to “activate” a particular tool before doing the split "
+"action. Splitting occurs where the playhead is currently located (see also "
+"<link xref=\"movearoundtimeline\">Moving the playhead</link>). Combined with "
+"zooming, frame-by-frame seeking with the keyboard or scrubbing, modeless "
+"splitting is not only fast and efficient, it is also very accurate."
+msgstr "У <app>Питивију</app>, дељење је „немодална“ радња; то значи да не морате да „активирате“ посебан алат пре обављања радње дељења. Дељење се дешава тамо где се тренутно налази глава пуштања (погледајте и <link xref=\"movearoundtimeline\">Премештање главе пуштања</link>). У комбинацији са увећањем, тражењем кадар-по-кадар помоћу тастатуре или премотавањем, немодално дељење није само брзо и ефикасно, већ је и веома прецизно."
+
+#. (itstool) path: page/p
+#: C/splitting.page:28
+msgid "For example, to split a single clip:"
+msgstr "На пример, да бисте поделили појединачни снимак:"
+
+#. (itstool) path: item/p
+#: C/splitting.page:31
+msgid "Click on the clip to select it."
+msgstr "Кликните на снимак да бисте га изабрали."
+
+#. (itstool) path: item/p
+#: C/splitting.page:34
+msgid "Reposition the playhead where you want to split (if needed)."
+msgstr "Поставите главу пуштања тамо где желите да извршите дељење (ако је потребно)."
+
+#. (itstool) path: item/p
+#: C/splitting.page:37
+msgid ""
+"Click on the <gui>Split</gui> button on the timeline toolbar or press "
+"<key>S</key>."
+msgstr "Кликните на дугме <gui>Подели</gui> на палети алата временске линије или притисните <key>S</key>."
+
+#. (itstool) path: page/p
+#: C/splitting.page:40
+msgid ""
+"Only the clips under the playhead can be split, depending on the current "
+"selection:"
+msgstr "Само снимци испод главе пуштања могу бити подељени, у зависности од тренутног избора:"
+
+#. (itstool) path: item/p
+#: C/splitting.page:43
+msgid ""
+"If clips are selected, only the selected clips under the playhead are split."
+msgstr "Ако су снимци изабрани, биће подељени само изабрани снимци испод главе пуштања."
+
+#. (itstool) path: item/p
+#: C/splitting.page:46
+msgid "If the selection is empty, all the clips under the playhead are split."
+msgstr "Ако ништа није изабрано, сви снимци испод главе пуштања ће бити подељени."
+
+#. (itstool) path: page/p
+#: C/splitting.page:49
+msgid ""
+"See how to select clips in <link "
+"xref=\"selectiongrouping#selection\">Selection and grouping</link>."
+msgstr "Погледајте како да изаберете снимке у одељку <link xref=\"selectiongrouping#selection\">Бирање и груписање</link>."
+
+#. (itstool) path: note/title
+#: C/splitting.page:51
+msgid "Cutting out the middle"
+msgstr "Исецање средњег дела"
+
+#. (itstool) path: note/p
+#: C/splitting.page:52
+msgid ""
+"When you want to cut out a middle section of a clip, split the clip twice on "
+"the positions where the part you want to remove begins and ends. Select the "
+"middle part and hit <key>Delete</key>. Now, eliminate the empty space "
+"between the remaining two parts by moving one of them towards the other "
+"until they snap."
+msgstr "Када желите да исечете средњи део снимка, поделите снимак два пута на местима где део који желите да уклоните почиње и завршава се. Изаберите средњи део и притисните <key>Delete</key>. Сада уклоните празан простор између преостала два дела тако што ћете један од њих померити према другом док не приону."
+
+#. (itstool) path: info/desc
+#: C/sysreq.page:18
+msgid "What kind of hardware is needed to do video editing?"
+msgstr "Каква врста хардвера је потребна за уређивање видео снимака?"
+
+#. (itstool) path: page/title
+#: C/sysreq.page:25
+msgid "System requirements"
+msgstr "Системски захтеви"
+
+#. (itstool) path: page/p
+#: C/sysreq.page:26
+msgid ""
+"In terms of hardware, video editing typically requires a powerful computer, "
+"depending on the type of video you are editing. While the processing power "
+"of computers has increased tremendously over the years, so has demand for "
+"higher quality video. Editing HD (High Definition) video usually requires "
+"(at the time of this writing) state of the art hardware (depending on the "
+"codec used), while SD (Standard Definition) video editing can be done on "
+"modest hardware configurations. It is up to you to make sure that your "
+"equipment is adequate. It should at least be able to playback your media in "
+"<app>Totem</app> without lagging."
+msgstr "Што се тиче хардвера, уређивање видео снимака обично захтева моћан рачунар, у зависности од врсте видеа који уређујете. Иако се снага обраде рачунара током година енормно повећала, повећали су се и захтеви за видео снимцима вишег квалитета. Уређивање HD (висока дефиниција) видеа обично захтева (у време писања овог текста) најсавременији хардвер (у зависности од коришћеног кодека), док се уређивање SD (стандардна дефиниција) видеа може обављати на скромнијим хардверским конфигурацијама. На вама је да се уверите да је ваша опрема адекватна. Требало би да барем може да пушта ваше медије у <app>Тотему</app> без кашњења."
+
+#. (itstool) path: page/p
+#: C/sysreq.page:27
+msgid "Here are some general hardware recommendations:"
+msgstr "Ево неких општих препорука за хардвер:"
+
+#. (itstool) path: item/p
+#: C/sysreq.page:30
+msgid "Modern quad core CPU"
+msgstr "Модеран четворојезгарни процесор"
+
+#. (itstool) path: item/p
+#: C/sysreq.page:33
+msgid "Solid state drive"
+msgstr "ССД уређај"
+
+#. (itstool) path: item/p
+#: C/sysreq.page:36
+msgid "Intel graphic cards tend to work without problems"
+msgstr "Интелове графичке картице обично раде без проблема"
+
+#. (itstool) path: item/p
+#: C/sysreq.page:39
+msgid ""
+"Full HD (1920x1080) capable monitor (resolutions below 1024x768 are not "
+"supported)"
+msgstr "Монитор способан за пуну високу резолуцију (1920x1080) (резолуције испод 1024x768 нису подржане)"
+
+#. (itstool) path: page/p
+#: C/sysreq.page:42
+msgid ""
+"It is possible, however, to use low-quality versions of your footage during "
+"editing and use the high-quality versions when rendering the final output, "
+"thus allowing to bypass hardware limitations to some extent. This is called "
+"<em>proxy editing</em>. This feature, however, is not yet available in "
+"<app>Pitivi</app>."
+msgstr "Међутим, могуће је користити верзије ниског квалитета вашег снимка током уређивања и користити верзије високог квалитета приликом исцртавања коначног излаза, чиме се омогућава заобилажење хардверских ограничења у одређеној мери. Ово се зове <em>посредничко уређивање</em>. Ова функција, међутим, још увек није доступна у <app>Питивију</app>."
+
+#. (itstool) path: note/p
+#: C/sysreq.page:44
+msgid ""
+"You can track the state of proxy editing in <app>Pitivi</app> through <link "
+"href=\"https://gitlab.gnome.org/GNOME/pitivi/issues/743\">task 743</link>."
+msgstr "Можете пратити стање посредничкового уређивања у <app>Питивију</app> кроз <link href=\"https://gitlab.gnome.org/GNOME/pitivi/issues/743\">задатак 743</link>."
+
+#. (itstool) path: page/p
+#: C/sysreq.page:46
+msgid ""
+"Software requirements are covered in <link xref=\"gstreamer\">Gstreamer and "
+"compatibility</link> and <link xref=\"effects\">Introduction to effects</"
+"link>."
+msgstr "Софтверски захтеви су покривени у <link xref=\"gstreamer\">Гстримеру и компатибилности</link> и <link xref=\"effects\">Уводу у ефекте</link>."
+
+#. (itstool) path: info/desc
+#: C/transitions.page:18
+msgid ""
+"Applying crossfades, fade-ins, fade-outs and other types of transitions."
+msgstr "Примена постепених прелаза, појављивања, ишчезавања и других врста прелаза."
+
+#. (itstool) path: page/title
+#: C/transitions.page:25
+msgid "Transitions"
+msgstr "Прелази"
+
+#. (itstool) path: section/title
+#: C/transitions.page:27
+msgid "Crossfading clips"
+msgstr "Постепени прелаз снимака"
+
+#. (itstool) path: section/p
+#: C/transitions.page:28
+msgid ""
+"To do a crossfade between two clips on the same layer, simply drag one of "
+"the clips onto the other so that it overlaps. The overlapping region will be "
+"used as a space for transition between the two clips. You can adjust the "
+"length of the transition either by moving the clips or by trimming them. If "
+"you want to apply other types of transitions than the default (crossfade), "
+"see the <em>Other types of transitions</em> section on this page."
+msgstr "Да бисте направили постепени прелаз између два снимка на истом слоју, једноставно превуците један од снимака на други тако да се преклапају. Област преклапања ће се користити као простор за прелаз између два снимка. Можете подесити дужину прелаза било померањем снимака или њиховим скраћивањем. Ако желите да примените друге врсте прелаза уместо подразумеваног (постепени прелаз), погледајте одељак <em>Друге врсте прелаза</em> на овој страници."
+
+#. (itstool) path: note/p
+#: C/transitions.page:30
+msgid ""
+"Crossfades are achieved using <app>Pitivi</app>'s video mixing features, "
+"which use keyframes to control the opacity of clips. This means that if you "
+"set opacity keyframes for a clip, they will be taken into account for the "
+"crossfade."
+msgstr "Постепени прелази се постижу коришћењем <app>Питивијевих</app> функција за мешање видеа, које користе кључне кадрове за контролу непрозирности снимака. То значи да ако поставите кључне кадрове непрозирности за снимак, они ће бити узети у обзир за постепени прелаз."
+
+#. (itstool) path: section/title
+#: C/transitions.page:34
+msgid "Other types of transitions"
+msgstr "Друге врсте прелаза"
+
+#. (itstool) path: section/p
+#: C/transitions.page:35
+msgid ""
+"Assuming that you have two overlapping clips in your timeline, you can "
+"achieve other types of transitions by following these steps:"
+msgstr "Под претпоставком да имате два преклопљена снимка на вашој временској линији, можете постићи друге врсте прелаза пратећи ове кораке:"
+
+#. (itstool) path: item/p
+#: C/transitions.page:38
+msgid "Select the overlapping region by clicking on it."
+msgstr "Изаберите област преклапања кликом на њу."
+
+#. (itstool) path: item/p
+#: C/transitions.page:41
+msgid "Select the <gui>Transition</gui> tab in the middle pane."
+msgstr "Изаберите језичак <gui>Прелаз</gui> у средњој површи."
+
+#. (itstool) path: item/p
+#: C/transitions.page:44
+msgid "Select one of the offered transitions."
+msgstr "Изаберите један од понуђених прелаза."
+
+#. (itstool) path: section/p
+#: C/transitions.page:47
+msgid ""
+"The transitions can be further adjusted with the following options from the "
+"bottom of the <gui>Transition</gui> tab:"
+msgstr "Прелази се могу даље подесити следећим опцијама са дна језичка <gui>Прелаз</gui>:"
+
+#. (itstool) path: item/p
+#: C/transitions.page:50
+msgid ""
+"<em>Normal mode</em> will apply the transition in a linear fashion over the "
+"whole overlapping region. When in normal mode, you can adjust the degree of "
+"sharpness/smoothness of the transition."
+msgstr "<em>Нормалан режим</em> ће применити прелаз на линеаран начин преко целе области преклапања. Када сте у нормалном режиму, можете подесити степен оштрине/ублажавања прелаза."
+
+#. (itstool) path: item/p
+#: C/transitions.page:53
+msgid ""
+"<em>Loop</em> mode will apply the transition in a circular manner. When in "
+"loop mode, you can adjust the speed with which the transition will repeat "
+"itself."
+msgstr "Режим <em>Понављања</em> ће применити прелаз на кружни начин. Када сте у режиму понављања, можете подесити брзину којом ће се прелаз понављати."
+
+#. (itstool) path: item/p
+#: C/transitions.page:56
+msgid ""
+"In both modes, you can apply the transition in <em>reverse direction</em> by "
+"ticking the corresponding checkbox."
+msgstr "У оба режима, можете применити прелаз у <em>обрнутом смеру</em> штиклирањем одговарајуће кућице."
+
+#. (itstool) path: note/p
+#: C/transitions.page:60
+msgid ""
+"Each transition has its name and description. They are displayed when you "
+"hover the cursor over the transition icon. You can also filter the "
+"transitions by typing into the search entry at the top of the "
+"<gui>Transition</gui> tab. This will show only transitions whose name or "
+"description match your search terms."
+msgstr "Сваки прелаз има своје име и опис. Они се приказују када поставите показивач миша преко иконице прелаза. Такође можете филтрирати прелазе куцањем у поље за претрагу на врху језичка <gui>Прелаз</gui>. Ово ће приказати само оне прелазе чије име или опис одговарају вашим терминима за претрагу."
+
+#. (itstool) path: section/title
+#: C/transitions.page:64
+msgid "Fade-ins and fade-outs"
+msgstr "Постепено појављивање и ишчезавање"
+
+#. (itstool) path: section/p
+#: C/transitions.page:65
+msgid ""
+"You can create fade-in and fade-out transitions in single clips by "
+"specifying their duration in the <gui>Compositing</gui> section of the "
+"<gui>Clip Properties</gui> panel. These can be fine-tuned by interacting "
+"with the <link xref=\"keyframecurves\">Keyframe curve</link> controlling the "
+"clip's opacity. To understand opacity, see <link "
+"xref=\"layers\">Understanding layers</link>. The following images illustrate "
+"how to fade a clip to black by editing the clip's keyframes:"
+msgstr "Можете направити прелазе постепеног појављивања и ишчезавања у појединачним снимцима навођењем њиховог трајања у одељку <gui>Састављање</gui> на панелу <gui>Својства снимка</gui>. Ово се може фино подесити интеракцијом са <link xref=\"keyframecurves\">кривом кључног кадра</link> која управља непрозирношћу снимка. Да бисте разумели непрозирност, погледајте <link xref=\"layers\">Разумевање слојева</link>. Следеће слике илуструју како да избледите снимак до црне боје уређивањем кључних кадрова снимка:"
+
+#. (itstool) path: figure/title
+#: C/transitions.page:67
+msgid "Keyframe curves controlling the video opacity"
+msgstr "Криве кључног кадра које управљају непрозирношћу видеа"
+
+#. (itstool) path: figure/desc
+#: C/transitions.page:68
+msgid ""
+"The default curve is flat indicating the same opacity at any position within "
+"the clip."
+msgstr "Подразумевана крива је равна, што указује на исту непрозирност на било ком месту унутар снимка."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/transitions.page:69
+msgctxt "_"
+msgid ""
+"external ref='figures/fadestep1.png' md5='4bdb320d2ef57e3d09c67fcdba8ab103'"
+msgstr "external ref='figures/fadestep1.png' md5='4bdb320d2ef57e3d09c67fcdba8ab103'"
+
+#. (itstool) path: figure/title
+#: C/transitions.page:72
+msgid "Adding a new keyframe"
+msgstr "Додавање новог кључног кадра"
+
+#. (itstool) path: figure/desc
+#: C/transitions.page:73
+msgid ""
+"Create a new keyframe by clicking the curve in a position where you want to "
+"start the fade-out."
+msgstr "Направите нови кључни кадар кликом на криву на месту где желите да започнете постепено ишчезавање."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/transitions.page:74
+msgctxt "_"
+msgid ""
+"external ref='figures/fadestep2.png' md5='c4bafbd98aee44ec93cb41c857b501c5'"
+msgstr "external ref='figures/fadestep2.png' md5='c4bafbd98aee44ec93cb41c857b501c5'"
+
+#. (itstool) path: figure/title
+#: C/transitions.page:77
+msgid "Moving the keyframe"
+msgstr "Премештање кључног кадра"
+
+#. (itstool) path: figure/desc
+#: C/transitions.page:78
+msgid "Click and drag the last keyframe downwards."
+msgstr "Кликните и превуците последњи кључни кадар на доле."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/transitions.page:79
+msgctxt "_"
+msgid ""
+"external ref='figures/fadestep3.png' md5='5aa08a9539d2d7bb6e39be379e88d778'"
+msgstr "external ref='figures/fadestep3.png' md5='5aa08a9539d2d7bb6e39be379e88d778'"
+
+#. (itstool) path: section/p
+#: C/transitions.page:81
+msgid ""
+"To achieve a fade-in, simply create a mirroring keyframe curve (new keyframe "
+"in a position where the fade-in should end and the first keyframe dragged "
+"down) at the beginning of the clip."
+msgstr "Да бисте постигли постепено појављивање, једноставно направите симетричну криву кључног кадра (нови кључни кадар на месту где би постепено појављивање требало да се заврши и први кључни кадар превучен на доле) на почетку снимка."
+
+#. (itstool) path: note/p
+#: C/transitions.page:83
+msgid ""
+"Fades and crossfading as described here can be applied to both audio and "
+"video clips."
+msgstr "Постепена појављивања и претапања као што је овде описано могу се применити и на аудио и на видео снимке."
+
+#. (itstool) path: info/desc
+#: C/trimming.page:18
+msgid ""
+"Shortening clips by changing the beginning and ending points. Also covers "
+"ripple and roll editing."
+msgstr "Скраћивање снимака променом почетне и крајње тачке. Такође покрива таласасто и кружно уређивање."
+
+#. (itstool) path: page/title
+#: C/trimming.page:25
+msgid "Trimming"
+msgstr "Скраћивање"
+
+#. (itstool) path: page/p
+#: C/trimming.page:26
+msgid ""
+"<em>Trimming</em> is the act of changing the length of a clip by moving its "
+"beginning or end point in the timeline. Move the mouse cursor over the edge "
+"of a clip and a trimming handle will appear. Drag the trimming handle in an "
+"appropriate direction to either reduce or increase the length of the clip."
+msgstr "<em>Скраћивање</em> је радња мењања дужине снимка померањем његове почетне или крајње тачке на временској линији. Померите показивач миша преко ивице снимка и појавиће се ручка за скраћивање. Превуците ручку за скраћивање у одговарајућем смеру да бисте или смањили или повећали дужину снимка."
+
+#. (itstool) path: figure/title
+#: C/trimming.page:28
+msgid "Trimming handle"
+msgstr "Ручка за скраћивање"
+
+#. (itstool) path: figure/desc
+#: C/trimming.page:29
+msgid ""
+"The mouse cursor transforms into trimming handle when hovering over the edge "
+"of a clip."
+msgstr "Показивач миша се трансформише у ручку за скраћивање када лебди преко ивице снимка."
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/trimming.page:30
+msgctxt "_"
+msgid ""
+"external ref='figures/trimming-individual.png' "
+"md5='858585ad6ddc21696f7b9f0d597982b4'"
+msgstr "external ref='figures/trimming-individual.png' md5='858585ad6ddc21696f7b9f0d597982b4'"
+
+#. (itstool) path: page/p
+#: C/trimming.page:32
+msgid ""
+"Clips that are grouped together, such as corresponding audio and video "
+"clips, will trim in unison when you drag the trimming handle. To trim only "
+"the audio or only the video clip, you need to ungroup them first (see the "
+"<link xref=\"selectiongrouping\">Selection and grouping</link> page for "
+"instructions on how to do that)."
+msgstr "Снимци који су груписани заједно, као што су одговарајући аудио и видео снимци, скраћиваће се усклађено када превлачите ручку за скраћивање. Да бисте скратили само аудио или само видео снимак, морате их прво разгруписати (погледајте страницу <link xref=\"selectiongrouping\">Бирање и груписање</link> за упутства како то да урадите)."
+
+#. (itstool) path: section/title
+#: C/trimming.page:34
+msgid "Ripple editing"
+msgstr "Уређивање таласањем"
+
+#. (itstool) path: section/p
+#: C/trimming.page:35
+msgid ""
+"Ripple editing is a variant of basic trimming which, in addition to trimming "
+"a clip, also moves the following clips (the clips that start after the one "
+"you're directly editing) so that their relative position to the edited clip "
+"stays the same."
+msgstr "Уређивање таласањем је варијанта основног скраћивања која, поред скраћивања снимка, такође помера наредне снимке (снимке који почињу након оног који директно уређујете) тако да њихов релативни положај у односу на уређени снимак остаје исти."
+
+#. (itstool) path: figure/title
+#: C/trimming.page:37 C/trimming.page:73
+msgid "Before"
+msgstr "Before"
+
+#. (itstool) path: figure/desc
+#: C/trimming.page:38
+msgid "Relative position of two adjacent clips before ripple editing"
+msgstr "Релативни положај два суседна снимка пре уређивања таласањем"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/trimming.page:39
+msgctxt "_"
+msgid ""
+"external ref='figures/ripple-before.png' "
+"md5='7052e3caadd1ccbf9a91a8c506aeca7d'"
+msgstr "external ref='figures/ripple-before.png' md5='7052e3caadd1ccbf9a91a8c506aeca7d'"
+
+#. (itstool) path: figure/title
+#: C/trimming.page:42 C/trimming.page:78
+msgid "After"
+msgstr "After"
+
+#. (itstool) path: figure/desc
+#: C/trimming.page:43
+msgid "Relative position of two adjacent clips after ripple editing"
+msgstr "Релативни положај два суседна снимка након уређивања таласањем"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/trimming.page:44
+msgctxt "_"
+msgid ""
+"external ref='figures/ripple-after.png' "
+"md5='3f2fdba79d1c69c2f2022fe08a62b5a7'"
+msgstr "external ref='figures/ripple-after.png' md5='3f2fdba79d1c69c2f2022fe08a62b5a7'"
+
+#. (itstool) path: note/p
+#: C/trimming.page:47
+msgid ""
+"Note that if there is a gap between the clips, the following clip moves "
+"toward the edited so that the gap length stays the same."
+msgstr "Имајте на уму да ако постоји размак између снимака, наредни снимак се помера према уређеном тако да дужина размака остаје иста."
+
+#. (itstool) path: note/p
+#: C/trimming.page:50
+msgid ""
+"Ripple editing affects all following clips, regardless of whether or not "
+"they are on the same layer."
+msgstr "Уређивање таласањем утиче на све наредне снимке, без обзира на то да ли су на истом слоју или не."
+
+#. (itstool) path: section/p
+#: C/trimming.page:52
+msgid "To do a ripple edit:"
+msgstr "Да бисте извршили уређивање таласањем:"
+
+#. (itstool) path: item/p
+#: C/trimming.page:56
+msgid "Place the mouse cursor on a trimming handle."
+msgstr "Поставите курсор миша на ручку за скраћивање."
+
+#. (itstool) path: item/p
+#: C/trimming.page:59
+msgid "Press and hold <key>Shift</key>."
+msgstr "Притисните и држите тастер <key>Shift</key>."
+
+#. (itstool) path: item/p
+#: C/trimming.page:62 C/trimming.page:94
+msgid "Drag the trimming handle."
+msgstr "Превуците ручку за скраћивање."
+
+#. (itstool) path: note/p
+#: C/trimming.page:66
+msgid ""
+"Ripple editing can also be used when moving clips around in the timeline. "
+"For detailed explanations on how to do this, see the section <link "
+"xref=\"usingclips#ripple\">Using ripple editing while moving clips</link>."
+msgstr "Уређивање таласањем се такође може користити приликом премештања снимака по временској линији. За детаљна објашњења како то да урадите, погледајте одељак <link xref=\"usingclips#ripple\">Коришћење уређивања таласањем приликом премештања снимака</link>."
+
+#. (itstool) path: section/title
+#: C/trimming.page:70
+msgid "Roll editing"
+msgstr "Уређивање ролањем"
+
+#. (itstool) path: section/p
+#: C/trimming.page:71
+msgid ""
+"Roll editing is a variant of basic trimming which, in addition to trimming a "
+"clip, <em>trims</em> the adjacent clips in a complementary way to prevent "
+"creating gaps."
+msgstr "Уређивање ролањем је варијанта основног скраћивања која, поред скраћивања снимка, <em>скраћује</em> суседне снимке на допунски начин како би се спречило стварање размака."
+
+#. (itstool) path: figure/desc
+#: C/trimming.page:74
+msgid "Relative position of two adjacent clips before roll editing"
+msgstr "Релативни положај два суседна снимка пре уређивања окретањем"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/trimming.page:75
+msgctxt "_"
+msgid ""
+"external ref='figures/roll-before.png' md5='a6c8ea270c5aa9953c07b493409637a2'"
+msgstr "external ref='figures/roll-before.png' md5='a6c8ea270c5aa9953c07b493409637a2'"
+
+#. (itstool) path: figure/desc
+#: C/trimming.page:79
+msgid "Relative position of two adjacent clips after roll editing"
+msgstr "Релативни положај два суседна снимка након уређивања окретањем"
+
+#. (itstool) path: figure/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/trimming.page:80
+msgctxt "_"
+msgid ""
+"external ref='figures/roll-after.png' md5='83653c2c984da5d10a0bea16dcee84e4'"
+msgstr "external ref='figures/roll-after.png' md5='83653c2c984da5d10a0bea16dcee84e4'"
+
+#. (itstool) path: note/p
+#: C/trimming.page:83
+msgid ""
+"Roll editing affects all adjacent clips, regardless of whether or not they "
+"are on the same layer."
+msgstr "Уређивање окретањем утиче на све суседне снимке, без обзира на то да ли су на истом слоју или не."
+
+#. (itstool) path: section/p
+#: C/trimming.page:85
+msgid "To do a roll edit:"
+msgstr "За уређивање окретањем:"
+
+#. (itstool) path: item/p
+#: C/trimming.page:88
+msgid "Place the mouse cursor on a trimming handle between two adjacent clips."
+msgstr "Поставите курсор миша на ручку за скраћивање између два суседна снимка."
+
+#. (itstool) path: item/p
+#: C/trimming.page:91
+msgid "Press and hold <key>Ctrl</key>."
+msgstr "Притисните и држите тастер <key>Ctrl</key>."
+
+#. (itstool) path: credit/name
+#: C/usingclips.page:19
+msgid "UNL SOFT261 - Team 3"
+msgstr "UNL SOFT261 — Тим 3"
+
+#. (itstool) path: info/desc
+#: C/usingclips.page:22
+msgid ""
+"Learn the difference between clips and files and how to do basic operations "
+"on clips in the timeline."
+msgstr "Научите разлику између снимака и датотека и како да обављате основне радње над снимцима на временској линији."
+
+#. (itstool) path: page/title
+#: C/usingclips.page:29
+msgid "Using clips"
+msgstr "Коришћење снимака"
+
+#. (itstool) path: section/title
+#: C/usingclips.page:31
+msgid "Clips vs files"
+msgstr "Снимци наспрам датотека"
+
+#. (itstool) path: section/p
+#: C/usingclips.page:32
+msgid ""
+"<em>Files</em> are data on your hard disk (videos, music, pictures, etc.) "
+"that can be accessed by <app>Pitivi</app> and incorporated in your video "
+"editing project."
+msgstr "<em>Датотеке</em> су подаци на вашем чврстом диску (видео снимци, музика, слике, итд.) којима <app>Питиви</app> може приступити и укључити их у ваш пројекат уређивања видео снимака."
+
+#. (itstool) path: section/p
+#: C/usingclips.page:33
+msgid ""
+"<em>Clips</em> are a visual representation of your files on the timeline. "
+"They represent the period of time they consume on the timeline and can be "
+"edited independently: each time you drag a file from the <gui>Media Library</"
+"gui> to the timeline, a new clip is created. As such, a file can be reused "
+"as much as you want to create any amount of different clips."
+msgstr "<em>Снимци</em> су визуелни приказ ваших датотека на временској линији. Они представљају временски период који заузимају на временској линији и могу се независно уређивати: сваки пут када превучете датотеку из <gui>Библиотеке медија</gui> на временску линију, прави се нови снимак. Као такав, датотека се може поново користити колико год желите за прављење било ког броја различитих снимака."
+
+#. (itstool) path: note/p
+#: C/usingclips.page:35
+msgid ""
+"Since Pitivi is a non-destructive editor, clips are edited, not files. As "
+"such, your files stay intact."
+msgstr "Будући да је Питиви не-деструктиван уређивач, уређују се снимци, а не датотеке. Као такве, ваше датотеке остају нетакнуте."
+
+#. (itstool) path: section/title
+#: C/usingclips.page:39
+msgid "Inserting clips"
+msgstr "Уметање снимака"
+
+#. (itstool) path: section/p
+#: C/usingclips.page:40
+msgid ""
+"From the <gui>Media Library</gui>, you can insert one or more clips by "
+"selecting them (use the <key>Ctrl</key> or <key>Shift</key> keys to select "
+"multiple clips) and doing one of the following:"
+msgstr "Из <gui>Библиотеке медија</gui> можете уметнути један или више снимака тако што ћете их изабрати (користите тастере <key>Ctrl</key> или <key>Shift</key> да изаберете више снимака) и урадити нешто од следећег:"
+
+#. (itstool) path: item/p
+#: C/usingclips.page:43
+msgid "Dragging and dropping them onto a place in the timeline."
+msgstr "Превлачењем и спуштањем на неко место на временској линији."
+
+#. (itstool) path: item/p
+#: C/usingclips.page:46
+msgid ""
+"Clicking the <gui>Insert the selected clips at the end of the timeline</gui> "
+"button in the <gui>Media Library</gui> header."
+msgstr "Кликом на дугме <gui>Уметни изабране снимке на крај временске линије</gui> у заглављу <gui>Библиотеке медија</gui>."
+
+#. (itstool) path: item/p
+#: C/usingclips.page:49
+msgid "Pressing the <key>Insert</key> key."
+msgstr "Притиском на тастер <key>Insert</key>."
+
+#. (itstool) path: section/p
+#: C/usingclips.page:52
+msgid ""
+"When following the second and third options (clicking or pressing insert), "
+"the new clips will be inserted one after another on the longest layer of the "
+"timeline where the last clip ends."
+msgstr "У случају друге и треће опције (кликом или притиском на тастер за уметање), нови снимци ће бити уметнути један за другим на најдужем слоју временске линије где се последњи снимак завршава."
+
+#. (itstool) path: section/title
+#: C/usingclips.page:55
+msgid "Moving clips along the timeline"
+msgstr "Премештање снимака дуж временске линије"
+
+#. (itstool) path: section/p
+#: C/usingclips.page:56
+msgid "You can move a clip within a layer or move it to a different layer."
+msgstr "Можете преместити снимак унутар слоја или га преместити на други слој."
+
+#. (itstool) path: section/p
+#: C/usingclips.page:57
+msgid ""
+"Click and drag a single clip to move it, and release the mouse button to "
+"place it. Dragging horizontally keeps the clip on the same layer, but "
+"dragging it vertically moves the clip to a different layer (see <link "
+"xref=\"layers\">Understanding layers</link> for more information)."
+msgstr "Кликните и превуците појединачни снимак да бисте га преместили, а затим отпустите дугме миша да бисте га поставили. Водоравно превлачење задржава снимак на истом слоју, док га усправно превлачење премешта на други слој (погледајте <link xref=\"layers\">Разумевање слојева</link> за више података)."
+
+#. (itstool) path: section/p
+#: C/usingclips.page:58
+msgid ""
+"To move a clip to an existing layer, drag it on the layer at the desired "
+"position and release it. To move a clip to a new layer, drag it to the "
+"middle space between two existing layers. Once the space between the "
+"respective layers is highlighted, release it."
+msgstr "Да бисте преместили снимак на постојећи слој, превуците га на слој на жељени положај и отпустите га. Да бисте преместили снимак на нови слој, превуците га у средњи простор између два постојећа слоја. Када простор између одговарајућих слојева буде истакнут, отпустите га."
+
+#. (itstool) path: section/p
+#: C/usingclips.page:59
+msgid ""
+"To move multiple clips at the same time, use the <key>Ctrl</key> or "
+"<key>Shift</key> keys to select multiple clips (see <link "
+"xref=\"selectiongrouping\">Selection and grouping</link> for more details). "
+"Selected clips do not need to be on the same layer. Then, drag the clips "
+"just as you would do for a single clip; their position relative to each "
+"other will be preserved."
+msgstr "Да бисте преместили више снимака истовремено, користите тастере <key>Ctrl</key> или <key>Shift</key> да изаберете више снимака (погледајте <link xref=\"selectiongrouping\">Бирање и груписање</link> за више појединости). Изабрани снимци не морају бити на истом слоју. Затим превуците снимке баш као што бисте то урадили за појединачни снимак; њихов међусобни положај ће бити очуван."
+
+#. (itstool) path: section/title
+#: C/usingclips.page:61
+msgid "Using ripple editing while moving clips"
+msgstr "Коришћење таласастог уређивања приликом премештања снимака"
+
+#. (itstool) path: section/p
+#: C/usingclips.page:62
+msgid ""
+"While dragging clips around in the timeline, you can use the <link "
+"xref=\"trimming#ripple\">ripple technique</link> to move the <em>following</"
+"em> clips (the clips that start after the one you're directly editing) in "
+"sync with the moved clip."
+msgstr "Док превлачите снимке по временској линији, можете користити <link xref=\"trimming#ripple\">технику таласања</link> да бисте преместили <em>пратеће</em> снимке (снимке који почињу након оног који директно уређујете) усклађено са премештеним снимком."
+
+#. (itstool) path: item/p
+#: C/usingclips.page:65
+msgid ""
+"Click and drag the clip you want to move, with the mouse button held down"
+msgstr "Кликните и превуците снимак који желите да преместите, држећи притиснуто дугме миша"
+
+#. (itstool) path: item/p
+#: C/usingclips.page:68
+msgid "During the drag, hold down <key>Shift</key> on the keyboard"
+msgstr "Током превлачења, држите притиснут тастер <key>Shift</key> на тастатури"
+
+#. (itstool) path: item/p
+#: C/usingclips.page:71
+msgid ""
+"Release the mouse button to end the drag operation, then release the "
+"<key>Shift</key> key."
+msgstr "Отпустите дугме миша да бисте завршили радњу превлачења, а затим отпустите тастер <key>Shift</key>."
+
+#. (itstool) path: section/p
+#: C/usingclips.page:74
+msgid ""
+"You can release and press <key>Shift</key> at any time during the drag "
+"operation to disable or enable ripple editing."
+msgstr "Можете отпустити и притиснути тастер <key>Shift</key> у било ком тренутку током радње превлачења да бисте онемогућили или омогућили таласасто уређивање."
+
+#. (itstool) path: section/title
+#: C/usingclips.page:78
+msgid "Using Color Clips"
+msgstr "Коришћење снимака у боји"
+
+#. (itstool) path: section/p
+#: C/usingclips.page:79
+msgid ""
+"You can create custom color clips using the <gui>Create a color clip</gui> "
+"button located in the <guiseq><gui>middle pane</gui><gui>Clip</gui></guiseq> "
+"tab. The button is available when no clip is <link "
+"xref=\"selectiongrouping#selection\">selected</link>."
+msgstr "Можете направити произвољне снимке у боји помоћу дугмета <gui>Направи снимак у боји</gui> које се налази у картици <guiseq><gui>средња површ</gui><gui>Снимак</gui></guiseq>. Дугме је доступно када ниједан снимак није <link xref=\"selectiongrouping#selection\">изабран</link>."
+
+#. (itstool) path: section/p
+#: C/usingclips.page:80
+msgid ""
+"Select a color clip to change its color. When a new color clip is created, "
+"it is automatically selected. The color can be changed using the "
+"<guiseq><gui>middle pane</gui><gui>Clip</gui><gui>Color</gui></guiseq> "
+"expander. The <gui>color</gui> button opens a dialog for selecting a color "
+"or entering a hexadecimal color value. Alternatively, any color on the "
+"screen can be picked by using the <gui>color picker</gui> button."
+msgstr "Изаберите снимак у боји да бисте му променили боју. Када се направи нови снимак у боји, он се аутоматски бира. Боја се може променити помоћу проширивача <guiseq><gui>средња површ</gui><gui>Снимак</gui><gui>Боја</gui></guiseq>. Дугме <gui>боја</gui> отвара прозорче за избор боје или унос хексадецималне вредности боје. Алтернативно, било која боја на екрану се може одабрати помоћу дугмета <gui>бирач боја</gui>."
+
+#. (itstool) path: info/desc
+#: C/usingeffects.page:14
+msgid "Configuring effects and using Effect Library."
+msgstr "Подешавање ефеката и коришћење Библиотеке ефеката."
+
+#. (itstool) path: page/title
+#: C/usingeffects.page:19
+msgid "Using effects"
+msgstr "Коришћење ефеката"
+
+#. (itstool) path: section/title
+#: C/usingeffects.page:21
+msgid "Effect Library"
+msgstr "Библиотека ефекта"
+
+#. (itstool) path: section/p
+#: C/usingeffects.page:22
+msgid ""
+"The <gui>Effect Library</gui> contains all audio and video effects available "
+"on the system. The library shows either audio or video effects depending on "
+"which button (<gui>Show video effects</gui> or <gui>Show audio effects</"
+"gui>) in its upper left corner is activated. Once you choose audio or video "
+"effects you can further sort them by choosing one of the categories from the "
+"drop down list next to the two buttons. By default, the list is set to show "
+"all effects."
+msgstr "<gui>Библиотека ефеката</gui> садржи све звучне и видео ефекте доступне на систему. Библиотека приказује или звучне или видео ефекте у зависности од тога које је дугме (<gui>Прикажи видео ефекте</gui> или <gui>Прикажи звучне ефекте</gui>) у њеном горњем левом углу активирано. Када изаберете звучне или видео ефекте, можете их даље разврстати избором једне од категорија са падајућег списка поред ова два дугмета. По подразумеваној вредности, списак је подешен да приказује све ефекте."
+
+#. (itstool) path: section/p
+#: C/usingeffects.page:23
+msgid ""
+"Alternatively, you can use the <gui>Search Bar</gui> that is shown at the "
+"top of the <gui>Effect Library</gui>. Typing into the search entry filters "
+"the contents of the <gui>Effect Library</gui> to show only effects whose "
+"name or description match your search terms. To reset the search entry, "
+"click the <gui>Clear</gui> icon in the search entry."
+msgstr "Алтернативно, можете да користите <gui>Траку за претрагу</gui> која је приказана на врху <gui>Библиотеке ефеката</gui>. Куцање у поље за претрагу филтрира садржај <gui>Библиотеке ефеката</gui> тако да приказује само ефекте чији назив или опис одговарају вашим терминима за претрагу. Да поништите унос за претрагу, кликните на иконицу <gui>Очисти</gui> у пољу за претрагу."
+
+#. (itstool) path: section/title
+#: C/usingeffects.page:26
+msgid "Configuring effects"
+msgstr "Подешавање ефеката"
+
+#. (itstool) path: section/p
+#: C/usingeffects.page:27
+msgid ""
+"To configure an effect, simply select it in the <guiseq><gui>middle pane</"
+"gui><gui>Clip</gui><gui>Effects</gui></guiseq>. The properties that can be "
+"adjusted will appear below in the same tab. Each variable can be put back to "
+"its original value by clicking the corresponding <gui>Reset to default "
+"value</gui> button."
+msgstr "Да подесите ефекат, једноставно га изаберите у <guiseq><gui>средњој површи</gui><gui>Исечак</gui><gui>Ефекти</gui></guiseq>. Својства која се могу прилагодити ће се појавити испод у истом језичку. Свака променљива се може вратити на своју првобитну вредност кликом на одговарајуће дугме <gui>Врати на подразумевану вредност</gui>."
+
+#. (itstool) path: section/title
+#: C/usingeffects.page:30
+msgid "Animating effects with keyframes"
+msgstr "Анимирање ефеката помоћу кључних кадрова"
+
+#. (itstool) path: section/p
+#: C/usingeffects.page:31
+msgid ""
+"The effect properties which can be controlled using keyframe curves have a "
+"<gui>Show keyframes for this property</gui> button in diamond shape. When "
+"you click it, the keyframe curves on the clip start controlling the "
+"respective property. You can now edit the keyframes to achieve the desired "
+"effect. Once you are done with editing, you can click the button again and "
+"the keyframe curve disappears from the clip. However, the effect property is "
+"still controlled by the adjusted keyframe curve (which is indicated by the "
+"filled shape on the button)."
+msgstr "Својства ефекта која се могу контролисати помоћу кривуља кључних кадрова имају дугме <gui>Прикажи кључне кадрове за ово својство</gui> у облику ромба. Када кликнете на њега, кривуље кључних кадрова на исечку почињу да контролишу одговарајуће својство. Сада можете да уређујете кључне кадрове да бисте постигли жељени ефекат. Када завршите са уређивањем, можете поново да кликнете на дугме и кривуља кључних кадрова нестаје са исечка. Међутим, својство ефекта је и даље контролисано прилагођеном кривуљом кључних кадрова (што је означено попуњеним обликом на дугмету)."
+
+#. (itstool) path: section/p
+#: C/usingeffects.page:32
+msgid ""
+"Once a property becomes controlled, the widget for editing the property "
+"value directly is disabled. To remove the keyframes and be able to set again "
+"directly a constant value using the widget, you have to click the <gui>Reset "
+"to default value</gui> button. For more information on how to use keyframes "
+"see the <link xref=\"keyframecurves\">Keyframe curves</link> page."
+msgstr "Када својство постане контролисано, елемент за директно уређивање вредности својства је онемогућен. Да бисте уклонили кључне кадрове и могли поново директно да поставите константну вредност помоћу елемента, морате да кликнете на дугме <gui>Врати на подразумевану вредност</gui>. За више информација о томе како да користите кључне кадрове погледајте страницу <link xref=\"keyframecurves\">Кривуље кључних кадрова</link>."
+
+#. (itstool) path: note/p
+#: C/usingeffects.page:34
+msgid ""
+"If there is no <gui>Show keyframes for this value</gui> button next to the "
+"effect variable, it cannot be controlled with keyframes."
+msgstr "Ако поред променљиве ефекта нема дугмета <gui>Прикажи кључне кадрове за ову вредност</gui>, она се не може контролисати кључним кадровима."
+
+#. (itstool) path: info/desc
+#: C/workwithprojects.page:18
+msgid "How to load and save projects, edit their settings and metadata."
+msgstr "Како да учитате и сачувате пројекте, уредите њихова подешавања и метаподатке."
+
+#. (itstool) path: page/title
+#: C/workwithprojects.page:25
+msgid "Working with projects"
+msgstr "Рад са пројектима"
+
+#. (itstool) path: section/title
+#: C/workwithprojects.page:27
+msgid "Saving a project"
+msgstr "Чување пројекта"
+
+#. (itstool) path: section/p
+#: C/workwithprojects.page:28
+msgid ""
+"To save your project work, use the <gui>Save</gui> button in the header bar "
+"or press <keyseq><key>Ctrl</key><key>S</key></keyseq>. When you save a "
+"project for the first time, a dialog window appears, asking you where to "
+"save the project file and how to name it."
+msgstr "Да бисте сачували свој рад на пројекту, користите дугме <gui>Сачувај</gui> у траци заглавља или притисните <keyseq><key>Ctrl</key><key>S</key></keyseq>. Када први пут сачувате пројекат, појављује се прозор дијалога који вас пита где да сачувате датотеку пројекта и како да је назовете."
+
+#. (itstool) path: note/p
+#: C/workwithprojects.page:30
+msgid ""
+"If you want to save your project to a different file, use <guiseq><gui>App "
+"menu</gui><gui>Save as</gui></guiseq> or press <keyseq><key>Ctrl</"
+"key><key>Shift</key><key>S</key></keyseq>. This can be used to create "
+"different versions of your project."
+msgstr "Ако желите да сачувате свој пројекат у другу датотеку, користите <guiseq><gui>Мени програма</gui><gui>Сачувај као</gui></guiseq> или притисните <keyseq><key>Ctrl</key><key>Shift</key><key>S</key></keyseq>. Ово се може користити за прављење различитих верзија вашег пројекта."
+
+#. (itstool) path: section/title
+#: C/workwithprojects.page:34
+msgid "Undoing and reverting changes"
+msgstr "Поништавање и враћање измена"
+
+#. (itstool) path: section/p
+#: C/workwithprojects.page:35
+msgid ""
+"To undo a change, simply click on the <gui>Undo</gui> button in the header "
+"bar or press <keyseq><key>Ctrl</key><key>Z</key></keyseq>. In addition to "
+"undoing individual changes, you can also decide to revert all the changes "
+"you have made since the last time you saved your project. To do so, use "
+"<guiseq><gui>App menu</gui><gui>Revert to saved version</gui></guiseq>."
+msgstr "Да бисте поништили измену, једноставно кликните на дугме <gui>Поништи</gui> у траци заглавља или притисните <keyseq><key>Ctrl</key><key>Z</key></keyseq>. Поред поништавања појединачних измена, можете одлучити и да вратите све измене које сте направили од последњег пута када сте сачували пројекат. Да бисте то урадили, користите <guiseq><gui>Мени програма</gui><gui>Врати на сачувану верзију</gui></guiseq>."
+
+#. (itstool) path: note/p
+#: C/workwithprojects.page:37
+msgid ""
+"To redo changes that were undone, click on the <gui>Redo</gui> button in the "
+"header bar or press <keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></"
+"keyseq>."
+msgstr "Да бисте поновили измене које су поништене, кликните на дугме <gui>Понови</gui> у траци заглавља или притисните <keyseq><key>Ctrl</key><key>Shift</key><key>Z</key></keyseq>."
+
+#. (itstool) path: section/title
+#: C/workwithprojects.page:41
+msgid "Editing the project settings"
+msgstr "Уређивање подешавања пројекта"
+
+#. (itstool) path: section/p
+#: C/workwithprojects.page:42
+msgid ""
+"The project settings define mainly how the video appears while you edit the "
+"project. The video resolution affects how much detail the previewer can "
+"show. If the resolution of the project does not match that of your footage, "
+"the video may look letterboxed. These settings can be changed at any time by "
+"using <guiseq><gui>App menu</gui><gui>Project Settings</gui></guiseq>."
+msgstr "Подешавања пројекта углавном дефинишу како се видео појављује док уређујете пројекат. Резолуција видеа утиче на то колико детаља прегледач може да прикаже. Ако се резолуција пројекта не поклапа са резолуцијом вашег снимка, видео може изгледати са црним тракама (letterboxed). Ова подешавања се могу променити у било ком тренутку коришћењем <guiseq><gui>Мени програма</gui><gui>Подешавања пројекта</gui></guiseq>."
+
+#. (itstool) path: note/p
+#: C/workwithprojects.page:44
+msgid ""
+"When you import the first video file the project settings are automatically "
+"changed to match. See <link xref=\"importing\">Getting media</link> for "
+"details."
+msgstr "Када увезете прву видео датотеку, подешавања пројекта се аутоматски мењају да би се поклопила. Погледајте <link xref=\"importing\">Добављање медија</link> за детаље."
+
+#. (itstool) path: section/title
+#: C/workwithprojects.page:48
+msgid "Preventing cropping of essential content on television screens"
+msgstr "Спречавање исецања битног садржаја на телевизијским екранима"
+
+#. (itstool) path: section/p
+#: C/workwithprojects.page:49
+msgid ""
+"Depending on how a television is built, the video may be cropped when being "
+"displayed on its screen. The essential content can be placed in the "
+"<em>action-safe area</em>, which is a centered rectangular area safe from "
+"cropping. Similarly, titles can be placed in the smaller <em>title-safe "
+"area</em> to prevent the text sticking to the screen edges."
+msgstr "У зависности од тога како је телевизор направљен, видео може бити исечен када се приказује на његовом екрану. Битан садржај се може поставити у <em>област безбедну за радњу</em>, што је средишња правоугаона област безбедна од исецања. Слично томе, наслови се могу поставити у мању <em>област безбедну за наслове</em> како би се спречило да текст пријања уз ивице екрана."
+
+#. (itstool) path: section/p
+#: C/workwithprojects.page:50
+msgid ""
+"The safe areas are displayed on the <gui>viewer</gui> as an overlay and will "
+"not affect the video of a project. The size of the action-safe area and the "
+"title-safe area can be specified in the <link "
+"xref=\"#projectsettings\">Project Settings</link>. For example, a size of "
+"90% vertical × 80% horizontal corresponds to a 5% margin at the top and "
+"bottom and a 10% horizontal margin at the left and right of the video. "
+"Producers use their own guidelines since no television standard defines the "
+"<link href=\"https://en.wikipedia.org/wiki/Safe_area_(television)\">safe "
+"areas</link>."
+msgstr "Безбедне области се приказују у <gui>прегледачу</gui> као прекривка и неће утицати на видео пројекта. Величина области безбедне за радњу и области безбедне за наслове може се одредити у <link xref=\"#projectsettings\">Подешавањима пројекта</link>. На пример, величина од 90% вертикално × 80% хоризонтално одговара маргини од 5% на врху и дну и хоризонталној маргини од 10% на левој и десној страни видеа. Произвођачи користе сопствене смернице пошто ниједан телевизијски стандард не дефинише <link href=\"https://en.wikipedia.org/wiki/Safe_area_(television)\">безбедне области</link>."
+
+#. (itstool) path: note/p
+#: C/workwithprojects.page:52
+msgid "To toggle Safe Areas on and off, press <key>'</key>."
+msgstr "Да укључите или искључите безбедне области, притисните тастер <key>'</key>."
